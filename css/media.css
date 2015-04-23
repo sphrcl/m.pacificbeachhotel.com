@@ -1,0 +1,44 @@
+/* ================================================ 1024 ======================================= */
+
+@media only screen and (max-width : 1100px) {
+
+	.swiper-main, .swiper-container, .swiper-slide, .swiper-slide img, .swiper-slide {
+		height: 400px !important;
+	}
+
+	.page-image {
+		height: 400px;
+	}
+
+}
+
+
+
+@media only screen and (max-width : 900px) {
+
+	.swiper-main, .swiper-container, .swiper-slide, .swiper-slide img, .swiper-slide {
+		height: 420px !important;
+	}
+
+	.page-image {
+		height: 480px;
+	}
+}
+
+
+
+/* ############################################### 420px AND BELOW #################################################### */
+
+@media only screen and (max-width : 420px) {
+
+	.ns-box .fa-exclamation-triangle {
+	  float: none;
+	  font-size: 18px;
+	  margin-left: 14px;
+	}
+
+	.ns-box strong, .ns-box .ns-box-inner p {
+	  font-size: 13px;
+	}
+
+}

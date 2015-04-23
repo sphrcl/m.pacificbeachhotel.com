@@ -1,0 +1,78 @@
+[12-Jun-2014 09:45:01 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 42
+[12-Jun-2014 11:14:22 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 54
+[12-Jun-2014 11:14:58 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 54
+[12-Jun-2014 11:15:03 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 54
+[12-Jun-2014 11:55:22 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 64
+[12-Jun-2014 11:56:17 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 64
+[12-Jun-2014 11:57:43 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 64
+[12-Jun-2014 11:58:59 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 64
+[12-Jun-2014 12:08:01 America/Detroit] PHP Parse error:  syntax error, unexpected '<' in /home/admin/public_html/ttmobile/rooms-detail.php on line 68
+[12-Jun-2014 12:08:16 America/Detroit] PHP Parse error:  syntax error, unexpected '<' in /home/admin/public_html/ttmobile/rooms-detail.php on line 68
+[12-Jun-2014 12:08:23 America/Detroit] PHP Parse error:  syntax error, unexpected '<' in /home/admin/public_html/ttmobile/rooms-detail.php on line 68
+[12-Jun-2014 12:22:22 America/Detroit] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/admin/public_html/ttmobile/rooms-detail.php on line 60
+[12-Jun-2014 12:26:36 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 14:19:17 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 14:56:23 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/specials.php on line 15
+[12-Jun-2014 14:57:11 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 63
+[12-Jun-2014 14:57:41 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 63
+[12-Jun-2014 15:08:11 America/Detroit] PHP Warning:  file_get_contents(
+	http://rownyc.reztrip.com/rt/hotels/roomsDetails.json?hotel_id=NYCMIL&amp;locale=en&amp;portal_id=1&amp;session_id=30&amp;arrival_date_0=2014-07-25&amp;departure_date_0=2014-07-29&amp;adults_0=1&amp;children_0=0&amp;room_id=R2DN&amp;rooms=1): failed to open stream: No such file or directory in /home/admin/public_html/ttmobile/rooms-detail.php on line 29
+[12-Jun-2014 15:08:16 America/Detroit] PHP Warning:  file_get_contents(
+	http://rownyc.reztrip.com/rt/hotels/roomsDetails.json?hotel_id=NYCMIL&amp;locale=en&amp;portal_id=1&amp;session_id=30&amp;arrival_date_0=2014-07-25&amp;departure_date_0=2014-07-29&amp;adults_0=1&amp;children_0=0&amp;room_id=R2DN&amp;rooms=1): failed to open stream: No such file or directory in /home/admin/public_html/ttmobile/rooms-detail.php on line 29
+[12-Jun-2014 16:00:50 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 17:03:29 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 17:03:56 America/Detroit] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/admin/public_html/ttmobile/rooms-list-result.php on line 78
+[12-Jun-2014 17:03:59 America/Detroit] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/admin/public_html/ttmobile/rooms-list-result.php on line 78
+[12-Jun-2014 17:04:27 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 17:05:52 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 21:15:08 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/specials.php on line 15
+[12-Jun-2014 21:15:09 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/specials.php on line 15
+[12-Jun-2014 22:48:22 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[12-Jun-2014 23:30:07 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 57
+[12-Jun-2014 23:46:34 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[12-Jun-2014 23:51:15 America/Detroit] PHP Parse error:  syntax error, unexpected '}' in /home/admin/public_html/ttmobile/rooms-detail.php on line 64
+[12-Jun-2014 23:52:14 America/Detroit] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/admin/public_html/ttmobile/rooms-detail.php on line 61
+[12-Jun-2014 23:52:33 America/Detroit] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/admin/public_html/ttmobile/rooms-detail.php on line 61
+[12-Jun-2014 23:53:30 America/Detroit] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/admin/public_html/ttmobile/rooms-detail.php on line 61
+[12-Jun-2014 23:53:51 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 61
+[12-Jun-2014 23:55:44 America/Detroit] PHP Fatal error:  Cannot use object of type stdClass as array in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[12-Jun-2014 23:57:04 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[12-Jun-2014 23:58:45 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[12-Jun-2014 23:58:55 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[13-Jun-2014 00:00:19 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 59
+[13-Jun-2014 00:07:57 America/Detroit] PHP Parse error:  syntax error, unexpected '{' in /home/admin/public_html/ttmobile/rooms-detail.php on line 49
+[13-Jun-2014 00:08:28 America/Detroit] PHP Parse error:  syntax error, unexpected '?' in /home/admin/public_html/ttmobile/rooms-detail.php on line 49
+[13-Jun-2014 00:08:30 America/Detroit] PHP Parse error:  syntax error, unexpected '?' in /home/admin/public_html/ttmobile/rooms-detail.php on line 49
+[13-Jun-2014 01:04:39 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:04:39 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 92
+[13-Jun-2014 01:05:35 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:06:03 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:06:45 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:06:50 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:07:00 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 01:08:09 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 05:49:47 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 05:51:41 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 05:51:55 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 09:47:14 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 10:00:30 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 10:00:38 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 10:01:12 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 10:01:18 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 10:16:49 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[13-Jun-2014 17:13:12 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 18:18:14 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 20:23:14 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 20:23:29 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 20:23:45 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 20:24:00 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-detail.php on line 62
+[13-Jun-2014 22:30:06 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/ttmobile/rooms-list-result.php on line 45
+[19-Jun-2014 06:12:21 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/refinery-mobile/raw/specials.php on line 27
+[19-Jun-2014 06:12:58 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/refinery-mobile/raw/specials.php on line 31
+[19-Jun-2014 06:32:03 America/Detroit] PHP Fatal error:  Call to undefined function bloginfo() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/includes/footer.php on line 18
+[19-Jun-2014 06:33:50 America/Detroit] PHP Fatal error:  Call to undefined function bloginfo() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/includes/footer.php on line 18
+[19-Jun-2014 07:00:57 America/Detroit] PHP Fatal error:  Call to undefined function bloginfo() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/includes/footer.php on line 18
+[19-Jun-2014 07:03:49 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/rooms-list.php on line 9
+[19-Jun-2014 07:06:21 America/Detroit] PHP Warning:  Invalid argument supplied for foreach() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/specials.php on line 31
+[19-Jun-2014 07:06:21 America/Detroit] PHP Fatal error:  Call to undefined function bloginfo() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/includes/footer.php on line 18
+[19-Jun-2014 07:30:34 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/admin/public_html/refinery-mobile/wp-content/themes/refinery-mobile/rooms-list-result.php on line 10

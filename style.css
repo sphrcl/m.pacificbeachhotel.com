@@ -1,0 +1,39 @@
+/*
+	Theme Name: ROW NYC Mobile
+	Theme URI: http://sphericalcommuncations.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.04
+*/
+
+
+/* 
+
+
+TABLE OF CONTENTS
+
+=============================================================================
+
+=============================================================================
+
+
+
+*/
+
+
+
+
+
+.coverlink {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+.halfy {
+	position: relative;
+}
