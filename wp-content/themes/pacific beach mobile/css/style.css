@@ -34,7 +34,7 @@ img {
 }
 
 body {
-	background-color:#000;
+	background-color:#eff6fd;
 }
 html, body {
 	-webkit-text-size-adjust:none;
@@ -363,7 +363,7 @@ HEADER
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	color: #fff;
+	color: #188bd2;
 	top: 13px;
 	text-transform: uppercase;	
 }
@@ -376,7 +376,7 @@ HEADER
 	font-size:11px;
 	line-height:11px;
 	letter-spacing:0.16em;
-	font-family:'Montserrat';
+	font-family:'Open Sans';
 	text-transform:uppercase;
 	font-weight:400;
 	color:rgba(255,255,255,0.85);
@@ -393,7 +393,7 @@ HEADER
 	letter-spacing:0em;
 }
 .site-logo img {
-	width: 55px;	
+	width: 120px;	
 }
 
 
@@ -432,7 +432,7 @@ HEADER
 .refinery {
 	color: #fff;
 	display: block;
-	font-family: 'montserrat';
+	font-family: 'Open Sans';
 	font-size: 19px;
 	letter-spacing: 5px;
 	margin: 0 auto;
@@ -482,7 +482,7 @@ HEADER
 	color: #333;
 	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	border: 0;
 	border-radius: 0;
@@ -512,7 +512,7 @@ HEADER
 }
 
 .menu-wrapper i.menubar {
-	background: #e51a9b;
+	background: #188bd2;
 	width:26px;
 	height: 2px;
 	position: relative;
@@ -523,7 +523,7 @@ HEADER
 	content: '';
 	left: 0;
 	top: -6px;
-	background: #e51a9b;
+	background: #188bd2;
 	width:26px;
 	height: 2px;
 	position: absolute;
@@ -533,7 +533,7 @@ HEADER
 	content: '';
 	left: 0;
 	bottom: -6px;
-	background: #e51a9b;
+	background: #188bd2;
 	width:26px;
 	height: 2px;
 	position: absolute;
@@ -681,7 +681,7 @@ HEADER
 	color: #fff;
 	cursor: pointer;
 	display: block;
-	font-family: 'Montserrat',arial,tahoma,verdana;
+	font-family: 'Open Sans',arial,tahoma,verdana;
 	font-weight: 700;
 	padding: 13px 20px 13px 10px;
 }
@@ -705,7 +705,7 @@ HEADER
 	border-bottom: 1px solid #666;
 	list-style: none outside none;
 	z-index: -1;
-	display: block;
+	display: block;'Open Sans', sans-serif;
 }
 
 .menu li:first-child {
@@ -846,7 +846,7 @@ HEADER
 
 .additional li a {
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 11px;
    	padding: 0 0 0 30px;
    	border: 0;
@@ -857,7 +857,7 @@ HEADER
 }
 
 .reservationlink {
-	background: #000;
+	background: #fff;
 	height: 45px;
 	padding-top: 8px;
 	position: fixed;
@@ -884,8 +884,7 @@ HEADER
 	-o-animation-delay: 1s;
 }
 .reservationfooter {
-	background: rgba(0,0,0,1);
-	background: #000;
+	background: #eff6fd;
 	height: 0px;
 	overflow: hidden;
 	position: fixed;
@@ -915,7 +914,7 @@ HEADER
 	padding-top: 40px;
 }
 .reservationlink h4 a {
-	color: #eee;
+	color: #188bd2;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -1190,7 +1189,7 @@ h6 { font-size: 1em; line-height: 25px; }
 	color:#fff;
 	padding:12px 27px 11px 27px;
 	display:inline-block;
-	font-family:'Montserrat', arial, tahoma;
+	font-family:'Open Sans', arial, tahoma;
 	font-weight:700;
 	font-size:12px;
 	text-transform:uppercase;
@@ -1829,7 +1828,7 @@ div.ps-toolbar-play {
 }
 
 #sitewrap:before {
-	background: rgba(0,0,0,0.7);
+	background: #eff6fd;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -1858,7 +1857,7 @@ div.ps-toolbar-play {
 
 .menu-wrapper {
 	width: 100%;
-	background: none no-repeat scroll 0 0 #000;
+	background: none no-repeat scroll 0 0 #eff6fd;
 	width: 100%;
 	background-size: 27%;
 	height: 46px;
@@ -1869,7 +1868,7 @@ div.ps-toolbar-play {
 }
 
 .home .menu-wrapper, .menu-wrapper {
-	background: none no-repeat scroll 0 0 #000;
+	background: none no-repeat scroll 0 0 #fff;
 }
 
 .menu-wrapper:before {
@@ -2044,7 +2043,7 @@ input#arrival_date.calendarsection {
    	color: #333;
    	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 1;
    	border: 0;
    	border-radius: 0;
@@ -2062,7 +2061,7 @@ input#arrival_date.calendarsection {
    	color: #333;
    	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 1;
    	border: 0;
    	border-radius: 0;
@@ -2088,7 +2087,7 @@ input#arrival_date.calendarsection {
    	color: #333;
    	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 1;
    	border: 0;
    	border-radius: 0;
@@ -2232,7 +2231,7 @@ input#arrival_date.calendarsection {
 	font-size:10px;
    	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 1;
    	border: 0;
    	border-radius: 0;
@@ -2316,7 +2315,7 @@ input#arrival_date.calendarsection {
 	color: #fff;
 	cursor: pointer;
 	display: block;
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	font-size: 10px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -2343,7 +2342,7 @@ input#arrival_date.calendarsection {
 	border-radius: 0;
 	color: #fff;
 	cursor: pointer;
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 2px;
@@ -2423,14 +2422,14 @@ input#arrival_date.calendarsection {
 .contacthere li.li-env { padding: 33px 0 0;}
 .contacthere li.li-map { padding: 25px 0 20px;}
 
-.contacthere li span { color: #7E7E7E;}
+.contacthere li span { color: #188bd2;}
 .contacthere li span.fa-mobile { font-size: 76px;}
 .contacthere li span.fa-envelope { font-size: 46px;}
 .contacthere li span.fa-map-marker { font-size: 64px;}
 
 .socialhere { height: 72px;}
 .socialhere li { margin-left: 29px;}
-.socialhere li span { color: #E35CE5; font-size: 30px;}
+.socialhere li span { color: #188bd2; font-size: 30px;}
 
 
 /* ====================================================== ROOM LIST ================================================= */
@@ -2512,7 +2511,7 @@ input#arrival_date.calendarsection {
 	font-size:12px;
    	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	line-height: 14px;
    	border: 0;
    	border-radius: 0;
@@ -2535,7 +2534,7 @@ input#arrival_date.calendarsection {
 	color: #333;
 	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	border: 0;
 	border-radius: 0;
@@ -2557,7 +2556,7 @@ h1.main {
    	color: #fff;
    	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border-radius: 0;
    	font-weight: 700;
    	padding: 8px 0;
@@ -2577,7 +2576,7 @@ h1.main {
    	color: #282828;
    	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border-bottom: 1px solid #ddd;
    	border-radius: 0;
    	font-weight: 700;
@@ -2597,7 +2596,7 @@ h1.main {
 	color: #282828;
 	display: block;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 0;
 	font-weight: 700;
 	padding: 13px 0;
@@ -2663,7 +2662,7 @@ h1.main {
    	color: #282828;
    	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border-bottom: 1px solid #ddd;
    	border-radius: 0;
    	font-weight: 700;
@@ -2734,7 +2733,7 @@ h1.main {
 		color: #888;
    	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border-radius: 0;
    	font-size: 11px;
    	font-weight: 700;
@@ -2744,7 +2743,7 @@ h1.main {
    	color: #fff;
    	text-align: center;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border-radius: 0;
    	font-weight: 700;
    	padding: 9px 0;
@@ -2757,7 +2756,7 @@ h1.main {
 	font-size: 12px;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	border: 0;
 	border-radius: 0;
@@ -2797,7 +2796,7 @@ h1.main {
 	font-size: 9px;
 	display: block;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 0;
 	font-weight: 700;
 	height: 100%;
@@ -2872,7 +2871,7 @@ h1.main {
 	font-size: 12px;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 14px;
 	border: 0;
 	border-radius: 0;
@@ -2895,7 +2894,7 @@ h1.main {
 	color: #333;
 	background: #fff;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	border: 0;
 	border-radius: 0;
@@ -2952,7 +2951,7 @@ h1.main {
 	display: block;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 0;
 	font-weight: 700;
 
@@ -2966,7 +2965,7 @@ h1.main {
 	display: block;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 0;
 	font-weight: 700;
 
@@ -3035,7 +3034,7 @@ h1.main {
 	display: block;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	border-radius: 0;
 	font-weight: 700;
 }
@@ -3451,7 +3450,7 @@ button.ui-button::-moz-focus-inner {
 	position: absolute;
 	right: 16px;
 	top: 10px;
-	color: #fff;
+	color: #188bd2;
 }
 
 .ui-datepicker .ui-datepicker-next:before {
@@ -3467,7 +3466,7 @@ button.ui-button::-moz-focus-inner {
 	position: absolute;
 	right: 6px;
 	top: 10px;
-	color: #fff;
+	color: #188bd2;
 }
 
 
@@ -3498,12 +3497,12 @@ button.ui-button::-moz-focus-inner {
 	letter-spacing: 8px;
 	font-size: 9px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 }
 
 .ui-datepicker-month, .ui-datepicker-year {
-  color: #e51a9b;
+  color: #188bd2;
 }
 
 .ui-datepicker-title {
@@ -3540,11 +3539,11 @@ button.ui-button::-moz-focus-inner {
 	color: #444;
 	font-size: 12px !important;
 	text-transform: uppercase !important;
-	font-family: 'Montserrat', sans-serif !important;
+	font-family: 'Open Sans', sans-serif !important;
 	
 }
 .reservationform .button {
-	background: #e51a9b;
+	background: #188bd2;
 	color: #fff;
 	font-size: 15px;
 	padding: 10px 23px 10px 25px;
@@ -3566,7 +3565,7 @@ button.ui-button::-moz-focus-inner {
 }
 
 .ui-datepicker th span {
-	color: #fff;	
+	color: #7c8387;	
 }
 .ui-datepicker td {
 	border: 1px solid transparent;
@@ -4032,9 +4031,9 @@ body .ui-tooltip {
 .ui-widget-header .ui-state-default {
 	background: rgba(255,255,255,1);
 	font-weight: 700;
-	color: #e51a9b;
+	color: #7c8387;
 	padding: 9px 5px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size: 12px;
 	text-align: center;
@@ -4610,7 +4609,7 @@ body .ui-tooltip {
 
 .halffloat .button {
     background: none repeat scroll 0 0 #606061;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     font-weight: 700;
     margin-top: 10px;
@@ -4681,7 +4680,7 @@ body .ui-tooltip {
 	padding: 12px 20px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -4762,7 +4761,7 @@ body .ui-tooltip {
 .moinfo p.state {
 	display: inline-block;
 	padding: 6px 55px 4px  50px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	color: #bbb;
@@ -4775,7 +4774,7 @@ body .ui-tooltip {
 .moinfo a {
 	display: inline-block;
 	padding: 5px 20px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 13px;
 	color: #ddd;
@@ -4833,7 +4832,7 @@ body .ui-tooltip {
 #local, #hotell, #hotell-1 {
 	width: 100%;
 	color: #606061;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	border: none;
 	border-bottom: 1px solid #606061;
@@ -4853,7 +4852,7 @@ body .ui-tooltip {
 #children, #children-1 {
 	width: 105%;
 	color: #606061;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	border: none;
 	border-bottom: 1px solid #606061;
@@ -4871,7 +4870,7 @@ body .ui-tooltip {
 #adcount, #adcount-1 {
 	width: 105%;
 	color: #606061;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	border: none;
 	border-bottom: 1px solid #606061;
@@ -4921,7 +4920,7 @@ body .ui-tooltip {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
     color: #606061;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 70px;
     font-weight: 400;
     height: 85px;
@@ -4998,7 +4997,7 @@ body .ui-tooltip {
 	-webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -5012,7 +5011,7 @@ body .ui-tooltip {
 	margin-top: 10px;
 	font-size: 85px;
 	color: #fa9d04;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	margin-left: 2px;
 	text-transform: uppercase;
@@ -5042,7 +5041,7 @@ body .ui-tooltip {
 ul#selectUl {
 	position: absolute;
 	z-index: 9999999999;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 ul#selectUl li {
@@ -5057,7 +5056,7 @@ ul#selectUl li {
 	border-top-width: 0;
 	font-size: 30px;
 	color: #fa9d04;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: -6px;
 	text-transform: uppercase;
@@ -5194,7 +5193,7 @@ ul#selectUl li.unselected:hover {
 	float: right;
 	background: #343434;
 	margin: 5px 0 5px 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #fff;
 }
@@ -5203,7 +5202,7 @@ ul#selectUl li.unselected:hover {
 
 .formable h4 {
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #343434;
 	text-transform: uppercase;
@@ -5214,7 +5213,7 @@ ul#selectUl li.unselected:hover {
 	width: 54%;
 	float: left;
 	margin-right: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #c4c3c3;
 	font-size: 11px;
@@ -5231,7 +5230,7 @@ ul#selectUl li.unselected:hover {
 	content: 'Y';
 	position: absolute;
 	bottom: -16px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #333;
 	font-size: 11px;
@@ -5244,7 +5243,7 @@ ul#selectUl li.unselected:hover {
 	border: 0;
 	width: 100%;
 	background: #333;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #fff;
 	transition: all 0.8s ease-in-out;
@@ -5261,7 +5260,7 @@ ul#selectUl li.unselected:hover {
 	content: 'N';
 	position: absolute;
 	bottom: -16px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #333;
 	font-size: 11px;
@@ -5417,13 +5416,13 @@ ul#selectUl li.unselected:hover {
 
 span.mainbold {
 	display: block;
-	font-family: 'GothamBold';
+	font-family: 'kaushan_scriptregular';
 	font-size: 48px;
 }
 
 span.textthin {
 	font-family: 'GothamBook';
-	font-size: 23px;
+	font-size: 18px;
 	line-height: 1;
 }
 
@@ -5460,7 +5459,7 @@ span.textthin {
 .halfy p {
 	bottom: 15px;
 	color: #fff;
-	font-family: 'GothamBold';
+	font-family: 'Open Sans', sans-serif;;
 	font-size: 20px;
 	left: 15px;
 	line-height: 1;
@@ -5482,7 +5481,7 @@ span.textthin {
 .fullybox p.fullybook {
 	line-height: 1;
 	margin: 0;
-	font-family: 'GothamBold';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	position: absolute;
 	text-transform: uppercase;
@@ -5496,7 +5495,7 @@ span.textthin {
 	bottom: 26px;
 	font-size: 20px;
 	left: 15px;
-	max-width: 50%;
+	max-width: 80%;
 }
 
 .fullybox p.fullybook {
@@ -5511,7 +5510,7 @@ span.textthin {
 .fullybook a {
 	line-height: 1;
 	margin: 0;
-	font-family: 'GothamBold';
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -5572,7 +5571,7 @@ span.textthin {
 
 .textbox h3, .textbox-1 h3 {
 	color: #000;
-	font-family: 'GothamBold';
+	font-family: 'Open Sans', sans-serif;
 	line-height: 22px;
 	font-size: 19px;
 	margin-bottom: 5px;

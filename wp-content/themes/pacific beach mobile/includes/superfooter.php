@@ -2,7 +2,7 @@
 <div class="superfooter">
 	<div class="phone-carry">
 		<div class="phoneno">
-			<img src="<?php bloginfo ('template_url'); ?>/images/row-foot-mob2.png" />
+			<img src="<?php bloginfo ('template_url'); ?>/images/" />
 			<div class="numadd">
 				<p class="nummob">888.352.3650</p>
 				<a href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank"><p class="addmob">700 8TH AVENUE, <br>NEW YORK, NY 10036</p></a>
