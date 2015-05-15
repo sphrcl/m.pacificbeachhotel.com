@@ -157,7 +157,6 @@ blockquote {
 	padding:13px 0 1px 10px;
 	font-family:'Source Sans Pro';
 	font-weight:300;
-
 	font-size:18px;
 }
 
@@ -383,9 +382,9 @@ HEADER
 	padding: 7px 0px 0px 10px;
 }
 .site-logo {
-	padding-left:0;
-	position:absolute;
-	z-index:10;
+	position:relative;
+	text-align: center;
+ 	 z-index: 1;
 }
 .site-logo a:hover {
 	text-decoration:none;
@@ -393,7 +392,7 @@ HEADER
 	letter-spacing:0em;
 }
 .site-logo img {
-	width: 120px;	
+	width: 100px;	
 }
 
 
@@ -409,7 +408,7 @@ HEADER
 	position:relative;
 	cursor:pointer;
 	float:right;
-	top:0;
+	top: 10px;
 	right:0;
 	width:48px;
 	height:45px;
@@ -1860,7 +1859,7 @@ div.ps-toolbar-play {
 	background: none no-repeat scroll 0 0 #eff6fd;
 	width: 100%;
 	background-size: 27%;
-	height: 46px;
+	height: 80px;
 	z-index: 99999999999;
 	position: relative;
 	/* position: fixed;
@@ -6092,3 +6091,37 @@ html {
 .page-box .gallery {
 	display: none;
 }
+
+
+/* ======================== HEADER edits ======================== */
+
+
+span.hamburger-helper {
+  position: relative;
+  top: 30px;
+  font-size: 11px;
+  color: #188bd2;
+  left: 10px;
+}
+
+
+.trans-flags {
+	position: absolute;
+  	top: 20px;
+  	left: 15px;
+}
+
+.trans-flags i {
+	color: #188bd2;
+}
+
+.trans-flags li {
+	padding: 2px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+
+
+
+

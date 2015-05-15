@@ -396,15 +396,26 @@ $(document).ready(function(){
 <!-- BEGIN MENU BUTTON -->
 <div class="menu-wrapper">
 
-		<a href="http://rownyc.reztripmobile.com/rt/m/index?propertyId=71&accessCode=&locale=en-us&sub=rownyc" class="booklink" onclick="_gaq.push(['_trackEvent', 'Reserve', 'Reserve-now', 'Main reserve button']);">Reserve</a>
-		<div class="menu-button"><i class="menubar"></i></div>
+
+		<div class="menu-button">
+			<i class="menubar"></i>
+			<span class="hamburger-helper">menu</span>
+		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
 			<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 		</div>
 		<!-- END LOGO -->
 
-	<!-- <div class="other-menu-button"><i class="fa fa-calendar"></i></div> -->
+		<!-- start translation flag -->
+		<div class="trans-flags">
+			<ul>
+				<li><a href="#"><i class="fa fa-flag"></i></a></li>
+				<li><a href="#"><i class="fa fa-flag"></i></a></li>
+			</ul>
+		</div>
+		<!-- end translation flags -->
+
 </div>
 <!-- END MENU BUTTON -->
 
