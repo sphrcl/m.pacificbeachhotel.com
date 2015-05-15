@@ -2428,7 +2428,7 @@ input#arrival_date.calendarsection {
 
 .socialhere { height: 72px;}
 .socialhere li { margin-left: 29px;}
-.socialhere li span { color: #188bd2; font-size: 30px;}
+.socialhere li span { color: #188bd2; font-size: 24px;}
 
 
 /* ====================================================== ROOM LIST ================================================= */
@@ -5729,6 +5729,7 @@ and (max-width : 720px) {
 	.phone-carry {
 		background-color: #fff;
 		position: relative;
+		height: 150px;
 	}
 
 	.phoneno {
@@ -5758,6 +5759,14 @@ and (max-width : 720px) {
 		border-bottom: medium none;
 		width: calc(50% - 1px);
 		float: left;
+		height: 65px;
+ 		background-color: #fff;
+	}
+
+	.contacthere p {
+	  text-align: center;
+	  top: 35%;
+	  position: relative;
 	}
 	
 	.contacthere ul {
@@ -5790,7 +5799,7 @@ and (max-width : 720px) {
 	
 	.socialhere li {
 		margin-left: 0;
-		width: 25%;
+		width: 20%;
 	}
 }
 
@@ -6120,6 +6129,43 @@ span.hamburger-helper {
 	display: inline-block;
 	list-style-type: none;
 }
+
+/* ======================== FOOTER edits ======================== */
+
+.phone-carry ul li i {
+	color: #188bd2;
+	font-size: 24px;
+}
+
+.phone-carry ul li i {
+  color: #188bd2;
+  font-size: 30px;
+  padding: 0px 20px 13px 25px;
+  top: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.phone-carry span {
+  font-size: 12px;
+  top: 12px;
+  position: relative;
+  color:  #188bd2;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
