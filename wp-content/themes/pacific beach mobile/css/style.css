@@ -582,7 +582,7 @@ HEADER
 
 
 #menu {
-	background-color: #1F1F1F;
+	background-color: #fff;
 	margin:0;
 	position:fixed;
 	z-index:6;
@@ -677,7 +677,7 @@ HEADER
 }
 
 .menu a {
-	color: #fff;
+	color: #27a0ea;
 	cursor: pointer;
 	display: block;
 	font-family: 'Open Sans',arial,tahoma,verdana;
@@ -3550,7 +3550,7 @@ button.ui-button::-moz-focus-inner {
 
 .swipe-down {
 	bottom: 5px;
-	color: #fff;
+	color: #188bd2;
 	cursor: pointer;
 	margin: 17px 0 0;
 	padding: 0;
@@ -5458,7 +5458,7 @@ span.textthin {
 .halfy p {
 	bottom: 15px;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	left: 15px;
 	line-height: 1;
@@ -5480,7 +5480,7 @@ span.textthin {
 .fullybox p.fullybook {
 	line-height: 1;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	position: absolute;
 	text-transform: uppercase;

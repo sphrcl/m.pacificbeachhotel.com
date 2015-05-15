@@ -945,15 +945,6 @@ body .ui-tooltip {
 .ui-widget { font-size: 100% }
 
 
-/* ======================== HEADER edits ======================== */
-
-
-span.hamburger-helper {
-  position: relative;
-  top: 30px;
-  font-size: 12px;
-  color: #188bd2;
-}
 
 
 
