@@ -21,7 +21,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Beautiful Oceanfront</span>
 						</p>
-						<a class="book-now" href="#">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -30,7 +30,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Beautiful Oceanfront</span>
 						</p>
-						<a class="book-now" href="#">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>
 					
 					<div class="swiper-slide"> 
@@ -39,7 +39,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Subheading subheading</span>
 						</p>
-						<a class="book-now" href="#">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>					
 				</div>
 				<div class="pagination1"></div>
@@ -77,7 +77,7 @@ get_header(); ?>
 				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>	
-		<div class="fullybox shadow" style="background-image: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-aquarium.jpg');">
+		<div class="fullybox shadow" style="background: url('http://sphericalcommunications.com/pb-mobile/wp-content/uploads/2015/05/pacific-beach-cceanarium-tank.jpg')">
 			<p class="fullytext">Oceanarium Restaurant</p>
 				<a class="coverlink" href="#"></a>
 		</div>

@@ -6276,6 +6276,41 @@ a.button {
   margin-bottom: 10px;
 }
 
+iframe {
+  width: 98%;
+  height: 195px;
+}
+
+
+.phone-carry span {
+  font-size: 12px;
+  top: 3px;
+  position: relative;
+  color: #188bd2;
+}
+
+.address span p {
+  position: relative;
+  left: 60px;
+  line-height: 7px;
+  top: -25px;
+  font-size: 13px;
+  color: #188bd2;
+}
+
+li.phone {
+  position: relative;
+  bottom: 20px;
+}
+
+li.contact {
+  position: relative;
+  bottom: 18px;
+}
+
+.single .copybody:after, .page .copybody:after {
+	margin-bottom: 50px;
+}
 
 
 
