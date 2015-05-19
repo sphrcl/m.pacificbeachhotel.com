@@ -17,7 +17,7 @@ get_header(); ?>
 	
 	<div class="opener">
 			
-			<h3><?php echo the_title(); ?></h3>
+			<!-- <h3><?php echo the_title(); ?></h3> -->
 		
 		</div>
 
@@ -128,10 +128,11 @@ get_header(); ?>
 
 		</div>
 		<!-- end roomdetail -->		
+
+	<?php include('includes/superfooter.php'); ?>	
 		
 	</div>
 	<!-- END COPYBODY -->
 
-	<?php include('includes/superfooter.php'); ?>	
 	
 <?php include('includes/footer.php'); ?>

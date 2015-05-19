@@ -39,9 +39,9 @@ get_header(); ?>
 				<?php the_content(); ?>
 				
 				<?php if( get_post_meta($post->ID,'cebo_special',true) ) { ?>		
-					<a class="button" style="padding: 15px 0; background: #E35CE5; color: #fff;" href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
+					<a class="button" href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
 				<?php } else { ?>
-					<a class="button" style="padding: 15px 0; background: #E35CE5; color: #fff;" href="https://rownyc.reztrip.com/search?" class="strokebutton">Book Now</a>
+					<a class="button" href="https://rownyc.reztrip.com/search?" class="strokebutton">Book Now</a>
 				<?php } ?>
 			
 			</div>
@@ -50,11 +50,11 @@ get_header(); ?>
 			
 		</div>		
 
+	<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>	
+
 	</div>
 	<!-- END COPYBODY -->
-	
-	<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>	
-	
+		
 <?php include(TEMPLATEPATH . '/includes/footer.php'); ?>
 	
 	

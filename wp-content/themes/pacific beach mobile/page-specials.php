@@ -14,7 +14,7 @@ get_header(); ?>
 	
 	<div class="opener">
 			
-			<h3>Special Offers</h3>
+			<!-- <h3>Special Offers</h3> -->
 		
 		</div>
 	<!-- rooms output -->
@@ -37,10 +37,12 @@ get_header(); ?>
 						
 						<?php endwhile; endif; wp_reset_query(); ?>	
 	</div>		
+
+	<?php include('includes/superfooter.php'); ?>	
 		
 	</div>
 	<!-- END COPYBODY -->
 
-	<?php include('includes/superfooter.php'); ?>	
+
 	
 <?php include('includes/footer.php'); ?>

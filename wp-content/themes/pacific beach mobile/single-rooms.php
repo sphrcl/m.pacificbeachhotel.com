@@ -15,7 +15,7 @@ get_header(); ?>
 	
 	<div class="opener">
 			
-			<h3><?php the_title(); ?></h3>
+			<!-- <h3><?php the_title(); ?></h3> -->
 		
 		</div>
 		
@@ -87,7 +87,7 @@ get_header(); ?>
 
 					
 					
-					<a class="button" style="padding: 15px 0; background: #E35CE5; color: #fff;" href="https://rownyc.reztrip.com/search?>" class="strokebutton">Book Now</a>
+					<a class="button" href="https://rownyc.reztrip.com/search?>" class="strokebutton">Book Now</a>
 				
 				</div>
 				
@@ -102,9 +102,11 @@ get_header(); ?>
 		</div>
 		<!-- end roomdetail -->
 
+	<?php include('includes/superfooter.php'); ?>	
+
 	</div>
 	<!-- END COPYBODY -->
 
-	<?php include('includes/superfooter.php'); ?>	
+
 	
 <?php include('includes/footer.php'); ?>

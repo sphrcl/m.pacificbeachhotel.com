@@ -21,6 +21,7 @@
 
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -310,8 +311,8 @@ $(document).ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
-<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px; padding-right: 15px;"><img src="<?php bloginfo ('template_url'); ?>/images/" /></li>
-<li class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px; padding-right: 15px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
+<li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
 

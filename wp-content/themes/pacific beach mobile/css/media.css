@@ -16,12 +16,16 @@
 
 @media only screen and (max-width : 900px) {
 
-	.swiper-main, .swiper-container, .swiper-slide, .swiper-slide img, .swiper-slide {
-		height: 390px !important;
+	.home.swiper-slide {
+	  height: 390px !important;
+	}
+
+	.single-rooms .swiper-main, .single-rooms .swiper-container, .single-rooms .swiper-slide, .single-rooms .swiper-slide img, .single-rooms .swiper-slide {
+		height: 200px !important;
 	}
 
 	.page-image {
-		height: 480px;
+		height: 200px;
 	}
 }
 

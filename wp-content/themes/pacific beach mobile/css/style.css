@@ -124,7 +124,6 @@ a {
 	color:#6E87BA;
 	text-decoration: none;
 	outline:none;
-	
 	-webkit-transition: all .20s ease;
 	-moz-transition: all .20s ease;
 	-o-transition: all .20s ease;
@@ -133,7 +132,6 @@ a {
 }
 a:hover {
 	text-decoration: underline;
-	
 	-webkit-transition: all .20s ease;
 	-moz-transition: all .20s ease;
 	-o-transition: all .20s ease;
@@ -144,10 +142,10 @@ p {
 	margin: 0 0 1.2em;
 	padding: 0;
 	color: #77746f;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
    	border: 0;
    	border-radius: 0;
-   	font-weight: 400;
+   	font-weight: lighter;
 }
 small {
 	font-size: 13px;
@@ -392,7 +390,7 @@ HEADER
 	letter-spacing:0em;
 }
 .site-logo img {
-	width: 100px;	
+	width: 120px;	
 }
 
 
@@ -686,7 +684,7 @@ HEADER
 }
 
 .menu a:hover, .menu a:active {
-	color:#fff;
+	color:#165d88;
 	text-decoration:none;
 }
 .sub-menu a {
@@ -856,7 +854,7 @@ HEADER
 }
 
 .reservationlink {
-	background: #fff;
+	background: #188bd2;
 	height: 45px;
 	padding-top: 8px;
 	position: fixed;
@@ -913,7 +911,7 @@ HEADER
 	padding-top: 40px;
 }
 .reservationlink h4 a {
-	color: #188bd2;
+	color: #fff;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -1053,7 +1051,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:600;
 }
 h1 { font-size: 35px; line-height: 40px; }
-h2 { font-size: 32px; line-height: 36px; }
+h2 { font-size: 16px; line-height: 36px; }
 h3 { font-size: 1.6em; line-height: 33px; }
 h4 { font-size: 1.4em; line-height: 29px; }
 h5 { font-size: 1.2em; line-height: 27px; }
@@ -2332,7 +2330,7 @@ input#arrival_date.calendarsection {
 }
 
 .opener {
-	padding: 10px 0 5px 0;
+	padding: 0px 0 1px 0;
 	text-align: center;
 }
 
@@ -2359,7 +2357,7 @@ input#arrival_date.calendarsection {
 .superfooter {
 	overflow: auto;
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 55px;
 	position: relative;
 	z-index: 9;
 }
@@ -2544,7 +2542,7 @@ input#arrival_date.calendarsection {
 .z-container {
 	position: relative;
 	z-index: 9999;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 .roomtype header .strokebutton:before {
 	display: none;
@@ -2905,9 +2903,9 @@ h1.main {
 	width: 95%;
 	margin: auto;
 	z-index: 99999999;
-	padding-top: 50px;
+	padding-top: 10px;
 	top: 70%;
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 
 .page-interior:before {
@@ -2931,8 +2929,9 @@ h1.main {
 	display: none;
 }
 .page-interior p {
-	line-height: 22px;
-	font-size: 15px;
+  line-height: 28px;
+  font-size: 14px;
+
 }
 .page-interior ul, .page-interior ol {
 	padding: 0 0 0 15px;
@@ -3550,7 +3549,7 @@ button.ui-button::-moz-focus-inner {
 
 .swipe-down {
 	bottom: 5px;
-	color: #188bd2;
+	color: #7c8387;
 	cursor: pointer;
 	margin: 17px 0 0;
 	padding: 0;
@@ -4505,7 +4504,7 @@ body .ui-tooltip {
 }
 
 .dp-highlight .ui-state-default {
-         background: #e51a9b !important;
+         background: #23a1ee!important;
           color: #FFF;
         }
         .ui-datepicker.ui-datepicker-multi  {
@@ -5402,21 +5401,21 @@ ul#selectUl li.unselected:hover {
 .swiper-slide { position: relative;}
 
 .homeswipe p {
-	position: absolute;
-	bottom: 15px;
-	left: 15px;
+	position: relative;
+	bottom: 150px;
+
 }
 
 .homeswipe p span {
 	color: #fff;
 	display: block;
-	text-align: left;
+	text-align: center;
 }
 
 span.mainbold {
 	display: block;
 	font-family: 'kaushan_scriptregular';
-	font-size: 48px;
+	font-size: 30px;
 }
 
 span.textthin {
@@ -5465,6 +5464,7 @@ span.textthin {
 	margin: 0;
 	position: absolute;
 	text-transform: uppercase;
+	z-index: 999;
 }
 
 .fullybox {
@@ -5484,6 +5484,7 @@ span.textthin {
 	color: #fff;
 	position: absolute;
 	text-transform: uppercase;
+  	z-index: 999;	
 }
 
 .fullytext br {
@@ -5729,7 +5730,7 @@ and (max-width : 720px) {
 	.phone-carry {
 		background-color: #fff;
 		position: relative;
-		height: 150px;
+		height: 175px;
 	}
 
 	.phoneno {
@@ -6130,6 +6131,13 @@ span.hamburger-helper {
 	list-style-type: none;
 }
 
+ul#menu-main-menu {
+  border-left: 1px solid black;
+  height: 100%;
+}
+
+
+
 /* ======================== FOOTER edits ======================== */
 
 .phone-carry ul li i {
@@ -6153,20 +6161,120 @@ span.hamburger-helper {
   color:  #188bd2;;
 }
 
+.reservationlink .fa-calendar {
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+/* ======================== HOMPAGE edits ======================== */
+
+a.book-now {
+position: relative;
+  bottom: 150px;
+}
+
+
+a.book-now {
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0;
+  font-weight: 700;
+  padding: 10px 0;
+  background-color: #188bd2;
+  width: 120px;
+  margin: -10px auto;
+}
+
+.shadow {
+	position: relative;
+	z-index: 99;
+	max-width: 100%;
+	margin: 0px auto auto;
+}
+
+.shadow:before {
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	content: '';
+	left: 0;
+	background: #ff0000;
+	background:  linear-gradient( top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	background: -moz-linear-gradient(black, transparent); /* FF 3.6+ */  
+	background: -ms-linear-gradient(black, transparent); /* IE10 */  
+	background: -webkit-gradient( top, rgba(255,255,255,0) 100%, rgba(255,255,255,1) 0%); /* Safari 4+, Chrome 2+ */  
+	background: -webkit-linear-gradient(transparent, black); /* Safari 5.1+, Chrome 10+ */  
+	background: -o-linear-gradient(transparent, black); /* Opera 11.10 */  
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=transparent); /* IE6 & IE7 */  
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=transparent)"; /* IE8+ */  
+	background: linear-gradient(transparent, rgba(0,0,0,.79)); /* the standard */  
+	z-index: 991;
+}
+
+.shadow header {
+	position: absolute;
+	z-index: 99999;
+	bottom: 10px;
+	left:0;
+	width: 100%;
+	text-align: center;
+}
+
+/* ======================== GENERAL STYLING edits ======================== */
 
 
 
+.page-interior li {
+  list-style-type: none;
+}
 
+.page-interior li:before {
+  list-style-type: none;
+  margin: 0 5px 0 -15px;
+}
 
+.page-interior li i {
+	color: #fcc46f;
+}
 
+.fa-arrow-right:before {
+  content: "\f061";
+  position: relative;
+  right: 10px;
+}
 
+a.button {
+	padding: 15px 0; 
+	background: #188bd2; 
+	color: #fff;
+}
 
+.page-interior ul li, .page-interior ol li {
+  line-height: 25px;
+  font-size: 15px;
+    margin-bottom: 16px;
+}
 
+.single .superfooter, .page .superfooter {
+  overflow: auto;
+  width: 95%;
+  margin-bottom: 55px;
+  position: relative;
+  z-index: 9;
+  margin: 0 auto;
+}
 
-
-
-
-
+.fullybox.shadow {
+  margin-bottom: 10px;
+}
 
 
 
