@@ -58,7 +58,7 @@ get_header(); ?>
 				</div>
 				
                   	
-				<div class="pagination pagination1"></div>
+				<!-- <div class="pagination pagination1"></div> -->
 
 			<!-- END SLIDER -->
 					<header class="booyah">

@@ -317,66 +317,6 @@ $(document).ready(function(){
 <!-- END MENU --></div>
 
 
-<!--
-<div id="other-menu">
-<div class="menucontainer">
-	
-	<div class="calendars">
-		<div class="datepickers"></div>
-	</div>
-	<div class="reservationforms">
-					
-		<form method="get" action="http://refineryhotelnewyork.reztripmobile.com/rt/m/results?">  
-
-			<input type="hidden" name="propertyId" value="142">
-			<input type="hidden" name="locale" value="en-us">
-			<input type="hidden" name="sub" value="refineryhotelnewyork">
-			
-			
-			<span class="calsec" style="display: none;">
-				<input type="text"  id="arrival_dates" name="arrival" placeholder="Arrival" class="calendarsection" />
-				<input type="hidden"  id="arv">
-				<input type="text" id="departure_dates" name="departure" placeholder="Departure" class="calendarsection" />
-				<input type="hidden" id="dep">
-			</span>
-			
-			<span class="ad-drop">
-				<select name="numAdults" class="halfsies">
-					<option value="1">1 Adult</option>
-					<option value="2">2 Adults</option>
-					<option value="3">3 Adults</option>
-					<option value="4">4 Adults</option>
-				</select>
-			</span>
-			
-			<span class="kid-drop">
-				<select name="numChildren" class="halfsies">
-					<option value="0">0 Kids</option>
-					<option value="1">1 Kid</option>
-					<option value="2">2 Kids</option>
-					<option value="3">3 Kids</option>
-				</select>
-			</span>
-			
-			<div class="clear"></div>
-			
-			<div class="inputpromo">
-				<input type="text" id="promo" name="promo" placeholder="Coupon Code" />
-			</div>
-			
-			<div class="clear"></div>
-			
-			<button class="button" type="submit">Search Now</button>
-
-		</form>
-	</div>
-</div>
-
-</div>
--->
-
-
-
 <!-- BEGIN MENU CLOSE AREA -->
 <div id="menu-open-overlay"></div>
 <!-- END MENU CLOSE AREA -->

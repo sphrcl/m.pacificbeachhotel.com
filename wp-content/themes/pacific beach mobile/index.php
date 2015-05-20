@@ -16,7 +16,7 @@ get_header(); ?>
 			<div class="swiper-container swiper1">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<div class="slidimge" style="background-image: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-resort-front.jpg');"></div>
+						<div class="slidimge" style="background: url('http://sphericalcommunications.com/pb-mobile/wp-content/uploads/2015/05/pacific-beach-resort-ocean-front-this.jpg')"></div>
 						<p>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Beautiful Oceanfront</span>
@@ -79,7 +79,7 @@ get_header(); ?>
 		<?php endwhile; endif; wp_reset_query(); ?>	
 		<div class="fullybox shadow" style="background: url('http://sphericalcommunications.com/pb-mobile/wp-content/uploads/2015/05/pacific-beach-cceanarium-tank.jpg')">
 			<p class="fullytext">Oceanarium Restaurant</p>
-				<a class="coverlink" href="#"></a>
+				<a class="coverlink" href="http://sphericalcommunications.com/pb-mobile/dining/"></a>
 		</div>
 		<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>
 		
