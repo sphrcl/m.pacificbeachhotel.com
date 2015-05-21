@@ -905,11 +905,6 @@ body .ui-tooltip {
 }
 
 
-
-
-
-
-
 /* Overlays */
 .ui-widget-overlay {
 	background: #a6a6a6 url(images/ui-bg_dots-small_65_a6a6a6_2x2.png) 50% 50% repeat;
@@ -924,15 +919,6 @@ body .ui-tooltip {
 	filter: Alpha(Opacity=10);
 	border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
 
 .datepicker {
 	width: 100%;
@@ -957,3 +943,31 @@ body .ui-tooltip {
           overflow-x: scroll;
         }*/
 .ui-widget { font-size: 100% }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

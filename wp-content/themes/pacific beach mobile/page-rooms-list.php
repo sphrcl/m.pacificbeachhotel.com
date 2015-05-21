@@ -10,13 +10,13 @@ session_start();
 get_header(); ?>
 
 
-	<div class="copybody" style="background-image: url(http://m.rownyc.com.php53-13.dfw1-2.websitetestlink.com/wp-content/uploads/2014/10/LobbyFull2-2.jpg
+	<div class="copybody" style="background-image: url(<?php bloginfo('url'); ?>/wp-content/uploads/2014/10/LobbyFull2-2.jpg
 );">
 	
 	
 	<div class="opener">
 			
-			<h3><?php the_title(); ?></h3>
+			<!-- <h3><?php the_title(); ?></h3> -->
 		
 		</div>
 

@@ -33,9 +33,11 @@
 			
 		</div>		
 
+	<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>
+
 	</div>
 	<!-- END COPYBODY -->
 	
-	<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>	
+	
 	
 <?php include(TEMPLATEPATH . '/includes/footer.php'); ?>

@@ -1,4 +1,5 @@
 <div class="reservationlink">
+	<i class="fa fa-calendar"></i>
 	<h4><a href="#">Click to Reserve</a></h4>
 
 </div>

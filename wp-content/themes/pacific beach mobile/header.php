@@ -21,6 +21,7 @@
 
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
@@ -310,70 +311,10 @@ $(document).ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
-<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px; padding-right: 15px;"><img src="<?php bloginfo ('template_url'); ?>/images/" /></li>
-<li class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
+<li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
-
-
-<!--
-<div id="other-menu">
-<div class="menucontainer">
-	
-	<div class="calendars">
-		<div class="datepickers"></div>
-	</div>
-	<div class="reservationforms">
-					
-		<form method="get" action="http://refineryhotelnewyork.reztripmobile.com/rt/m/results?">  
-
-			<input type="hidden" name="propertyId" value="142">
-			<input type="hidden" name="locale" value="en-us">
-			<input type="hidden" name="sub" value="refineryhotelnewyork">
-			
-			
-			<span class="calsec" style="display: none;">
-				<input type="text"  id="arrival_dates" name="arrival" placeholder="Arrival" class="calendarsection" />
-				<input type="hidden"  id="arv">
-				<input type="text" id="departure_dates" name="departure" placeholder="Departure" class="calendarsection" />
-				<input type="hidden" id="dep">
-			</span>
-			
-			<span class="ad-drop">
-				<select name="numAdults" class="halfsies">
-					<option value="1">1 Adult</option>
-					<option value="2">2 Adults</option>
-					<option value="3">3 Adults</option>
-					<option value="4">4 Adults</option>
-				</select>
-			</span>
-			
-			<span class="kid-drop">
-				<select name="numChildren" class="halfsies">
-					<option value="0">0 Kids</option>
-					<option value="1">1 Kid</option>
-					<option value="2">2 Kids</option>
-					<option value="3">3 Kids</option>
-				</select>
-			</span>
-			
-			<div class="clear"></div>
-			
-			<div class="inputpromo">
-				<input type="text" id="promo" name="promo" placeholder="Coupon Code" />
-			</div>
-			
-			<div class="clear"></div>
-			
-			<button class="button" type="submit">Search Now</button>
-
-		</form>
-	</div>
-</div>
-
-</div>
--->
-
 
 
 <!-- BEGIN MENU CLOSE AREA -->
@@ -396,15 +337,26 @@ $(document).ready(function(){
 <!-- BEGIN MENU BUTTON -->
 <div class="menu-wrapper">
 
-		<a href="http://rownyc.reztripmobile.com/rt/m/index?propertyId=71&accessCode=&locale=en-us&sub=rownyc" class="booklink" onclick="_gaq.push(['_trackEvent', 'Reserve', 'Reserve-now', 'Main reserve button']);">Reserve</a>
-		<div class="menu-button"><i class="menubar"></i></div>
+
+		<div class="menu-button">
+			<i class="menubar"></i>
+			<span class="hamburger-helper">menu</span>
+		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
 			<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 		</div>
 		<!-- END LOGO -->
 
-	<!-- <div class="other-menu-button"><i class="fa fa-calendar"></i></div> -->
+		<!-- start translation flag -->
+		<div class="trans-flags">
+			<ul>
+				<li><a href="#"><i class="fa fa-flag"></i></a></li>
+				<li><a href="#"><i class="fa fa-flag"></i></a></li>
+			</ul>
+		</div>
+		<!-- end translation flags -->
+
 </div>
 <!-- END MENU BUTTON -->
 

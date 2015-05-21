@@ -8,12 +8,11 @@
 }
 
 .pagination1 {
-	text-align: center;
-	margin-top: 0;
-	position: absolute;
-	z-index: 999999;
-	bottom: 15px;
-	right: 15px;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  z-index: 999999;
+  bottom: 30px;
 }
 
 
