@@ -376,13 +376,17 @@ HEADER
 	font-family:'Open Sans';
 	text-transform:uppercase;
 	font-weight:400;
-	color:rgba(255,255,255,0.85);
-	padding: 7px 0px 0px 10px;
+	color:rgba(255,255,255,0.85); 
+	/* padding: 7px 0px 0px 10px; */
 }
 .site-logo {
-	position:relative;
-	text-align: center;
- 	 z-index: 1;
+  position: absolute;
+  /* text-align: center; */
+  z-index: 99999999 !important;
+  top: 5px;
+  margin-left: auto;
+  width: 100%;
+  margin-right: auto;
 }
 .site-logo a:hover {
 	text-decoration:none;
@@ -390,8 +394,12 @@ HEADER
 	letter-spacing:0em;
 }
 .site-logo img {
-	width: 120px;	
+	width: 120px;
+	margin: 0 auto;
+ 	 display: block;	
 }
+
+
 
 
 /* MAIN MENU
@@ -402,7 +410,6 @@ HEADER
 
 .menu-button {
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
-
 	position:relative;
 	cursor:pointer;
 	float:right;
@@ -411,7 +418,7 @@ HEADER
 	width:48px;
 	height:45px;
 	text-decoration:none !important;
-	z-index:8;
+	z-index: 999999999999 !important;
 }
 
 
@@ -1047,7 +1054,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	color:#454545;
 	padding:0 0 10px 0;
-	font-family:'Source Sans Pro';
+	/* font-family:'Source Sans Pro'; */
 	font-weight:600;
 }
 h1 { font-size: 35px; line-height: 40px; }
@@ -1858,7 +1865,7 @@ div.ps-toolbar-play {
 	width: 100%;
 	background-size: 27%;
 	height: 80px;
-	z-index: 99999999999;
+	z-index: 1;
 	position: relative;
 	/* position: fixed;
 	z-index: 9999 */
@@ -2905,7 +2912,7 @@ h1.main {
 	z-index: 99999999;
 	padding-top: 10px;
 	top: 70%;
-	padding-bottom: 10px;
+ 	padding-bottom: 10px; 
 }
 
 .page-interior:before {
@@ -3017,7 +3024,6 @@ h1.main {
 
 .contactoptions {
 	border-top: 1px solid #ddd;
-	padding-bottom: 100px;
 }
 
 .contactoptions a {
@@ -3025,6 +3031,7 @@ h1.main {
 }
 .contactoptions a i {
 	font-size: 25px;
+	color: #188bd2;
 }
 
 .contactoptions .fifty a {
@@ -3062,25 +3069,6 @@ h1.main {
 	border-right: none;
 	width: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #ui-datepicker-div.ui-datepicker-multi {
 	border-radius: 0 0 0 0;
@@ -5800,7 +5788,7 @@ and (max-width : 720px) {
 	
 	.socialhere li {
 		margin-left: 0;
-		width: 20%;
+		width: 24%;
 	}
 }
 
@@ -6146,19 +6134,9 @@ ul#menu-main-menu {
 }
 
 .phone-carry ul li i {
-  color: #188bd2;
-  font-size: 30px;
-  padding: 0px 20px 13px 25px;
-  top: 16px;
-  position: relative;
-  text-align: center;
-}
 
-.phone-carry span {
-  font-size: 12px;
-  top: 12px;
-  position: relative;
-  color:  #188bd2;;
+  padding: 0px 20px 13px 25px;
+
 }
 
 .reservationlink .fa-calendar {
@@ -6258,9 +6236,9 @@ a.button {
 }
 
 .page-interior ul li, .page-interior ol li {
-  line-height: 25px;
+  line-height: 36px;
   font-size: 15px;
-    margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .single .superfooter, .page .superfooter {
@@ -6284,33 +6262,95 @@ iframe {
 
 .phone-carry span {
   font-size: 12px;
-  top: 3px;
-  position: relative;
   color: #188bd2;
 }
 
-.address span p {
+.address span {
   position: relative;
-  left: 60px;
-  line-height: 7px;
-  top: -25px;
+  left: -5px;
+  line-height: 5px;
   font-size: 13px;
   color: #188bd2;
+  top: 8px; 
 }
 
-li.phone {
+.phone span {
   position: relative;
-  bottom: 20px;
+  left: -5px;
+  line-height: 7px;
+  font-size: 13px;
+  color: #188bd2;
+  top: 10px;
+  font-size: 'Open Sans', sans-serif;
 }
 
-li.contact {
+.contact span {
   position: relative;
-  bottom: 18px;
+  left: -8px;
+  line-height: 7px;
+  top: 22px;
+  font-size: 13px;
+  color: #188bd2;
+  font-size: 'Open Sans', sans-serif;
+}
+
+span.position {
+  position: relative;
+  left: 58px;
+  top: -2px;
+}
+
+li.address .fa-map-marker {
+  position: relative;
+  top: 18px;
+  font-size: 26px;
+}
+
+li.phone .fa-mobile {
+  position: relative;
+  top: 18px;
+  font-size: 38px;
+}
+
+li.contact .fa-user {
+  position: relative;
+  top: 25px;
 }
 
 .single .copybody:after, .page .copybody:after {
 	margin-bottom: 50px;
 }
+
+div.contact-social {
+	margin-bottom:60px;
+}
+
+.home div.contact-social {
+	margin-bottom: 0px;
+}
+
+/* ======================= WEBCAM ============================ */
+
+#innerdiv img#stream {
+  width: 365px !important;
+  height: auto !important;
+  position: relative !important;
+  right: 240px !important;
+  bottom: 85px !important;
+}
+
+/* ======================= LIST ELEMENTS ============================ */
+
+.page-interior li:before {
+  color: #fcc46f;
+  content: "\f061";
+  font-family: 'font-awesome';
+  font-size: 13px;
+  margin-right: 15px;
+  margin-left: -24px;
+}
+
+
 
 
 

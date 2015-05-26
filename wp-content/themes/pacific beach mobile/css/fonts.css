@@ -65,3 +65,12 @@
 		 url('fonts/kaushanscript-regular-webfont.svg#GothamCondensedMedium') format('svg');
 }
 
+@font-face {
+	font-family: 'font-awesome';
+	src: url('fonts/fontawesome-webfont.eot');
+	src: url('fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+		 url('fonts/fontawesome-webfont.woff') format('woff'),
+		 url('fonts/fontawesome-webfont.woff2') format('woff'),		 
+		 url('fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('fonts/fontawesome-webfont.svg#GothamCondensedMedium') format('svg');
+}

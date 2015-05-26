@@ -12,6 +12,7 @@
 <link rel='stylesheet' id='elements-css' href='<?php bloginfo ('template_url'); ?>/css/elements.css' type='text/css' media='all' />
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/idangerous.swiper.css">
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/swiper-style.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo ('template_url'); ?>/css/fonts.css" />
@@ -311,7 +312,7 @@ $(document).ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
-<li class="menu-item" style="display: block; width: 50%; margin: 10px auto 20px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
+<li class="menu-item" style="display: block; width: 35%; margin: 0px auto 10px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
 <li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
@@ -337,18 +338,18 @@ $(document).ready(function(){
 <!-- BEGIN MENU BUTTON -->
 <div class="menu-wrapper">
 
-
-		<div class="menu-button">
-			<i class="menubar"></i>
-			<span class="hamburger-helper">menu</span>
-		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
 			<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 		</div>
 		<!-- END LOGO -->
 
-		<!-- start translation flag -->
+		<div class="menu-button">
+			<i class="menubar"></i>
+			<span class="hamburger-helper">menu</span>
+		</div>
+
+		<!-- start translation flag 
 		<div class="trans-flags">
 			<ul>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
