@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/idangerous.swiper.css">
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/swiper-style.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo ('template_url'); ?>/css/fonts.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo ('template_url'); ?>/css/style-accordion.css" />
 <!-- Consolidated this css into one file. This styles the notification -->
 <link rel='stylesheet' id='style-css' href='<?php bloginfo('template_url'); ?>/css/ns-style.css' type='text/css' media='all' />
 
@@ -148,15 +147,15 @@
 	</script> 
 
 <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/jquery.accordion.js"></script>
-<!-- <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/jquery.easing.1.3.js"></script> -->
-<script type="text/javascript">
-    $(function() {
-	
-		$('#st-accordion').accordion();
-		
-    });
-</script>
 <script>
+
+$(function() { 
+	$('#st-accordion').accordion(); 
+	$('.content-opener').click(function(){
+		$(this).parent().find('a').trigger('click');
+	});
+});
+
 $(document).ready(function(){
 
 	$(".closesays").hide();

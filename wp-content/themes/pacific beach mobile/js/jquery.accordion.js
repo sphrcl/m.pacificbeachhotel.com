@@ -78,7 +78,7 @@
 			this.current		= this.options.open;
 			
 			// hide the contents so we can fade it in afterwards
-			this.$items.find('div.st-content').hide();
+			// this.$items.find('div.st-content').hide();
 			
 			// save original height and top of each item	
 			this._saveDimValues();
@@ -169,13 +169,13 @@
 			
 			( $item.hasClass( 'st-open' ) ) 
 					
-				? ( this.current = -1, $content.stop(true, true).fadeOut( this.options.speed ), $item.removeClass( 'st-open' ).stop().animate({
+				? ( this.current = -1, $item.removeClass( 'st-open' ).stop().animate({
 					height	: $item.data( 'originalHeight' )
 				}, this.options.speed, this.options.easing ) )
 				
-				: ( this.current = $item.index(), $content.stop(true, true).fadeIn( this.options.speed ), $item.addClass( 'st-open' ).stop().animate({
+				: ( this.current = $item.index(), $item.addClass( 'st-open' ).stop().animate({
 					height	: $item.data( 'originalHeight' ) + $content.outerHeight( true )
-				}, this.options.speed, this.options.easing ), this._scroll( this ) )
+				}, this.options.speed, this.options.easing ) )
 		
 		},
 		// scrolls to current item or last opened item if current is -1

@@ -69,7 +69,29 @@ get_header(); ?>
 			
 			<?php endwhile; endif; wp_reset_query(); ?>	
 		</div>
-		
+
+		<div id="st-accordion" class="st-accordion">
+
+			<ul class="linkers" style="margin-bottom: 0;">
+				<li>
+					<a style="padding: 0px; height: 58px; line-height: 58px;" href="#">PACIFIC BEACH HOTEL</a>
+
+					<div class="st-content">
+
+						<div class="st-content-container">
+							
+							<p>Graceful waves roll in on legendary Waikiki Beach just steps from one of the most ideally located oceanfront hotels in Honolulu. Unwind in Pacific Beach Hotel’s comfortable, family-friendly guestrooms offering sweeping beachfront views. Visit the hotel’s 280,000 gallon, indoor Oceanarium, the only one of its kind. Explore the rich beauty of the hotel’s surroundings; brimming with endless adventure. Pacific Beach Hotel invites you to make memories that will last a lifetime in the place where Aloha lives.</p>
+
+						</div>
+		                
+		            </div>
+
+		            <div class="content-opener"><i class="fa fa-plus"></i></div>
+
+				</li>
+			</ul>
+
+		</div>		
 		
 		<?php query_posts('post_type=page&p=13'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
