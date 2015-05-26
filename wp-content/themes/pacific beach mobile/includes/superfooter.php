@@ -2,16 +2,27 @@
 <div class="superfooter">
 	<div class="phone-carry">
 		<ul>
-			<li><i class="fa fa-map-marker"></i><span>2490 Kalakaua Avenue Honolulu, Hawaii 96815</span></li>
-			<li><i class="fa fa-mobile"></i><span>808-922-1233</span></li>
-			<li><i class="fa fa-user"></i><span>Contact Us</span></li>
+			<li class="address">
+				<i class="fa fa-map-marker"></i>
+			  	<span><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">2490 Kalakaua Avenue</a></span>
+			  	<br />
+				<span class="position"><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">Honolulu, Hawaii 96815</a></span>
+			</li>
+			<li class="phone">
+				<i class="fa fa-mobile"></i>
+				<span><a href="tel:808.922.1233">808-922-1233</a></span>
+			</li>
+			<li class="contact">
+				<i class="fa fa-user"></i>
+				<span><a href="mailto:info@pacificbeachhotel.com">Contact Us</a></span>
+			</li>
 		</ul>
 	</div>
 	
 	<div class="contact-social">
 		<div class="contacthere">
 			
-			<p><a href="#">Visit desktop site</a></p>
+			<p><a href="http://pacificbeachhotel.com/">Visit desktop site</a></p>
 			<!--
 			<ul>
 				<li class="li-mob"><a href="#"><span class="fa fa-mobile"></span></a></li>
@@ -23,11 +34,10 @@
 		</div>
 		<div class="socialhere">
 			<ul>
-				<li><a href="#" target="_blank"><span class="fa fa-facebook"></span></a></li>
-				<li><a href="#" target="_blank"><span class="fa fa-twitter"></span></a></li>
-				<li><a href="#" target="_blank"><span class="fa fa-youtube-play"></span></a></li>
-				<li><a href="#" target="_blank"><span class="fa fa-google-plus"></span></a></li>
-				<li class="last"><a href="#" target="_blank"><span class="fa fa-instagram"></span></a></li>
+				<li><a href="https://www.facebook.com/PacificBeachHotel" target="_blank"><span class="fa fa-facebook"></span></a></li>
+				<li><a href="https://twitter.com/PacificBeachHtl" target="_blank"><span class="fa fa-twitter"></span></a></li>
+				<li><a href="https://plus.google.com/106176366593354536658/posts?hl=en" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+				<li class="last"><a href="https://instagram.com/pacificbeachhotel/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 			</ul>
 		</div>
 	</div>
