@@ -78,7 +78,7 @@ get_header(); ?>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>	
 		<div class="fullybox shadow" style="background: url('http://sphericalcommunications.com/pb-mobile/wp-content/uploads/2015/05/pacific-beach-cceanarium-tank.jpg')">
-			<p class="fullytext">Oceanarium Restaurant</p>
+			<p class="fullytext">Dining</p>
 				<a class="coverlink" href="http://sphericalcommunications.com/pb-mobile/dining/"></a>
 		</div>
 		<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>
