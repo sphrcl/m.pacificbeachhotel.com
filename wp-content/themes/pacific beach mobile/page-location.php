@@ -7,7 +7,7 @@
  get_header(); ?>
 
 
-	<div class="copybody" style="background-image: url(<?php bloginfo ('template_url'); ?>/images/index2.jpg);">
+	<div class="copybody">
 	
 	
 		<div class="page-interior">
@@ -17,7 +17,7 @@
 			
 			<div class="page-image">
 			
-				<iframe class="google-maps-embed" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3022.4401948729433!2d-73.98519499999999!3d40.752342!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd46cd8dcc7ec8aa!2sRefinery+Hotel!5e0!3m2!1sen!2s!4v1405945713543" width="600" height="220" frameborder="0" style="border:0"></iframe>
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:200px;width:100%;"><div id="gmap_canvas" style="height:200px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.map-embed.com" id="get-map-data">http://www.map-embed.com/</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(21.2746857,-157.82326820000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(21.2746857, -157.82326820000003)});infowindow = new google.maps.InfoWindow({content:"<b>Pacific Beach Hotel</b><br/>2490 Kalakaua Avenue Honolulu<br/>96815 Hawaii " });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);</script>
 			
 			</div>
 			
