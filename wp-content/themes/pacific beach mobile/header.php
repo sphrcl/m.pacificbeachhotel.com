@@ -311,7 +311,7 @@ $(document).ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
-<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
+<li class="menu-item" style="display: block; width: 50%; margin: 10px auto 20px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
 <li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
