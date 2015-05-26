@@ -41,7 +41,7 @@
 					</div>
 					
 					<div class="twentyfive">
-						<a href="tel:1212-869-3600"><i class="fa fa-phone"></i></a>
+						<a href="tel:1808-922-1233"><i class="fa fa-phone"></i></a>
 					</div>
 					
 					<div class="twentyfive lasttwentyfive">

@@ -10,11 +10,11 @@
 			</li>
 			<li class="phone">
 				<i class="fa fa-mobile"></i>
-				<span><a href="tel:808.922.1233">808-922-1233</a></span>
+				<span><a href="tel:1808-922-1233">808 922 1233</a></span>
 			</li>
 			<li class="contact">
 				<i class="fa fa-user"></i>
-				<span><a href="mailto:info@pacificbeachhotel.com">Contact Us</a></span>
+				<span><a href="http://sphericalcommunications.com/pb-mobile/contact-us/">Contact Us</a></span>
 			</li>
 		</ul>
 	</div>
