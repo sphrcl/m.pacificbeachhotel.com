@@ -27,32 +27,19 @@
 				
 				<div class="proper">
 					<a style="text-decoration: none;" href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank">
-						<p>2490 Kalakaua Avenue Honolulu,</i>
-						<br />
-						Hawaii 96815</p></a> 
+	<?php the_content(); ?>
 				</div>
 				
 				
 				<div class="contactoptions">
-				
 					
-					<div class="twentyfive">
-						<a href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank"><i class="fa fa-map-marker"></i></a>
-					</div>
-					
-					<div class="twentyfive">
+					<div style="width: 100%;" class="twentyfive">
 						<a href="tel:1808-922-1233"><i class="fa fa-phone"></i></a>
-					</div>
-					
-					<div class="twentyfive lasttwentyfive">
-						<a href="mailto:info@rownyc.com" target="_blank"><i class="fa fa-envelope"></i></a>
 					</div>
 					
 					<div class="clear"></div>
 					
-					
-
-					
+				
 					<div class="fifty">
 						<a href="https://www.facebook.com/PacificBeachHotel" target="_blank">Like us on facebook</a>
 					</div>

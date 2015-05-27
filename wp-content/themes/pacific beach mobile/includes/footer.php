@@ -15,11 +15,11 @@
 		</div>
 		<div class="reservationform">
 					
-			<form method="get" action="http://rownyc.reztripmobile.com/rt/m/results?">
+			<form method="get" action="http://pacificbeachhotel.reztripmobile.com/rt/m/results?">
 				
-				<input type="hidden" name="propertyId" value="71">
+				<input type="hidden" name="propertyId" value="228">
 				<input type="hidden" name="locale" value="en-us">
-				<input type="hidden" name="sub" value="rownyc">
+				<input type="hidden" name="sub" value="pacificbeachhotel">
 
 				<!-- hidden arrival and departure dates -->
 				<span class="calsec" style="display: none;">
@@ -50,7 +50,7 @@
 				<div class="clear"></div>
 				
 				<div class="inputpromo">
-					<input type="text" id="promo" name="promo" placeholder="Coupon Code" />
+					<input type="text" id="promo" name="promo" placeholder="Promo Code" />
 				</div>
 				
 				<div class="clear"></div>

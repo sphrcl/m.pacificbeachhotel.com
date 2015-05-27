@@ -6236,9 +6236,9 @@ a.button {
 }
 
 .page-interior ul li, .page-interior ol li {
-  line-height: 36px;
+  line-height: 20px;
   font-size: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .single .superfooter, .page .superfooter {

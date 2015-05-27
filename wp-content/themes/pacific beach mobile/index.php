@@ -37,7 +37,7 @@ get_header(); ?>
 						<div class="slidimge" style="background-image: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-hotel-water-surfing.jpg');"></div>
 						<p>
 							<span class="mainbold">Pacific Beach Hotel</span>
-							<span class="textthin">Subheading subheading</span>
+							<span class="textthin">Just Steps from Waikiki Beach</span>
 						</p>
 						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>					

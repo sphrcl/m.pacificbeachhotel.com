@@ -9,6 +9,11 @@
 	.page-image {
 		height: 400px;
 	}
+	
+	.page-template-page-webcam .page-image {
+		height: 360px;
+	}
+
 
 }
 
@@ -25,19 +30,21 @@
 	}
 
 	.page-template-page-gallery .swiper-main, .page-template-page-gallery .swiper-container, .page-template-page-gallery .swiper-slide, .page-template-page-gallery .swiper-slide img, .page-template-page-gallery .swiper-slide {
-		height: 220px !important;
+		height: 360px !important;
 	}	
 
 	.page-template-page-gallery-subpage .swiper-main, .page-template-page-gallery-subpage .swiper-container, .page-template-page-gallery-subpage .swiper-slide, .page-template-page-gallery-subpage .swiper-slide img, .page-template-page-gallery-subpage .swiper-slide {
-		height: 220px !important;
+		height: 360px !important;
 	}
-
-
-
 
 	.page-image {
 		height: 200px;
 	}
+
+	.page-template-page-webcam .page-image {
+		height: 360px;
+	}
+
 }
 
 
