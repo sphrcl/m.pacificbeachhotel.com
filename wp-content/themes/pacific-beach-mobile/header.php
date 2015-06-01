@@ -346,13 +346,15 @@ $(document).ready(function(){
 		<!-- END LOGO -->
 
 		<!-- start translation flag -->
-		<div class="trans-flags">
+		<!-- <div class="trans-flags">
 			<ul>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 			</ul>
-		</div>
+		</div> -->
 		<!-- end translation flags -->
+
+		<div class="languages"><?php language_selector_flags(); ?></div>
 
 </div>
 <!-- END MENU BUTTON -->

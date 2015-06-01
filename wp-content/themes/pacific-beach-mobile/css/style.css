@@ -233,6 +233,12 @@ HEADER
 	position: relative;
 }
 
+.languages {
+    float: left;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
 
 /* CONTACT FORM
 **************************************************/
@@ -391,6 +397,7 @@ HEADER
 	font-weight:400;
 	color:rgba(255,255,255,0.85);
 	padding: 7px 0px 0px 10px;
+	top: 15px;
 }
 .site-logo {
 	position:relative;
