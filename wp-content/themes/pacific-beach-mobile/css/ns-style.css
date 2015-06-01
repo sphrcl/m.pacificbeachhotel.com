@@ -177,7 +177,6 @@
 	-webkit-animation-name: animFade;
 	animation-name: animFade;
 	max-width: 75%;
-	margin-left: 22%;
 }
 
 @-webkit-keyframes animScaleUp {
@@ -290,15 +289,12 @@
 	}
 
 .ns-box-inner i {
-	transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
     color: #fff;
     font-size: 24px;
     margin-right: 30px;
     padding-left: 0;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    vertical-align: top;
 }
 
 .fa-bell {
