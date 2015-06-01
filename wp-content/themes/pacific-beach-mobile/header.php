@@ -178,18 +178,6 @@ $(document).ready(function(){
 		$(".reservationfooter").addClass("uppers");
 	});
 	
-	/*
-	$(".opensays-up").click(function(e) {
-		e.preventDefault();
-		$(".textbox").toggleClass( "openbox-up" );
-	});
-	
-	$(".opensays-1").click(function(e) {
-		e.preventDefault();
-		$(".textbox-1").toggleClass( "openbox-1" );
-	});
-	*/
-	
 });
 
 $(document).ready(function(){
@@ -253,7 +241,7 @@ $(document).ready(function(){
 	});
 </script>
 
- <script src="<?php bloginfo ('template_url'); ?>/js/idangerous.swiper-1.9.1.min.js"></script>
+<script src="<?php bloginfo ('template_url'); ?>/js/idangerous.swiper-1.9.1.min.js"></script>
 <script src="<?php bloginfo ('template_url'); ?>/js/swiper-demos.js"></script>
 
 <script type='text/javascript' src='<?php bloginfo ('template_url'); ?>/js/general-header.js'></script>
@@ -295,6 +283,16 @@ $(document).ready(function(){
 </head>
 
 <body <?php body_class(); ?>>
+
+<?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+	<?php if( get_post_meta($post->ID,'cebo_special', true) && get_post_meta($post->ID,'cebo_live', true) && get_post_meta($post->ID,'cebo_icon', true) ) { ?>
+
+		<div class="ns-box ns-bar ns-effect-slidetop ns-type-notice"><div class="ns-box-inner"><i class="fa fa-<?php echo get_post_meta($post->ID,'cebo_icon', true); ?>"></i><p><a href="<?php echo get_post_meta($post->ID,'cebo_special', true); ?>"><?php the_title(); ?></a></p></div><span class="ns-close" onClick="sessionStorage.setItem('nsclose_id', '1')"></span></div>
+
+	<?php } ?>
+
+<?php endwhile; endif; wp_reset_query(); ?>
 
 <!-- BEGIN SITE LOGO -->
 <div id="header-bar">
@@ -358,25 +356,3 @@ $(document).ready(function(){
 
 </div>
 <!-- END MENU BUTTON -->
-
-<?php query_posts('post_type=weather&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
-
-	<?php if( $post->post_content != "" && get_post_meta($post->ID,'cebo_weather_live', true) ) { ?>
-
-		<div class="ns-box ns-bar ns-effect-slidetop ns-type-notice">
-
-			<i class="fa fa-exclamation-triangle"></i>
-
-			<div class="ns-box-inner">
-
-				<?php the_content(); ?>
-
-			</div>
-
-			<span class="ns-close" onClick="sessionStorage.setItem('nsclose_id', '1')"></span>
-
-		</div>
-
-	<?php } ?>
-
-<?php endwhile; endif; wp_reset_query(); ?>

@@ -33,7 +33,7 @@ include(TEMPLATEPATH . '/options/single-options.php');
 /* Below is an include to a few options for your posts.*/
 // include(TEMPLATEPATH . '/options/gallery-options.php'); 
 include(TEMPLATEPATH . '/options/project-options.php');
-include(TEMPLATEPATH . '/options/weather-options.php');
+include(TEMPLATEPATH . '/options/notification-options.php'); 
 
 /* .................. SHORTCODES ...…… */
 /* Below is an include to default custom fields for the posts.*/

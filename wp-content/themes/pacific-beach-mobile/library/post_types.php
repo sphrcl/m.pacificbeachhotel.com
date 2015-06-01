@@ -106,20 +106,22 @@ function create_gallery_taxonomies()
 
 
 
-add_action( 'init', 'create_weather_post_types' );
-function create_weather_post_types() {
-  register_post_type( 'weather',
+add_action( 'init', 'notifications_post_type' );
+function notifications_post_type() {
+  register_post_type( 'notification',
     array(
       'labels' => array(
-        'name' => __( 'Weather Alert' ),
-        'singular_name' => __( 'Weather Alert' )
+        'name' => __( 'Notification' ),
+        'singular_name' => __( 'Notification' )
       ),
       'public' => true,
-      'rewrite' => array('slug' =>  'weather-alert'),
-      'menu_icon' => 'dashicons-cloud',
-      'supports' => array('title','author','revision', 'editor')
+      'rewrite' => array('slug' => 'notification'),
+      'menu_icon' => 'dashicons-megaphone',
+      'supports' => array('title','author','custom-fields')
     )
   );
 }
+
+
 
 ?>

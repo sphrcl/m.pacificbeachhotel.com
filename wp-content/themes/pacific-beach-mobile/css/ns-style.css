@@ -67,9 +67,9 @@
 	content: '';
 	position: absolute;
 	width: 3px;
-	height: 60%;
-	top: 50%;
-	left: 30%;
+	height: 87%;
+	top: 71%;
+	left: 50%;
 	background: #6e6e6e;
 }
 
@@ -95,10 +95,10 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
     left: 0;
-    margin: 20px;
     overflow: hidden;
     top: 0;
     width: auto;
+    background: #27a0ea none repeat scroll 0 0;
 }
 
 .ns-bar .ns-close {
@@ -115,7 +115,7 @@
 	float: none;
 	left: auto;
 	right: 10px;
-	top: 20px;
+	top: 44%;
 }
 
 .ns-bar .ns-close::before,
@@ -153,12 +153,12 @@
 .ns-effect-slidetop .ns-close::before,
 .ns-effect-slidetop .ns-close::after {
 	width: 2px;
-	background: #777;
+	background: rgba(255,255,255,.5);
 }
 
 .ns-effect-slidetop .ns-close:hover::before,
 .ns-effect-slidetop .ns-close:hover::after {
-	background: #333;
+	background: rgba(255,255,255,1);
 }
 
 .ns-effect-slidetop.ns-show .icon,
@@ -251,34 +251,47 @@
   color: #000;
 }
 
+.ns-box-inner::before {
+    background: #2583bc none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 17%;
+    z-index: -1;
+}
+
 .ns-box-inner {
-  float: left;
-  margin-left: 15px;
-  width: 90%;
+    float: left;
+    width: 90%;
 }
 
 .ns-box-inner p {
-  color: #333;
-  display: inline-block;
-  font-size: 15px;
-  padding: 0;
-  text-rendering: optimizelegibility;
-  top: 18px;
-  line-height: 1.6;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	padding: 0;
+	text-rendering: optimizelegibility;
+	top: 18px;
+	line-height: 1.6;
 }
 
 .ns-box-inner a {
-	border-bottom: 1px solid transparent;
-	color: #000;
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
 }
 	.ns-box-inner a:hover {
-		border-bottom: 1px solid #333;
+		border-bottom: 1px solid rgba(255,255,255,.5);
 		text-decoration: none;
 	}
 
 .ns-box-inner i {
-	font-size: 24px;
-	color: #3c3c3c;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 0;
+    margin-right: 30px;
 }
 
 .fa-bell {

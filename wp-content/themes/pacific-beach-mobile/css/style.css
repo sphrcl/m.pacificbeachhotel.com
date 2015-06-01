@@ -23,6 +23,19 @@ img {
 }
 
 
+
+/* TRANSITIONS ############################################################################################################ */
+
+.ns-effect-slidetop .ns-close:hover::before,
+.ns-effect-slidetop .ns-close:hover::after {
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
 /* GENERAL STYLING
 **************************************************/
 .center { text-align:center; }
