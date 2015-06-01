@@ -70,7 +70,7 @@ add_action('admin_head', 'cebo_admin_head');
 /* Admin Interface
 /*-----------------------------------------------------------------------------------*/
 $functions_path = THEME_ADMIN . '/';
-$themename = "Row Mobile";
+$themename = "Pacific Beach Hotel";
 function cebo_add_admin() {
 
     global $themename, $shortname, $query_string;
@@ -84,7 +84,7 @@ function cebo_add_admin() {
 		}
     }
 		
-    $tt_page = add_object_page($themename, $themename, 'administrator', 'cebo','cebo_options_page','../wp-content/themes/rownyc-mobile/options/images/icon_options.png');
+    $tt_page = add_object_page($themename, $themename, 'administrator', 'cebo','cebo_options_page','dashicons-admin-settings');
 
 	add_action("admin_print_scripts-$tt_page", 'of_load_only');
 	add_action("admin_print_styles-$tt_page",'of_style_only');
@@ -1288,7 +1288,7 @@ if (!function_exists('of_options')) {
 function of_options(){
 
 //Theme Shortname
-$themename = "Row Options";
+$themename = "Pacifica Beach Hotel Options";
 $shortname = "cebo";
 
 
