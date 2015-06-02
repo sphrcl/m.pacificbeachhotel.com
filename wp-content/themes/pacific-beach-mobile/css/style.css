@@ -237,6 +237,8 @@ HEADER
     float: left;
     margin-left: 10px;
     margin-top: -10px;
+	position: relative;
+	z-index: 2;
 }
 
 
