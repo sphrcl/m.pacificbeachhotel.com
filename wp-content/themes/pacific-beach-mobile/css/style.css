@@ -244,6 +244,10 @@ HEADER
   margin-left: 10px;
 }
 
+.languages { 
+  display: none; 
+}
+
 
 /* CONTACT FORM
 **************************************************/
