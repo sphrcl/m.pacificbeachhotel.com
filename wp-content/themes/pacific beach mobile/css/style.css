@@ -23,6 +23,19 @@ img {
 }
 
 
+
+/* TRANSITIONS ############################################################################################################ */
+
+.ns-effect-slidetop .ns-close:hover::before,
+.ns-effect-slidetop .ns-close:hover::after {
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+
 /* GENERAL STYLING
 **************************************************/
 .center { text-align:center; }
@@ -220,6 +233,21 @@ HEADER
 	position: relative;
 }
 
+.languages {
+    float: left;
+    margin-top: -10px;
+	position: relative;
+	z-index: 2;
+}
+
+.languages a {
+  margin-left: 10px;
+}
+
+.languages { 
+  display: none; 
+}
+
 
 /* CONTACT FORM
 **************************************************/
@@ -376,17 +404,14 @@ HEADER
 	font-family:'Open Sans';
 	text-transform:uppercase;
 	font-weight:400;
-	color:rgba(255,255,255,0.85); 
-	/* padding: 7px 0px 0px 10px; */
+	color:rgba(255,255,255,0.85);
+	padding: 7px 0px 0px 10px;
+	top: 15px;
 }
 .site-logo {
-  position: absolute;
-  /* text-align: center; */
-  z-index: 99999999 !important;
-  top: 5px;
-  margin-left: auto;
-  width: 100%;
-  margin-right: auto;
+	position:relative;
+	text-align: center;
+ 	 z-index: 1;
 }
 .site-logo a:hover {
 	text-decoration:none;
@@ -394,12 +419,8 @@ HEADER
 	letter-spacing:0em;
 }
 .site-logo img {
-	width: 120px;
-	margin: 0 auto;
- 	 display: block;	
+	width: 120px;	
 }
-
-
 
 
 /* MAIN MENU
@@ -410,6 +431,7 @@ HEADER
 
 .menu-button {
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
+
 	position:relative;
 	cursor:pointer;
 	float:right;
@@ -418,7 +440,7 @@ HEADER
 	width:48px;
 	height:45px;
 	text-decoration:none !important;
-	z-index: 999999999999 !important;
+	z-index:8;
 }
 
 
@@ -546,6 +568,7 @@ HEADER
 
 
 /* Retina display .menu-button */
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-resolution: 240dpi)
@@ -1054,7 +1077,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
 	color:#454545;
 	padding:0 0 10px 0;
-	/* font-family:'Source Sans Pro'; */
+	font-family:'Source Sans Pro';
 	font-weight:600;
 }
 h1 { font-size: 35px; line-height: 40px; }
@@ -1865,7 +1888,7 @@ div.ps-toolbar-play {
 	width: 100%;
 	background-size: 27%;
 	height: 80px;
-	z-index: 1;
+	z-index: 99999999999;
 	position: relative;
 	/* position: fixed;
 	z-index: 9999 */
@@ -2912,7 +2935,7 @@ h1.main {
 	z-index: 99999999;
 	padding-top: 10px;
 	top: 70%;
- 	padding-bottom: 10px; 
+	padding-bottom: 10px;
 }
 
 .page-interior:before {
@@ -3024,6 +3047,7 @@ h1.main {
 
 .contactoptions {
 	border-top: 1px solid #ddd;
+	padding-bottom: 100px;
 }
 
 .contactoptions a {
@@ -3031,7 +3055,6 @@ h1.main {
 }
 .contactoptions a i {
 	font-size: 25px;
-	color: #188bd2;
 }
 
 .contactoptions .fifty a {
@@ -3069,6 +3092,25 @@ h1.main {
 	border-right: none;
 	width: 50%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #ui-datepicker-div.ui-datepicker-multi {
 	border-radius: 0 0 0 0;
@@ -5371,6 +5413,136 @@ ul#selectUl li.unselected:hover {
 
 
 
+/* Flexible Slide-to-top Accordion Style #################################################################### */
+
+.st-accordion {
+	width:100%;
+	min-width:270px;
+	margin: 0 auto 12px;
+	background-color: #fff;
+}
+
+.st-accordion ul li {
+	height:58px;
+	border-top:1px solid #fff;
+	overflow:hidden;
+	min-height: 193px;
+}
+
+.st-accordion ul li:first-child {
+	border-top:none
+}
+
+.st-accordion ul li > a {
+	-webkit-transition:color .2s ease-in-out;
+	-moz-transition:color .2s ease-in-out;
+	-o-transition:color .2s ease-in-out;
+	-ms-transition:color .2s ease-in-out;
+	transition:color .2s ease-in-out;
+    color: #188bd2;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    outline: medium none;
+    position: relative;
+}
+	.st-accordion ul li > a:hover {
+		text-decoration: none;
+	}
+
+.st-accordion ul li > .content-opener i {
+	
+	background:none repeat scroll 0 0 rgba(0,0,0,0.5);
+	border:1px solid;
+	border-radius:20px;
+	color:#ddd;
+	font-size:12px;
+	margin-left:12px;
+	margin-top:-11px;
+	padding:4px 5px 5px 6px;
+	position:absolute;
+	top:50%;
+	transition:all .2s ease-in-out 0
+}
+
+.st-accordion ul li > .content-opener i {
+	-webkit-transition:all .2s ease-in-out;
+	-moz-transition:all .2s ease-in-out;
+	-o-transition:all .2s ease-in-out;
+	-ms-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+    background: #188bd2 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: -11px;
+    padding: 5px 6px;
+    position: absolute;
+    top: 50%;
+}
+	.st-accordion ul li > .content-opener i:hover {
+		transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
+	}
+
+	.st-accordion ul li.st-open > .content-opener i:hover {
+		transform: rotate(135deg);
+		-moz-transform: rotate(135deg);
+		-webkit-transform: rotate(135deg);
+	}
+
+.st-accordion ul li.st-open > .content-opener i {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+
+.st-content {
+	background:none #fff none repeat scroll 0 0;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+    padding: 0 20px 20px;
+}
+
+.st-content-container {
+	margin:0 auto;
+	max-width:500px;
+	padding-bottom: 20px;
+}
+
+.st-content p {
+	color:#4c5459;
+	font-size:13px;
+	line-height:28px;
+	padding:0;
+	text-align:left
+}
+
+.st-content img {
+	width:125px;
+	border-right:1px solid #fff;
+	border-bottom:1px solid #fff
+}
+
+.st-accordion .content-opener {
+    background: #fff none repeat scroll 0 0;
+    border-top: 1px solid #f3f9fd;
+    bottom: 0;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+      right: 25px;
+}
+
+
+
 
 
 
@@ -5788,7 +5960,7 @@ and (max-width : 720px) {
 	
 	.socialhere li {
 		margin-left: 0;
-		width: 24%;
+		width: 20%;
 	}
 }
 
@@ -6134,9 +6306,19 @@ ul#menu-main-menu {
 }
 
 .phone-carry ul li i {
-
+  color: #188bd2;
+  font-size: 30px;
   padding: 0px 20px 13px 25px;
+  top: 16px;
+  position: relative;
+  text-align: center;
+}
 
+.phone-carry span {
+  font-size: 12px;
+  top: 12px;
+  position: relative;
+  color:  #188bd2;;
 }
 
 .reservationlink .fa-calendar {
@@ -6205,6 +6387,91 @@ a.book-now {
 	width: 100%;
 	text-align: center;
 }
+
+/* ======================== GENERAL STYLING edits ======================== */
+
+
+
+.page-interior li {
+  list-style-type: none;
+}
+
+.page-interior li:before {
+  list-style-type: none;
+  margin: 0 5px 0 -15px;
+}
+
+.page-interior li i {
+	color: #fcc46f;
+}
+
+.fa-arrow-right:before {
+  content: "\f061";
+  position: relative;
+  right: 10px;
+}
+
+a.button {
+	padding: 15px 0; 
+	background: #188bd2; 
+	color: #fff;
+}
+
+.page-interior ul li, .page-interior ol li {
+  line-height: 25px;
+  font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.single .superfooter, .page .superfooter {
+  overflow: auto;
+  width: 95%;
+  margin-bottom: 55px;
+  position: relative;
+  z-index: 9;
+  margin: 0 auto;
+}
+
+.fullybox.shadow {
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 98%;
+  height: 195px;
+}
+
+
+.phone-carry span {
+  font-size: 12px;
+  top: 3px;
+  position: relative;
+  color: #188bd2;
+}
+
+.address span p {
+  position: relative;
+  left: 60px;
+  line-height: 7px;
+  top: -25px;
+  font-size: 13px;
+  color: #188bd2;
+}
+
+li.phone {
+  position: relative;
+  bottom: 20px;
+}
+
+li.contact {
+  position: relative;
+  bottom: 18px;
+}
+
+.single .copybody:after, .page .copybody:after {
+	margin-bottom: 50px;
+}
+
 
 /* ======================== GENERAL STYLING edits ======================== */
 
@@ -6349,6 +6616,9 @@ div.contact-social {
   margin-right: 15px;
   margin-left: -24px;
 }
+
+
+
 
 
 
