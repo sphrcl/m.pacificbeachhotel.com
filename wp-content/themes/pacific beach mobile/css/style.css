@@ -405,8 +405,8 @@ HEADER
 	text-transform:uppercase;
 	font-weight:400;
 	color:rgba(255,255,255,0.85);
-	padding: 7px 0px 0px 10px;
-	top: 15px;
+	padding: 6px 0px 0px 22px;
+	top: 0px;
 }
 .site-logo {
 	position:relative;
@@ -6460,12 +6460,12 @@ iframe {
 
 li.phone {
   position: relative;
-  bottom: 20px;
+  bottom: 3px;
 }
 
 li.contact {
   position: relative;
-  bottom: 18px;
+  bottom: 9px;
 }
 
 .single .copybody:after, .page .copybody:after {
@@ -6617,9 +6617,29 @@ div.contact-social {
   margin-left: -24px;
 }
 
+span.fa.fa-tripadvisor:after {
+  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
+  opacity: 0;
+}
 
+span.fa.fa-tripadvisor:before {
+  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
+}
 
-
+span.fa.fa-tripadvisor:after, span.fa.fa-tripadvisor:before {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 33px;
+  left: -20px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: -18px;
+  width: 37px;
+  z-index: 1;
+}
 
 
 

@@ -12,20 +12,19 @@
 <link rel='stylesheet' id='elements-css' href='<?php bloginfo ('template_url'); ?>/css/elements.css' type='text/css' media='all' />
 
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/idangerous.swiper.css">
 <link rel="stylesheet" href="<?php bloginfo ('template_url'); ?>/css/swiper-style.css">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo ('template_url'); ?>/css/fonts.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo ('template_url'); ?>/css/style-accordion.css" />
 <!-- Consolidated this css into one file. This styles the notification -->
 <link rel='stylesheet' id='style-css' href='<?php bloginfo('template_url'); ?>/css/ns-style.css' type='text/css' media='all' />
+
+<!-- font awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript">
 
@@ -149,15 +148,15 @@
 	</script> 
 
 <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/jquery.accordion.js"></script>
-<!-- <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/jquery.easing.1.3.js"></script> -->
-<script type="text/javascript">
-    $(function() {
-	
-		$('#st-accordion').accordion();
-		
-    });
-</script>
 <script>
+
+$(function() { 
+	$('#st-accordion').accordion(); 
+	$('.content-opener').click(function(){
+		$(this).parent().find('a').trigger('click');
+	});
+});
+
 $(document).ready(function(){
 
 	$(".closesays").hide();
@@ -179,18 +178,6 @@ $(document).ready(function(){
 		e.preventDefault();
 		$(".reservationfooter").addClass("uppers");
 	});
-	
-	/*
-	$(".opensays-up").click(function(e) {
-		e.preventDefault();
-		$(".textbox").toggleClass( "openbox-up" );
-	});
-	
-	$(".opensays-1").click(function(e) {
-		e.preventDefault();
-		$(".textbox-1").toggleClass( "openbox-1" );
-	});
-	*/
 	
 });
 
@@ -255,7 +242,7 @@ $(document).ready(function(){
 	});
 </script>
 
- <script src="<?php bloginfo ('template_url'); ?>/js/idangerous.swiper-1.9.1.min.js"></script>
+<script src="<?php bloginfo ('template_url'); ?>/js/idangerous.swiper-1.9.1.min.js"></script>
 <script src="<?php bloginfo ('template_url'); ?>/js/swiper-demos.js"></script>
 
 <script type='text/javascript' src='<?php bloginfo ('template_url'); ?>/js/general-header.js'></script>
@@ -298,6 +285,16 @@ $(document).ready(function(){
 
 <body <?php body_class(); ?>>
 
+<?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+	<?php if( get_post_meta($post->ID,'cebo_special', true) && get_post_meta($post->ID,'cebo_live', true) && get_post_meta($post->ID,'cebo_icon', true) ) { ?>
+
+		<div class="ns-box ns-bar ns-effect-slidetop ns-type-notice"><div class="ns-box-inner"><i class="fa fa-<?php echo get_post_meta($post->ID,'cebo_icon', true); ?>"></i><p><a href="<?php echo get_post_meta($post->ID,'cebo_special', true); ?>"><?php the_title(); ?></a></p></div><span class="ns-close" onClick="sessionStorage.setItem('nsclose_id', '1')"></span></div>
+
+	<?php } ?>
+
+<?php endwhile; endif; wp_reset_query(); ?>
+
 <!-- BEGIN SITE LOGO -->
 <div id="header-bar">
 	<div class="site-logo-wrapper">
@@ -338,47 +335,27 @@ $(document).ready(function(){
 <!-- BEGIN MENU BUTTON -->
 <div class="menu-wrapper">
 
+
+		<div class="menu-button">
+			<i class="menubar"></i>
+			<span class="hamburger-helper">menu</span>
+		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
 			<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 		</div>
 		<!-- END LOGO -->
 
-		<div class="menu-button">
-			<i class="menubar"></i>
-			<span class="hamburger-helper">menu</span>
-		</div>
-
-		<!-- start translation flag 
-		<div class="trans-flags">
+		<!-- start translation flag -->
+		<!-- <div class="trans-flags">
 			<ul>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 			</ul>
-		</div>
+		</div> -->
 		<!-- end translation flags -->
+
+		<!-- <div class="languages"><?php //language_selector_flags(); ?></div> -->
 
 </div>
 <!-- END MENU BUTTON -->
-
-<?php query_posts('post_type=weather&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
-
-	<?php if( $post->post_content != "" && get_post_meta($post->ID,'cebo_weather_live', true) ) { ?>
-
-		<div class="ns-box ns-bar ns-effect-slidetop ns-type-notice">
-
-			<i class="fa fa-exclamation-triangle"></i>
-
-			<div class="ns-box-inner">
-
-				<?php the_content(); ?>
-
-			</div>
-
-			<span class="ns-close" onClick="sessionStorage.setItem('nsclose_id', '1')"></span>
-
-		</div>
-
-	<?php } ?>
-
-<?php endwhile; endif; wp_reset_query(); ?>

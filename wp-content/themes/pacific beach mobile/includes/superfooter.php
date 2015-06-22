@@ -37,6 +37,7 @@
 				<li><a href="https://www.facebook.com/PacificBeachHotel" target="_blank"><span class="fa fa-facebook"></span></a></li>
 				<li><a href="https://twitter.com/PacificBeachHtl" target="_blank"><span class="fa fa-twitter"></span></a></li>
 				<li><a href="https://plus.google.com/106176366593354536658/posts?hl=en" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+				<li><a href="http://www.tripadvisor.com/Hotel_Review-g60982-d87111-Reviews-Pacific_Beach_Hotel-Honolulu_Oahu_Hawaii.html" target="_blank"><span class="fa fa-tripadvisor"></span></a></li>
 				<li class="last"><a href="https://instagram.com/pacificbeachhotel/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 			</ul>
 		</div>

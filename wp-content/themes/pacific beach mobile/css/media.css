@@ -9,11 +9,6 @@
 	.page-image {
 		height: 400px;
 	}
-	
-	.page-template-page-webcam .page-image {
-		height: 360px;
-	}
-
 
 }
 
@@ -26,7 +21,7 @@
 	}
 
 	.single-rooms .swiper-main, .single-rooms .swiper-container, .single-rooms .swiper-slide, .single-rooms .swiper-slide img, .single-rooms .swiper-slide {
-		height: 200px !important;
+		height: 360px !important;
 	}
 
 	.page-template-page-gallery .swiper-main, .page-template-page-gallery .swiper-container, .page-template-page-gallery .swiper-slide, .page-template-page-gallery .swiper-slide img, .page-template-page-gallery .swiper-slide {
@@ -37,14 +32,12 @@
 		height: 360px !important;
 	}
 
+
+
+
 	.page-image {
-		height: 200px;
+		height: 350px !important;
 	}
-
-	.page-template-page-webcam .page-image {
-		height: 360px;
-	}
-
 }
 
 
