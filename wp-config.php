@@ -21,25 +21,22 @@ else {
 
 	// ** MySQL settings - You can get this info from your web host ** //
 	/** The name of the database for WordPress */
-	define('DB_NAME', '915273_pbmobile');
+	define('DB_NAME', '');
 
 	/** MySQL database username */
-	define('DB_USER', '915273_pbmobile');
+	define('DB_USER', '');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', 'Pra9gXQSdR7Y');
+	define('DB_PASSWORD', '');
 
 	/** MySQL hostname */
-	define('DB_HOST', 'mysql51-102.wc1.ord1.stabletransit.com');
+	define('DB_HOST', '');
 
 	/** Database Charset to use in creating database tables. */
 	define('DB_CHARSET', 'utf8');
 
 	/** The Database Collate type. Don't change this if in doubt. */
 	define('DB_COLLATE', '');
-
-	define('WP_HOME','http://m.pacificbeachhotel.com');
-	define('WP_SITEURL','http://m.pacificbeachhotel.com');
 
 	// define('WP_HOME','http://m.pacificbeachhotel.com.php54-4.ord1-1.websitetestlink.com');
 	// define('WP_SITEURL','http://m.pacificbeachhotel.com.php54-4.ord1-1.websitetestlink.com');
