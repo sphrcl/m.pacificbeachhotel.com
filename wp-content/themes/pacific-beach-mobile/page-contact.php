@@ -6,7 +6,7 @@
  get_header(); ?>
 
 
-	<div class="copybody">
+	<div class="copybody" style="background-image: url();">
 	
 	
 	<div class="page-interior">
@@ -15,58 +15,45 @@
 		<?php if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		
 		<div class="page-image" style="background-position: center top; background-image: url(<?php echo $imgsrc[0]; ?>)">
-		
-		
+
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:200px;width:100%;"><div id="gmap_canvas" style="height:200px;width:100%;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.map-embed.com" id="get-map-data">http://www.map-embed.com/</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(21.2746857,-157.82326820000003),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(21.2746857, -157.82326820000003)});infowindow = new google.maps.InfoWindow({content:"<b>Pacific Beach Hotel</b><br/>2490 Kalakaua Avenue Honolulu<br/>96815 Hawaii " });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
 		</div>
 		
 		
 			<div class="contacto">
 				
-				<h1>Row NYC</h1>
+				<h1>Pacific Beach Hotel</h1>
 				
 				<div class="proper">
-					<a style="text-decoration: none;" href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank"><p>700 8th Ave<br><i>Between 44th and 45th Streets</i><span>
-					
-					New York, NY 10036</p></a>
+					<a style="text-decoration: none;" href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank">
+	<?php the_content(); ?>
 				</div>
 				
 				
 				<div class="contactoptions">
-				
 					
-					<div class="twentyfive">
-						<a href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank"><i class="fa fa-map-marker"></i></a>
-					</div>
-					
-					<div class="twentyfive">
-						<a href="tel:1212-869-3600"><i class="fa fa-phone"></i></a>
-					</div>
-					
-					<div class="twentyfive lasttwentyfive">
-						<a href="mailto:info@rownyc.com" target="_blank"><i class="fa fa-envelope"></i></a>
+					<div style="width: 100%;" class="twentyfive">
+						<a href="tel:1808-922-1233"><i class="fa fa-phone"></i></a>
 					</div>
 					
 					<div class="clear"></div>
 					
-					
-					<div class="fifty" style="width: 100%">
-						<a href="https://www.facebook.com/RowNYC" target="_blank">Like us on facebook</a>
+				
+					<div class="fifty">
+						<a href="https://www.facebook.com/PacificBeachHotel" target="_blank">Like us on facebook</a>
 					</div>
 					
 					<div class="fifty">
-						<a href="http://www.pinterest.com/rownyc/" target="_blank">Follow us on pinterest</a>
-					</div>
-					
-					<div class="fifty">
-						<a href="http://instagram.com/rownyc/" target="_blank">Join us on instagram</a>
+						<a href="https://instagram.com/pacificbeachhotel/" target="_blank">Join us on instagram</a>
 					</div>
 					
 						<div class="fifty">
-						<a href="https://www.twitter.com/RowNYC" target="_blank">Follow us on twitter</a>
+						<a href="https://twitter.com/PacificBeachHtl" target="_blank">Follow us on twitter</a>
 					</div>
 					
 					<div class="fifty lastfifty">
-						<a href="https://plus.google.com/103755241093806177642" target="_blank">Find us on google+</a>
+						<a href="https://plus.google.com/106176366593354536658/posts?hl=en" target="_blank">Find us on google+</a>
 					</div>
 						
 					<div class="clear"></div>

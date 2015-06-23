@@ -24,7 +24,7 @@ get_header(); ?>
 						<?php if( get_post_meta($post->ID,'cebo_special',true) ) { ?>	
 							<a href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
 						<?php } else { ?>
-							<a href="https://rownyc.reztrip.com/search?" class="strokebutton">Book Now</a>
+							<!-- <a href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton">Book Now</a> -->
 						<?php } ?>
 					</header>
 			
@@ -41,7 +41,7 @@ get_header(); ?>
 				<?php if( get_post_meta($post->ID,'cebo_special',true) ) { ?>		
 					<a class="button" href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
 				<?php } else { ?>
-					<a class="button" href="https://rownyc.reztrip.com/search?" class="strokebutton">Book Now</a>
+					<!-- <a class="button" href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton">Book Now</a> -->
 				<?php } ?>
 			
 			</div>

@@ -18,12 +18,13 @@
 <!-- Consolidated this css into one file. This styles the notification -->
 <link rel='stylesheet' id='style-css' href='<?php bloginfo('template_url'); ?>/css/ns-style.css' type='text/css' media='all' />
 
+<!-- font awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 <!-- google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript">
 
@@ -308,7 +309,7 @@ $(document).ready(function(){
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
-<li class="menu-item" style="display: block; width: 85%; margin: 10px auto 20px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
+<li class="menu-item" style="display: block; width: 35%; margin: 0px auto 10px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
 <li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
@@ -324,7 +325,7 @@ $(document).ready(function(){
 </div>
 <!-- END IF MENU OPEN, SHOW BLUE BACKGROUND -->
 
-<div id="sitewrap">
+<div id="sitewrap" style="background-image: url(<?php bloginfo('url'); ?>/wp-content/uploads/2014/10/LobbyFull2-2.jpg);">
 <div id="content">
 <div class="wrapper-outer">
 <div class="content-wrapper">

@@ -405,8 +405,8 @@ HEADER
 	text-transform:uppercase;
 	font-weight:400;
 	color:rgba(255,255,255,0.85);
-	padding: 7px 0px 0px 10px;
-	top: 15px;
+	padding: 6px 0px 0px 22px;
+	top: 0px;
 }
 .site-logo {
 	position:relative;
@@ -5538,6 +5538,7 @@ ul#selectUl li.unselected:hover {
     position: absolute;
     width: 100%;
     cursor: pointer;
+      right: 25px;
 }
 
 
@@ -6459,17 +6460,187 @@ iframe {
 
 li.phone {
   position: relative;
-  bottom: 20px;
+  bottom: 3px;
 }
 
 li.contact {
   position: relative;
-  bottom: 18px;
+  bottom: 9px;
 }
 
 .single .copybody:after, .page .copybody:after {
 	margin-bottom: 50px;
 }
+
+
+/* ======================== GENERAL STYLING edits ======================== */
+
+
+
+.page-interior li {
+  list-style-type: none;
+}
+
+.page-interior li:before {
+  list-style-type: none;
+  margin: 0 5px 0 -15px;
+}
+
+.page-interior li i {
+	color: #fcc46f;
+}
+
+.fa-arrow-right:before {
+  content: "\f061";
+  position: relative;
+  right: 10px;
+}
+
+a.button {
+	padding: 15px 0; 
+	background: #188bd2; 
+	color: #fff;
+}
+
+.page-interior ul li, .page-interior ol li {
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.single .superfooter, .page .superfooter {
+  overflow: auto;
+  width: 95%;
+  margin-bottom: 55px;
+  position: relative;
+  z-index: 9;
+  margin: 0 auto;
+}
+
+.fullybox.shadow {
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 98%;
+  height: 195px;
+}
+
+
+.phone-carry span {
+  font-size: 12px;
+  color: #188bd2;
+}
+
+.address span {
+  position: relative;
+  left: -5px;
+  line-height: 5px;
+  font-size: 13px;
+  color: #188bd2;
+  top: 8px; 
+}
+
+.phone span {
+  position: relative;
+  left: -5px;
+  line-height: 7px;
+  font-size: 13px;
+  color: #188bd2;
+  top: 10px;
+  font-size: 'Open Sans', sans-serif;
+}
+
+.contact span {
+  position: relative;
+  left: -8px;
+  line-height: 7px;
+  top: 22px;
+  font-size: 13px;
+  color: #188bd2;
+  font-size: 'Open Sans', sans-serif;
+}
+
+span.position {
+  position: relative;
+  left: 58px;
+  top: -2px;
+}
+
+li.address .fa-map-marker {
+  position: relative;
+  top: 18px;
+  font-size: 26px;
+}
+
+li.phone .fa-mobile {
+  position: relative;
+  top: 18px;
+  font-size: 38px;
+}
+
+li.contact .fa-user {
+  position: relative;
+  top: 25px;
+}
+
+.single .copybody:after, .page .copybody:after {
+	margin-bottom: 50px;
+}
+
+div.contact-social {
+	margin-bottom:60px;
+}
+
+.home div.contact-social {
+	margin-bottom: 0px;
+}
+
+/* ======================= WEBCAM ============================ */
+
+#innerdiv img#stream {
+  width: 365px !important;
+  height: auto !important;
+  position: relative !important;
+  right: 240px !important;
+  bottom: 85px !important;
+}
+
+/* ======================= LIST ELEMENTS ============================ */
+
+.page-interior li:before {
+  color: #fcc46f;
+  content: "\f061";
+  font-family: 'font-awesome';
+  font-size: 13px;
+  margin-right: 15px;
+  margin-left: -24px;
+}
+
+span.fa.fa-tripadvisor:after {
+  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
+  opacity: 0;
+}
+
+span.fa.fa-tripadvisor:before {
+  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
+}
+
+span.fa.fa-tripadvisor:after, span.fa.fa-tripadvisor:before {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 33px;
+  left: -20px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: -18px;
+  width: 37px;
+  z-index: 1;
+}
+
 
 
 
