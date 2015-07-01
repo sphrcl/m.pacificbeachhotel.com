@@ -9,6 +9,26 @@
 	.page-image {
 		height: 400px;
 	}
+	
+	.page-template-page-location-php .page-image {
+		height: 220px;
+	}
+
+}
+
+@media only screen and (max-width : 1000px) {
+
+.webcam-container iframe {
+  margin-top: -505px;
+  height: 855px;
+  margin-left: -700px;
+  width: 1875px;
+  overflow: hidden;
+}
+
+.webcam-container iframe {
+  margin-left: calc(100vw - 1065px);
+}
 
 }
 
@@ -38,6 +58,11 @@
 	.page-image {
 		height: 350px !important;
 	}
+	
+	.page-template-page-location-php .page-image {
+		height: 220px !important;
+	}
+	
 }
 
 
