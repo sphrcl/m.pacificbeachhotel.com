@@ -1032,6 +1032,10 @@ iframe {
 	height: 220px;
 }
 
+.page-template-page-contact-php .page-image {
+  height: 220px !important;
+}
+
 
 
 /* MAP CONTAINER
@@ -2414,6 +2418,7 @@ input#arrival_date.calendarsection {
 
 .superfooter {
 	overflow: auto;
+	overflow: hidden;
 	width: 100%;
 	margin-bottom: 55px;
 	position: relative;
