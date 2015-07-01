@@ -1028,6 +1028,10 @@ iframe {
 	height: 220px;
 }
 
+.page-template-page-location-php .page-image iframe {
+	height: 220px;
+}
+
 
 
 /* MAP CONTAINER
@@ -1048,6 +1052,30 @@ iframe {
 	height:100%;
 	border:0;
 }
+
+/* WEBCAM CONTAINER
+**************************************************/
+.webcam-container {
+	display:block;
+	overflow:hidden;
+	height:350px;
+	width: 100%;
+}
+
+.webcam-container iframe {
+  margin-top: -135px;
+  height: 490px;
+  margin-left: -88px;
+  width: 1065px;
+  overflow: hidden;
+}
+
+.page-template-page-webcam-php .page-image {
+  height: 350px !important;
+}
+
+
+
 
 
 
@@ -2455,7 +2483,7 @@ input#arrival_date.calendarsection {
 .contacthere li span.fa-map-marker { font-size: 64px;}
 
 .socialhere { height: 72px;}
-.socialhere li { margin-left: 29px;}
+.socialhere li { margin-left: 22px;}
 .socialhere li span { color: #188bd2; font-size: 24px;}
 
 
@@ -5951,11 +5979,14 @@ and (max-width : 720px) {
 	.socialhere {
 		float: right;
 		width: 50%;
+		height: 65px;
+		overflow: hidden;
 	}
 	
 	.socialhere ul {
 		padding: 0 25px;
 		height: 72px;
+		overflow: hidden;
 	}
 	
 	.socialhere li {
@@ -6626,6 +6657,7 @@ span.fa.fa-tripadvisor:before {
   background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
 }
 
+/*
 span.fa.fa-tripadvisor:after, span.fa.fa-tripadvisor:before {
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -6640,7 +6672,22 @@ span.fa.fa-tripadvisor:after, span.fa.fa-tripadvisor:before {
   width: 37px;
   z-index: 1;
 }
+*/
 
+
+span.fa.fa-tripadvisor:before {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  width: 33px;
+  height: 33px;
+  margin: 0 auto;
+  position: relative;
+  top: -4px;
+  z-index: 1;
+  display: block;
+}
 
 
 

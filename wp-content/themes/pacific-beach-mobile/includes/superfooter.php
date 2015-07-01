@@ -14,7 +14,7 @@
 			</li>
 			<li class="contact">
 				<i class="fa fa-user"></i>
-				<span><a href="http://sphericalcommunications.com/pb-mobile/contact-us/">Contact Us</a></span>
+				<span><a href="http://m.pacificbeachhotel.com/contact-us/">Contact Us</a></span>
 			</li>
 		</ul>
 	</div>

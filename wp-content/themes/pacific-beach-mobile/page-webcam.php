@@ -30,9 +30,8 @@
 
 			</style>
 
-
-				<div style="display:block;overflow:hidden;width:500px;height:350px;">      
-					<iframe style="margin-top: -135px; height: 490px; margin-left: -700px; width: 1000px;" scrolling="no" src="http://66.175.76.125/view/viewer_index.shtml?id=792426">
+				<div class="webcam-container">				
+					<iframe style="" scrolling="no" src="http://66.175.76.125/view/viewer_index.shtml?id=792426">
 					  <p>Your browser does not support iframes.</p>
 					</iframe>			
 				</div>
