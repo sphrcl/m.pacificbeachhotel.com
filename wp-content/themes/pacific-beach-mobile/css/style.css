@@ -2979,7 +2979,7 @@ h1.main {
 	left: 50%;
 	margin-left: -37px;
 	z-index: 9999999;
-	background: url(../images/r.png) center top no-repeat;
+	/*background: url(../images/r.png) center top no-repeat;*/
 	content: '';
 	display: none;
 }
