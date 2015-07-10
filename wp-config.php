@@ -3,9 +3,9 @@
  * The base configurations of the WordPress.
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
- * Codex page. You can get the MySQL settings from your web host.
+ * Secret Keys, WordPress Language, and ABSPATH. You can find more information
+ * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php} Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
  * installation. You don't have to use the web site, you can just copy this file
@@ -14,23 +14,18 @@
  * @package WordPress
  */
 
- if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
-    include( dirname( __FILE__ ) . '/local-config.php' );
-}
-else {
-
-	// ** MySQL settings - You can get this info from your web host ** //
-	/** The name of the database for WordPress */
-	define('DB_NAME', '');
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+	define('DB_NAME', 'spherical_m.pacificbeachhotel');
 
 	/** MySQL database username */
-	define('DB_USER', '');
+	define('DB_USER', 'root');
 
 	/** MySQL database password */
 	define('DB_PASSWORD', '');
 
 	/** MySQL hostname */
-	define('DB_HOST', '');
+	define('DB_HOST', 'localhost');
 
 	/** Database Charset to use in creating database tables. */
 	define('DB_CHARSET', 'utf8');
@@ -38,10 +33,9 @@ else {
 	/** The Database Collate type. Don't change this if in doubt. */
 	define('DB_COLLATE', '');
 
-	// define('WP_HOME','http://m.pacificbeachhotel.com.php54-4.ord1-1.websitetestlink.com');
-	// define('WP_SITEURL','http://m.pacificbeachhotel.com.php54-4.ord1-1.websitetestlink.com');
 
-}
+	define('WP_HOME','http://localhost/m.pacificbeachhotel.com');
+	define('WP_SITEURL','http://localhost/m.pacificbeachhotel.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -52,14 +46,14 @@ else {
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '&jC!Jza18@Sl2iMO- `tQ=bd(J8|u.Sr dC2. l,hI)+.7R?+},DMCC`.2Gcg<F.');
-define('SECURE_AUTH_KEY',  'lPo_mKo4{QC|Npxr,l,6jYO%RZ@n_SF#V9#+Wt`<AH^$rw-Rvw+~alh{L@ d)25H');
-define('LOGGED_IN_KEY',    'AsBi>|EW w?4`r^H.E<w{wS3aJ{N$`#$j(H(<,j)[be&U=TXqcc$V4+Kx7GjUs~h');
-define('NONCE_KEY',        ',-D).x;%jMiuo-8`@k652d1vJAq:SmzrnSj+m:I(R(K}-=+^(F>/;S$KmLN/|>9+');
-define('AUTH_SALT',        ';$m+{Nqy`-wc+l)iUodWxe:^/{}2@3N;|v*[cXD7K~6c1J$ld]Q.u(o?f1-U}OIH');
-define('SECURE_AUTH_SALT', '5eRPU+DOT!o{/++H+5A_MoPUI=<,zv%[P|2~KUFB+HH=x%@|42Km@8MpTuqP.pVI');
-define('LOGGED_IN_SALT',   'i.^B0NE&)ULG])HAIO)(>!uX$CJ(r&^Q,tEli}^Ze6QB^`i>172@t[[+hy5-|1)-');
-define('NONCE_SALT',       '|g.iIl%sY#E#r5 {:!0VK|w Z2#w4!Lw&b.-RAi@zzKY+Lzva{LuAdhqa,rJJ|Bg');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
@@ -70,6 +64,16 @@ define('NONCE_SALT',       '|g.iIl%sY#E#r5 {:!0VK|w Z2#w4!Lw&b.-RAi@zzKY+Lzva{Lu
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
+
+/**
+ * WordPress Localized Language, defaults to English.
+ *
+ * Change this to localize WordPress. A corresponding MO file for the chosen
+ * language must be installed to wp-content/languages. For example, install
+ * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
+ * language support.
+ */
+define('WPLANG', '');
 
 /**
  * For developers: WordPress debugging mode.
