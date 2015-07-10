@@ -4,9 +4,9 @@
 		<ul>
 			<li class="address">
 				<i class="fa fa-map-marker"></i>
-			  	<span><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">2490 Kalakaua Avenue</a></span>
+			  	<span><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">Pacific Beach Hotel</a></span>
 			  	<br />
-				<span class="position"><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">Honolulu, Hawaii 96815</a></span>
+				<!--<span class="position"><a href="https://www.google.com/maps/place/2490+Kalakaua+Ave,+Honolulu,+HI+96815/@21.2746857,-157.8232682,17z/data=!3m1!4b1!4m2!3m1!1s0x7c0072773c7ca3f1:0x73d8eb6aae42e3f2">Honolulu, Hawaii 96815</a></span>-->
 			</li>
 			<li class="phone">
 				<i class="fa fa-mobile"></i>
