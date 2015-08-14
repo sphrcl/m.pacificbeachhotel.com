@@ -61,7 +61,7 @@ get_header();
 
 		<!-- Portfolio item -->
 		<article class="roomtype">
-			<a rel="canonical" href="https://refineryhotelnewyork.reztrip.com/search?<?php echo $roomcode; ?>" class="roomimage" style="background-image: url(<?php echo $featimg; ?>)"></a>
+			<a href="https://refineryhotelnewyork.reztrip.com/search?<?php echo $roomcode; ?>" class="roomimage" style="background-image: url(<?php echo $featimg; ?>)"></a>
 				<header>
 					<h3><?php echo $roomtype; ?></h3>
 					<span class="strokebutton">More Details</span>

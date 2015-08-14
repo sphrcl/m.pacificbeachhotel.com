@@ -93,7 +93,7 @@ get_header(); ?>
 					
 					<?php $current_id = get_the_ID();?>	
 					
-						<li><a rel="canonical" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 						
 					<?php endwhile; endif; wp_reset_query(); ?>						
 					

@@ -19,7 +19,7 @@
 <link rel='stylesheet' id='style-css' href='<?php bloginfo('template_url'); ?>/css/ns-style.css' type='text/css' media='all' />
 
 <!-- font awesome -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 <!-- google analyticsl -->
 
@@ -323,7 +323,7 @@ $(document).ready(function(){
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
 <li class="menu-item" style="display: block; width: 35%; margin: 0px auto 10px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
-<li style="border-top: 1px solid #666;" class="menu-item"><a rel="canonical" href="<?php bloginfo('url'); ?>">Home</a></li>
+<li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
 

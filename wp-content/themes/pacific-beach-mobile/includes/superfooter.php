@@ -14,14 +14,14 @@
 			</li>
 			<li class="contact">
 				<i class="fa fa-user"></i>
-				<span><a rel="canonical" href="http://m.pacificbeachhotel.com/contact-us/">Contact Us</a></span>
+				<span><a href="http://m.pacificbeachhotel.com/contact-us/">Contact Us</a></span>
 			</li>
 		</ul>
 	</div>
 
 	<div class="contact-social">
 		<div class="contacthere">
-			<p><a rel="canonical" href="http://www.pacificbeachhotel.com/?isfullhtml=y">Visit desktop site</a></p>
+			<p><a href="http://www.pacificbeachhotel.com/?isfullhtml=y">Visit desktop site</a></p>
 		</div>
 		<div class="socialhere">
 			<ul>

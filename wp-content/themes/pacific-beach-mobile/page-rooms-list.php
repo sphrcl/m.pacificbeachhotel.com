@@ -28,10 +28,10 @@ get_header(); ?>
 		    
 	<!-- Portfolio item -->
 	<article class="roomtype">
-		<a rel="canonical" href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php echo $imgsrc[0]; ?>)"></a>
+		<a href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php echo $imgsrc[0]; ?>)"></a>
 			<header>
 				<h3><?php echo the_title(); ?></h3>			
-				<a rel="canonical" class="strokebutton" href="<?php the_permalink(); ?>">Room Details</a>
+				<a class="strokebutton" href="<?php the_permalink(); ?>">Room Details</a>
 			</header>
 		
 	</article>

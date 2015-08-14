@@ -23,14 +23,14 @@ get_header(); ?>
 	
 				<!-- Portfolio item -->
 				<article class="roomtype">
-					<a rel="canonical" href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php if($imgsrc) { echo $imgsrc[0]; } else { ?><?php bloginfo('template_url'); ?>/images/main.jpg<?php } ?>)"></a>
+					<a href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php if($imgsrc) { echo $imgsrc[0]; } else { ?><?php bloginfo('template_url'); ?>/images/main.jpg<?php } ?>)"></a>
 											
 				</article>		
 					<div class="specialbox">
 							
 							<h1><?php the_title(); ?></h1>
 
-							<a rel="canonical" class="bookit" href="<?php the_permalink(); ?>">More Info</a>
+							<a class="bookit" href="<?php the_permalink(); ?>">More Info</a>
 						
 						</div>    
 
