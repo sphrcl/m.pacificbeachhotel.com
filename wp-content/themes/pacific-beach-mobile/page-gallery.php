@@ -11,7 +11,8 @@ session_start();
 get_header(); ?>
 
 
-	<div class="copybody">
+	<div class="copybody" style="background-image: url(http://m.rownyc.com.php53-13.dfw1-2.websitetestlink.com/wp-content/uploads/2014/10/LobbyFull2-2.jpg
+);">
 	
 	
 	<div class="opener">
@@ -92,7 +93,7 @@ get_header(); ?>
 					
 					<?php $current_id = get_the_ID();?>	
 					
-						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						<li><a rel="canonical" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 						
 					<?php endwhile; endif; wp_reset_query(); ?>						
 					

@@ -106,14 +106,14 @@ get_header(); ?>
 						$title = get_the_title($post->post_parent); 
 					?>
 
-						<li><a href="<?php echo $permalink; ?>"><?php echo $title; ?></a></li>
+						<li><a rel="canonical" href="<?php echo $permalink; ?>"><?php echo $title; ?></a></li>
 
 					<?php query_posts(array('showposts' => 8, 'post_parent__in' => $this_page_id, 'post_type' => 'page')); if(have_posts()) : while(have_posts()) : the_post(); ?>
 					<?php $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 					
 					<?php $current_id = get_the_ID();?>	
 					
-						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						<li><a rel="canonical" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 						
 					<?php endwhile; endif; wp_reset_query(); ?>						
 					
