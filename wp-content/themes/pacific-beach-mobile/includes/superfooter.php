@@ -32,17 +32,17 @@
 				<li class="last"><a href="https://instagram.com/pacificbeachhotel/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 			</ul>
 		</div>
-		<!--
+		
 		<div class="save-the-children">
 				
 				
 				<a target="_blank" href="https://secure.savethechildren.org/site/c.8rKLIXMGIpI4E/b.6239401/k.C01C/Global_Action_Fund/apps/ka/sd/donor.asp?msource=cpkhhgaf1214&utm_source=Highgate2014&utm_medium=link&utm_campaign=highgatehotels1214"><img width="270px" src="http://m.pacificbeachhotel.com/wp-content/uploads/2015/08/save-the-children-logo.png"></a>
 					
 				<p class="save">Join us in supporting Save the Children, internationally recognized for giving children a healthy start, the opportunity to learn and protection from harm.100% of your donation benefits Save the Children. Thank you for your support.</p>
-
+<!--
 				<a class="button" target="_blank" href="https://secure.savethechildren.org/site/c.8rKLIXMGIpI4E/b.6239401/k.C01C/Global_Action_Fund/apps/ka/sd/donor.asp?msource=cpkhhgaf1214&utm_source=Highgate2014&utm_medium=link&utm_campaign=highgatehotels1214">donate now</a>
-		
+			-->	
 		</div>	
-		-->	
+	
 	</div>
 </div>
