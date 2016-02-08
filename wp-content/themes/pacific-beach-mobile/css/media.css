@@ -19,10 +19,10 @@
 @media only screen and (max-width : 1000px) {
 
 .webcam-container iframe {
-  margin-top: -135px;
-  height: 490px;
+  margin-top: -505px;
+  height: 855px;
   margin-left: -700px;
-  width: 1065px;
+  width: 1875px;
   overflow: hidden;
 }
 

@@ -40,8 +40,6 @@ get_header(); ?>
 <?php endwhile; endif; wp_reset_query(); ?>
 
 <?php query_posts('page_id=86'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
-
-
 	<article class="roomtype">
 		<a href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php echo $imgsrc[0]; ?>)"></a>
 			<header>

@@ -94,7 +94,7 @@ get_header(); ?>
 			<!-- END SLIDER -->
 					<header>
 						<h3>$<?php echo $avgprc; ?>/ngt avg</h3>			
-						<a href="http://refineryhotelnewyork.reztrip.com/search?rooms=1&arrival_date=<?php echo $_SESSION['arrive']; ?>&departure_date=<?php echo $_SESSION['depart']; ?>&room_id=<?php echo $_SESSION['room'] ?>" class="strokebutton">Book Now</a>
+						<a href="http://refineryhotelnewyork.reztrip.com/search?arrival_date=<?php echo $_SESSION['arrive']; ?>&departure_date=<?php echo $_SESSION['depart']; ?>&room_id=<?php echo $_SESSION['room'] ?>" class="strokebutton">Book Now</a>
 					</header>
 				
 			</article>
