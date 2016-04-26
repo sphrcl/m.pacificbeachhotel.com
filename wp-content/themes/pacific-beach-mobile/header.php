@@ -283,6 +283,56 @@ $(document).ready(function(){
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+<!-- jQuery library -->
+<script type="text/javascript" src = "<?php bloginfo ('template_url'); ?>/js/jquery-1.4.min.js"></script>
+
+
+
+<!-- iosSlider plugin -->
+<script src = "<?php bloginfo ('template_url'); ?>/js/jquery.iosslider.js"></script>
+<script src = "<?php bloginfo ('template_url'); ?>/js/jquery.easing-1.3.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		$('.iosSlider').iosSlider({
+					snapToChildren: true,
+					desktopClickDrag: true,
+					infiniteSlider: true,
+					snapSlideCenter: true,
+					onSlideChange: slideChange,
+					autoSlide: true,
+					stageCSS: {
+						overflow: 'visible'
+					}
+				});
+
+		$('.nothanks').click(function(){
+			$('.mobile-popup').fadeOut(500);
+		});
+
+		$('a.nothanks.first').click(function(){
+			$('.mobile-popup').fadeOut(500);
+		});
+	
+				
+			}); 
+
+
+	function slideChange(args) {
+	
+		try {
+			console.log('changed: ' + (args.currentSlideNumber - 1));
+		} catch(err) {
+		}
+		
+		$('.indicators .item').removeClass('selected');
+		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+	
+	}
+</script>
+
 <!-- BEGIN PHOTOSWIPE -->
 <script>
 (function(window, PhotoSwipe){
@@ -310,6 +360,8 @@ $(document).ready(function(){
 
 <body <?php body_class(); ?>>
 
+<?php include('mobile-pop-up.php'); ?>
+
 <?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 	<?php if( get_post_meta($post->ID,'cebo_special', true) && get_post_meta($post->ID,'cebo_live', true) && get_post_meta($post->ID,'cebo_icon', true) ) { ?>
@@ -328,8 +380,6 @@ $(document).ready(function(){
 	</div>
 </div>
 <!-- END SITE LOGO -->
-
-
 
 <!-- BEGIN MENU INCLUDE -->
 <div id="menu"><!-- BEGIN MENU -->
