@@ -309,11 +309,11 @@ $(document).ready(function(){
 				});
 
 		$('.nothanks').click(function(){
-			$('.mobile-popup').fadeOut(500);
+			$('.mobile-popup').fadeOut(200);
 		});
 
 		$('a.nothanks.first').click(function(){
-			$('.mobile-popup').fadeOut(500);
+			$('.mobile-popup').fadeOut(200);
 		});
 	
 				

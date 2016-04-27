@@ -1,9 +1,9 @@
 
 <div class="mobile-popup fadeIn">
 
-	<p style="position: absolute;right: 10px;"><a href="#" class="nothanks first">x</a></p>
+	<p style="position: absolute;right: 10px;"><a href="javascipt:void(0);" class="nothanks first">x</a></p>
 
-	<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
+	<a href="<?php bloginfo('url'); ?>"><img style="height:70px;" src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 
 	<p><span class="mainbold">New Special Offers</span></p>
 
@@ -68,7 +68,7 @@
 		<span><a href="http://m.pacificbeachhotel.com/specials-offers/">Unlock All Offers</a></span>
 	</div>
 
-	<p><a href="#" class="nothanks">no thanks</a></p>
+	<p><a href="javascipt:void(0);" class="nothanks">no thanks</a></p>
 
 		</div>
 
