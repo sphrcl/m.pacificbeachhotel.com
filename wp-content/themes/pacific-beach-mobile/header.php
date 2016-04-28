@@ -302,10 +302,7 @@ $(document).ready(function(){
 					infiniteSlider: true,
 					snapSlideCenter: true,
 					onSlideChange: slideChange,
-					autoSlide: true,
-					stageCSS: {
-						overflow: 'visible'
-					}
+					autoSlide: true
 				});
 
 		$('.nothanks').click(function(){
