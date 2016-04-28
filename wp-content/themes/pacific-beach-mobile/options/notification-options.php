@@ -78,6 +78,14 @@ $meta_boxel = array(
 		),
 
 		array( 
+			"name" => "Mobile Custom Image",
+			"desc" => "Paste in the URL of the Custom Image to be shown on the Mobile Popup (note: Image height must be 400px)",
+			"id" => $prefix."_mob_image",
+			"type" => "text",
+			"std" => ""
+		),
+
+		array( 
 			"name" => "Mobile Custom Title",
 			"desc" => "Paste in the Custom Title to be shown on the Mobile Popup",
 			"id" => $prefix."_mob_title",

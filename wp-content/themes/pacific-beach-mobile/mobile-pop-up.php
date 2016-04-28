@@ -7,15 +7,13 @@
 
 	<p><span class="mainbold">New Special Offers</span></p>
 
-	<div class = 'containerOuter'>
-		
-			<div class = 'container'>
+	<div class = 'fluidHeight'>
+			
+			<div class = 'sliderContainer'>
 				
-				<div class = 'iosSliderContainer'>
-					
-					<div class = 'iosSlider'>
-					
-						<div class = 'slider'>
+				<div class = 'iosSlider'>
+				
+					<div class = 'slider'>
 
 					<?php query_posts(array(
 						'post_type' => "specials", 
@@ -32,7 +30,9 @@
 
 					if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
-					<div class = 'item <?php echo $counter;?>' style="background:url(<?php if($imgsrc) { echo $imgsrc[0]; } else { ?><?php bloginfo('template_url'); ?>/images/main.jpg<?php } ?>);">
+					<div class = 'item'>
+								  
+						<img src="<?php if (get_post_meta($post->ID, 'cebo_mob_image', true)){echo get_post_meta($post->ID, 'cebo_mob_imagee', true);} else{ echo $imgsrc[0]; } ?>">
 
 						<div class = 'text'>
 
@@ -40,12 +40,14 @@
 								<span><?php if (get_post_meta($post->ID, 'cebo_mob_title', true)){echo get_post_meta($post->ID, 'cebo_mob_title', true);} else{ the_title(); } ?></span>
 							</div>
 
-							<div class = 'button'>
-								<span><a href="<?php the_permalink(); ?>">View More</a></span>
-							</div>
+							<div class="button-wrapper-pop">
+								<div class="button">
+									<span><a href="<?php the_permalink(); ?>">View More</a></span>
+								</div>
 
-							<div class = 'button book'>
-								<span><a href="<?php get_post_meta($post->ID, 'cebo_mob_booklink', true); ?>">Book Now</a></span>
+								<div class="button book">
+									<span><a href="<?php get_post_meta($post->ID, 'cebo_mob_booklink', true); ?>">Book Now</a></span>
+								</div>
 							</div>
 
 						</div>
@@ -73,9 +75,5 @@
 		</div>
 
 	</div>
-
-	</div>
-
-
 
 </div>
