@@ -6774,27 +6774,10 @@ a.donate-btn {
     color:#fff;
 }
 
-<<<<<<< HEAD
-.containerOuter {
-	position: absolute;
-	left: 0;
-	right: 0;
-	background: #aaa;
-	height: 300px;
-}
-
-.container {
-	position: relative;
-	width: 100%;
-	height: 300px;
-	margin: 0 auto;
-	overflow: visible;
-=======
 .fluidHeight {
 	position: relative;
 	width: 100%;
 	height: 300px;
->>>>>>> offer-pop-up
 }
 
 @media screen and (max-width: 568px) {
@@ -6808,22 +6791,12 @@ a.donate-btn {
 .sliderContainer {
 	position: absolute;
 	width: 100%;
-<<<<<<< HEAD
-	height: 300px;
-	margin: 0 0 0 0;
-	overflow: visible;
-=======
 	height: 100%;
->>>>>>> offer-pop-up
 }
 
 .iosSlider {
 	width: 100%;
-<<<<<<< HEAD
-	height: 300px;
-=======
 	height: 100%;
->>>>>>> offer-pop-up
 }
 
 .iosSlider .slider {
