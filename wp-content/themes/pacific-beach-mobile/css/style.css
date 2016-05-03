@@ -6832,14 +6832,14 @@ a.donate-btn {
 	margin: 0 auto;
     height: 80%;
 
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 }
 
 .iosSlider .slider .item .text {
     position: absolute;
-    bottom: 10px;
+    bottom: 4px;
     width: 100%;
 }
 
@@ -6864,9 +6864,9 @@ a.donate-btn {
     border: none;
     float:left;
 
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
 
 .button-wrapper-pop {
@@ -6876,9 +6876,9 @@ a.donate-btn {
     padding: 8px 0px;
 }
 
-
 .iosSlider .slider .item .text .button.book {
     background: #27a0ea;
+
 }
 
 .iosSlider .slider .item .text .button.book span a {

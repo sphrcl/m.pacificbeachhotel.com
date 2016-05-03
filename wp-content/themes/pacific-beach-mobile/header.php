@@ -366,7 +366,7 @@ $(document).ready(function(){
 
 <body <?php body_class(); ?>>
 
-<?php include('mobile-pop-up.php'); ?>
+<?php if(is_home()){ include('mobile-pop-up.php'); } ?>
 
 <?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
 
