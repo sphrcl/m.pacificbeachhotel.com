@@ -60,11 +60,11 @@
 
 			</div>
 
-				<div class = 'indicators'>
-		<div class = 'item selected'></div>
-		<div class = 'item'></div>
-		<div class = 'item'></div>
-	</div>
+					<div class = 'indicators'>
+						<div class = 'item selected'></div>
+						<div class = 'item'></div>
+						<div class = 'item'></div>
+					</div>
 
 	<div class = 'button unlock'>
 		<span><a href="http://m.pacificbeachhotel.com/specials-offers/">Unlock All Offers</a></span>
