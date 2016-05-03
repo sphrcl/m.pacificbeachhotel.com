@@ -3,7 +3,7 @@
 
 	<p style="position: absolute;right: 10px;"><a href="javascipt:void(0);" class="nothanks first">x</a></p>
 
-	<a href="<?php bloginfo('url'); ?>"><img style="height:70px;" src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
+	<a href="<?php bloginfo('url'); ?>"><img style="height:70px;padding:10px 0;" src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 
 	<p><span class="mainbold">New Special Offers</span></p>
 
@@ -30,9 +30,9 @@
 
 					if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
-					<div class = 'item'>
+					<div class = 'item someClass'>
 								  
-						<img src="<?php if (get_post_meta($post->ID, 'cebo_mob_image', true)){echo get_post_meta($post->ID, 'cebo_mob_imagee', true);} else{ echo $imgsrc[0]; } ?>">
+						<img src="<?php if (get_post_meta($post->ID, 'cebo_mob_image', true)){echo get_post_meta($post->ID, 'cebo_mob_image', true);} else{ echo $imgsrc[0]; } ?>">
 
 						<div class = 'text'>
 
@@ -42,7 +42,7 @@
 
 							<div class="button-wrapper-pop">
 								<div class="button">
-									<span><a href="<?php the_permalink(); ?>">View More</a></span>
+									<span><a href="<?php the_permalink(); ?>">Details</a></span>
 								</div>
 
 								<div class="button book">

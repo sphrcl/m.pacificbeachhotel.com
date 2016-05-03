@@ -302,7 +302,12 @@ $(document).ready(function(){
 					infiniteSlider: true,
 					snapSlideCenter: true,
 					onSlideChange: slideChange,
-					autoSlide: true
+					autoSlide: true,
+					 onSlideChange: function(args) {
+					 	 $('.item').removeClass('someClass');
+	        $(args.currentSlideObject).addClass('someClass');   
+
+	    }
 				});
 
 		$('.nothanks').click(function(){
@@ -312,6 +317,10 @@ $(document).ready(function(){
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
 		});
+
+
+	   
+
 	
 				
 			}); 
