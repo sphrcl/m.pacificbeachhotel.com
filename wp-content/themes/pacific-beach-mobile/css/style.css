@@ -6749,13 +6749,13 @@ a.donate-btn {
 
 .mobile-popup {
     text-align: center;
-    height: 100%;
+    height: 200%;
     background: #fff; 
 }
 
 .mobile-popup span.mainbold {
     color: #2583bc;
-    font-size: 5vh;
+    font-size: 2em;
     padding-bottom: 5%;
 }
 
@@ -6849,7 +6849,7 @@ a.donate-btn {
 }
 
 .iosSlider .slider .item .text .title span {
-    font-size: 3vh;
+    font-size: 1em;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0;
