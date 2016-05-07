@@ -70,37 +70,6 @@ $meta_boxel = array(
 			"type" => "checkbox",
 		),
 
-		array( 
-			"name" => "Put this notification on homepage popup?",
-			"desc" => "Tick this checkbox to put this on homepage popup.",
-			"id" => $prefix."_homepop",
-			"type" => "checkbox",
-		),
-
-		array( 
-			"name" => "Mobile Custom Image",
-			"desc" => "Paste in the URL of the Custom Image to be shown on the Mobile Popup (note: Image height must be 400px)",
-			"id" => $prefix."_mob_image",
-			"type" => "text",
-			"std" => ""
-		),
-
-		array( 
-			"name" => "Mobile Custom Title",
-			"desc" => "Paste in the Custom Title to be shown on the Mobile Popup",
-			"id" => $prefix."_mob_title",
-			"type" => "text",
-			"std" => ""
-		),
-
-		array( 
-			"name" => "Mobile Book Link",
-			"desc" => "Paste in the full URL of the Book Now Link for the Mobile Popup",
-			"id" => $prefix."_mob_booklink",
-			"type" => "text",
-			"std" => ""
-		),
-
    	)
 
 );
