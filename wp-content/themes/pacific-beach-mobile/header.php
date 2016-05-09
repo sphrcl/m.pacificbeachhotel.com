@@ -310,6 +310,8 @@ $(document).ready(function(){
 	   				$(args.currentSlideObject).addClass('someClass');   
 	  			}
 			});
+
+			$('.iosSlider').iosSlider('update');
 		});
 		
 		$('.iosSlider').iosSlider({
