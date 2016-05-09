@@ -23,15 +23,13 @@
 
 <!-- google analyticsl -->
  
-<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+<script> 
 
-Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-39967051-1', 'auto',{'allowLinker': true });
-
-ga('require', 'linker'); ga('linker:autoLink', ['pacificbeachhotel.reztrip.com','pacificbeachhotel.reztripmobile.com']);
-
-ga('send', 'pageview');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+	Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-39967051-1', 'auto',{'allowLinker': true });
+	ga('require', 'linker'); ga('linker:autoLink', ['pacificbeachhotel.reztrip.com','pacificbeachhotel.reztripmobile.com']);
+	ga('send', 'pageview');
 
 </script>
 
@@ -125,52 +123,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/main.js"></script>
       
 <script id='code_1'>
-		$(function() {			
-		// 	//Keep track of how many swipes
-		// 	var count=0;
+	$(function() {			
 
-		// 	//Enable swiping...
-		// 	$(".reservationfooter").swipe( {
-		// 		//Generic swipe handler for all directions
-		// 		swipeDown:function(event, direction, distance, duration, fingerCount) {
-					
-		// 			$(".reservationlink h4").show();
-		// 			$(".reservationfooter").removeClass("uppers");
-		// 		},
-		// 		//Default is 75px, set to 0 for demo so any distance triggers swipe
-		// 		threshold:0
-		// 	});
-
-			$('.swipe-down').click(function() {
-				$(".reservationlink h4").show();
-				$(".reservationfooter").removeClass("uppers");
-			});
-			
-			
-		// 	//Enable swiping...
-		// 	$("#menu").swipe( {
-		// 		//Generic swipe handler for all directions
-		// 		swipeRight:function(event, direction, distance, duration, fingerCount) {
-		// 			$(this).removeClass("menu-active");
-		// 			$(".wrapper-outer").removeClass("wrapper-outer-active-scale-right").removeClass(" wrapper-outer-active-position-right");
-		// 		},
-		// 		//Default is 75px, set to 0 for demo so any distance triggers swipe
-		// 		threshold:0
-		// 	});
-			
-		// 	//Enable swiping...
-		// 	$(".wrapper-outer").swipe( {
-		// 		//Generic swipe handler for all directions
-		// 		swipeRight:function(event, direction, distance, duration, fingerCount) {
-					
-		// 			$(this).removeClass("wrapper-outer-active-scale-right").removeClass(" wrapper-outer-active-position-right");
-		// 		},
-		// 		//Default is 75px, set to 0 for demo so any distance triggers swipe
-		// 		threshold:0
-		// 	});
-			
+		$('.swipe-down').click(function() {
+			$(".reservationlink h4").show();
+			$(".reservationfooter").removeClass("uppers");
 		});
-	</script> 
+		
+	});
+</script> 
 
 <script type="text/javascript" src="<?php bloginfo ('template_url'); ?>/js/jquery.accordion.js"></script>
 <script>
@@ -284,7 +245,7 @@ $(document).ready(function(){
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <!-- jQuery library -->
-<script type="text/javascript" src = "<?php bloginfo ('template_url'); ?>/js/jquery-1.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 
 
@@ -294,21 +255,17 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
+
 	$(document).ready(function() {
 		
 		$('.iosSlider').iosSlider({
-					snapToChildren: true,
-					desktopClickDrag: true,
-					infiniteSlider: true,
-					snapSlideCenter: true,
-					onSlideChange: slideChange,
-					autoSlide: true,
-					 onSlideChange: function(args) {
-					 	 $('.item').removeClass('someClass');
-	        $(args.currentSlideObject).addClass('someClass');   
-
-	    }
-				});
+			snapToChildren: true,
+			desktopClickDrag: true,
+			infiniteSlider: true,
+			snapSlideCenter: true,
+			autoSlide: true,
+			onSlideChange: slideChange
+		});
 
 		$('.nothanks').click(function(){
 			$('.mobile-popup').fadeOut(200);
@@ -316,15 +273,9 @@ $(document).ready(function(){
 
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
-		});
-
-
-	   
-
-	
+		});	
 				
-			}); 
-
+	}); 
 
 	function slideChange(args) {
 	
@@ -335,6 +286,8 @@ $(document).ready(function(){
 		
 		$('.indicators .item').removeClass('selected');
 		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+	 	$('.item').removeClass('someClass');
+        $(args.currentSlideObject).addClass('someClass'); 
 	
 	}
 </script>
