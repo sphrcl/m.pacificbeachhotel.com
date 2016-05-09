@@ -263,12 +263,8 @@ $(document).ready(function(){
 			desktopClickDrag: true,
 			infiniteSlider: true,
 			snapSlideCenter: true,
-			onSlideChange: slideChange,
 			autoSlide: true,
-			onSlideChange: function(args) {
-			 	$('.item').removeClass('someClass');
-   				$(args.currentSlideObject).addClass('someClass');   
-  			}
+			onSlideChange: slideChange
 		});
 
 		$('.nothanks').click(function(){
@@ -290,6 +286,8 @@ $(document).ready(function(){
 		
 		$('.indicators .item').removeClass('selected');
 		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+	 	$('.item').removeClass('someClass');
+        $(args.currentSlideObject).addClass('someClass'); 
 	
 	}
 </script>
