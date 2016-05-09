@@ -259,14 +259,13 @@ $(document).ready(function(){
 	$(document).ready(function() {
 		
 		$('.iosSlider').iosSlider({
-				snapToChildren: true,
-				desktopClickDrag: true,
-				infiniteSlider: true,
-				snapSlideCenter: true,
-				autoSlide: true,
-				onSlideChange: slideChange
-				});
-
+			snapToChildren: true,
+			desktopClickDrag: true,
+			infiniteSlider: true,
+			snapSlideCenter: true,
+			autoSlide: true,
+			onSlideChange: slideChange
+		});
 
 		$('.nothanks').click(function(){
 			$('.mobile-popup').fadeOut(200);
@@ -274,7 +273,6 @@ $(document).ready(function(){
 
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
-
 		});	
 				
 	}); 
