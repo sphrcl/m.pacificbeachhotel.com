@@ -298,19 +298,6 @@ $(document).ready(function(){
 	$(document).ready(function() {
 
 		$(window).on("orientationchange",function(){
-			$('.iosSlider').iosSlider({
-				snapToChildren: true,
-				desktopClickDrag: true,
-				infiniteSlider: true,
-				snapSlideCenter: true,
-				onSlideChange: slideChange,
-				autoSlide: true,
-				onSlideChange: function(args) {
-				 	$('.item').removeClass('someClass');
-	   				$(args.currentSlideObject).addClass('someClass');   
-	  			}
-			});
-
 			$('.iosSlider').iosSlider('update');
 		});
 		
