@@ -267,11 +267,13 @@ $(document).ready(function(){
 			onSlideChange: slideChange
 		});
 
-		$('.nothanks').click(function(){
+		$('.nothanks').click(function(e){
+			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 		});
 
-		$('a.nothanks.first').click(function(){
+		$('a.nothanks.first').click(function(e){
+			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 		});	
 				
@@ -319,7 +321,22 @@ $(document).ready(function(){
 
 <body <?php body_class(); ?>>
 
-<?php if(is_home()){ include('mobile-pop-up.php'); } ?>
+<?php 
+
+	query_posts(array(
+		'post_type' => "specials", 
+		'posts_per_page' => 3,
+		'order' => 'DESC',
+		'meta_query' => array(
+			array (
+			'key' => 'cebo_homepop',
+			'value'=>'on'
+			)
+	))); 
+
+	if(have_posts()) : if(is_home()){ include('mobile-pop-up.php'); } endif; 
+
+?>
 
 <?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
 
