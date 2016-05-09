@@ -267,11 +267,13 @@ $(document).ready(function(){
 			onSlideChange: slideChange
 		});
 
-		$('.nothanks').click(function(){
+		$('.nothanks').click(function(e){
+			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 		});
 
-		$('a.nothanks.first').click(function(){
+		$('a.nothanks.first').click(function(e){
+			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 		});	
 				
