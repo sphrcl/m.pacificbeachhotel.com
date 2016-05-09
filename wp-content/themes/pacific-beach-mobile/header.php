@@ -284,7 +284,7 @@ $(document).ready(function(){
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 
 
@@ -297,7 +297,7 @@ $(document).ready(function(){
 
 	$(document).ready(function() {
 
-		window.addEventListener("orientationchange", function() {
+		$(window).on("orientationchange",function(){
 			$('.iosSlider').iosSlider({
 				snapToChildren: true,
 				desktopClickDrag: true,
