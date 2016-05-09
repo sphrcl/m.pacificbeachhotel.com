@@ -259,6 +259,7 @@ $(document).ready(function(){
 	$(document).ready(function() {
 		
 		$('.iosSlider').iosSlider({
+<<<<<<< HEAD
 			snapToChildren: true,
 			desktopClickDrag: true,
 			infiniteSlider: true,
@@ -270,6 +271,15 @@ $(document).ready(function(){
    				$(args.currentSlideObject).addClass('someClass');   
   			}
 		});
+=======
+					snapToChildren: true,
+					desktopClickDrag: true,
+					infiniteSlider: true,
+					snapSlideCenter: true,
+					autoSlide: true,
+					onSlideChange: slideChange
+				});
+>>>>>>> offer-pop-up
 
 		$('.nothanks').click(function(){
 			$('.mobile-popup').fadeOut(200);
@@ -277,9 +287,16 @@ $(document).ready(function(){
 
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
+<<<<<<< HEAD
 		});	
 				
 	}); 
+=======
+		});
+	
+			}); 
+
+>>>>>>> offer-pop-up
 
 	function slideChange(args) {
 	
@@ -290,6 +307,8 @@ $(document).ready(function(){
 		
 		$('.indicators .item').removeClass('selected');
 		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
+	 	$('.item').removeClass('someClass');
+        $(args.currentSlideObject).addClass('someClass'); 
 	
 	}
 </script>
