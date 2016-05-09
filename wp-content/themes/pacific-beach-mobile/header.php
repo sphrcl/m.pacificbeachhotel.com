@@ -259,27 +259,14 @@ $(document).ready(function(){
 	$(document).ready(function() {
 		
 		$('.iosSlider').iosSlider({
-<<<<<<< HEAD
-			snapToChildren: true,
-			desktopClickDrag: true,
-			infiniteSlider: true,
-			snapSlideCenter: true,
-			onSlideChange: slideChange,
-			autoSlide: true,
-			onSlideChange: function(args) {
-			 	$('.item').removeClass('someClass');
-   				$(args.currentSlideObject).addClass('someClass');   
-  			}
-		});
-=======
-					snapToChildren: true,
-					desktopClickDrag: true,
-					infiniteSlider: true,
-					snapSlideCenter: true,
-					autoSlide: true,
-					onSlideChange: slideChange
+				snapToChildren: true,
+				desktopClickDrag: true,
+				infiniteSlider: true,
+				snapSlideCenter: true,
+				autoSlide: true,
+				onSlideChange: slideChange
 				});
->>>>>>> offer-pop-up
+
 
 		$('.nothanks').click(function(){
 			$('.mobile-popup').fadeOut(200);
@@ -287,16 +274,10 @@ $(document).ready(function(){
 
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
-<<<<<<< HEAD
+
 		});	
 				
 	}); 
-=======
-		});
-	
-			}); 
-
->>>>>>> offer-pop-up
 
 	function slideChange(args) {
 	
