@@ -284,7 +284,7 @@ $(document).ready(function(){
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <!-- jQuery library -->
-<script type="text/javascript" src = "<?php bloginfo ('template_url'); ?>/js/jquery-1.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 
 
@@ -294,21 +294,21 @@ $(document).ready(function(){
 
 
 <script type="text/javascript">
+
 	$(document).ready(function() {
 		
 		$('.iosSlider').iosSlider({
-					snapToChildren: true,
-					desktopClickDrag: true,
-					infiniteSlider: true,
-					snapSlideCenter: true,
-					onSlideChange: slideChange,
-					autoSlide: true,
-					 onSlideChange: function(args) {
-					 	 $('.item').removeClass('someClass');
-	        $(args.currentSlideObject).addClass('someClass');   
-
-	    }
-				});
+			snapToChildren: true,
+			desktopClickDrag: true,
+			infiniteSlider: true,
+			snapSlideCenter: true,
+			onSlideChange: slideChange,
+			autoSlide: true,
+			onSlideChange: function(args) {
+			 	$('.item').removeClass('someClass');
+   				$(args.currentSlideObject).addClass('someClass');   
+  			}
+		});
 
 		$('.nothanks').click(function(){
 			$('.mobile-popup').fadeOut(200);
@@ -316,15 +316,9 @@ $(document).ready(function(){
 
 		$('a.nothanks.first').click(function(){
 			$('.mobile-popup').fadeOut(200);
-		});
-
-
-	   
-
-	
+		});	
 				
-			}); 
-
+	}); 
 
 	function slideChange(args) {
 	
