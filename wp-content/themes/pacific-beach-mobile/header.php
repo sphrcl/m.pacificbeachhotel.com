@@ -297,7 +297,7 @@ $(document).ready(function(){
 
 	$(document).ready(function() {
 
-		$( window ).on( "orientationchange", function() {
+		window.addEventListener("orientationchange", function() {
 			$('.iosSlider').iosSlider({
 				snapToChildren: true,
 				desktopClickDrag: true,
