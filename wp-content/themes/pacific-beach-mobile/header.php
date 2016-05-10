@@ -321,6 +321,8 @@ $(document).ready(function(){
 
 <body <?php body_class(); ?>>
 
+<?php if(is_home()){ ?>
+
 <?php 
 
 	query_posts(array(
@@ -337,6 +339,8 @@ $(document).ready(function(){
 	if(have_posts()) : if(is_home()){ include('mobile-pop-up.php'); } endif; 
 
 ?>
+
+<?php } ?>
 
 <?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
 
