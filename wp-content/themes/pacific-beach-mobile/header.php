@@ -270,13 +270,11 @@ $(document).ready(function(){
 		$('.nothanks').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
-			$('#sitewrap').css("z-index", "-9999");
 		});
 
 		$('a.nothanks.first').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
-			$('#sitewrap').css("z-index", "0");
 		});	
 				
 	}); 
@@ -291,8 +289,7 @@ $(document).ready(function(){
 		$('.indicators .item').removeClass('selected');
 		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
 	 	$('.item').removeClass('someClass');
-        $(args.currentSlideObject).addClass('someClass');
-        $('#sitewrap').css("z-index", "-9999");
+        $(args.currentSlideObject).addClass('someClass'); 
 	
 	}
 </script>
