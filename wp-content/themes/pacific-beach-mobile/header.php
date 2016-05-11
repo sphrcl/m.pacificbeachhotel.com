@@ -58,6 +58,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	$(document).ready(function() {
 		
+		$("body.home.blog").css({ overflow: "hidden" });
+		
 		$('.iosSlider').iosSlider({
 			snapToChildren: true,
 			desktopClickDrag: true,
@@ -70,11 +72,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		$('.nothanks').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
+			$("body.home.blog").css({ overflow: "auto" });
 		});
 
 		$('a.nothanks.first').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
+			$("body.home.blog").css({ overflow: "auto" });
 		});	
 				
 	}); 
@@ -90,6 +94,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		$('.indicators .item:eq(' + (args.currentSlideNumber - 1) + ')').addClass('selected');
 	 	$('.item').removeClass('someClass');
         $(args.currentSlideObject).addClass('someClass'); 
+        
 	
 	}
 </script>
