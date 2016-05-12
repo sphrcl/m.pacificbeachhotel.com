@@ -57,8 +57,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript">
 
 	$(document).ready(function() {
-		$("body.home.blog").css({ overflow: "hidden" });
-		$("body.home.blog").css({ position: "relative" });
+		
+		<?php 
+
+			query_posts(array(
+				'post_type' => "specials", 
+				'posts_per_page' => 3,
+				'order' => 'DESC',
+				'meta_query' => array(
+					array (
+					'key' => 'cebo_homepop',
+					'value'=>'on'
+					)
+			))); 
+
+			if(have_posts()) { 
+
+		?>
+
+			$("body.home.blog").css({ overflow: "hidden" });
+			$("body.home.blog").css({ position: "relative" });
+
+		<?php } wp_reset_query(); ?>
 
 		$('.iosSlider').iosSlider({
 			snapToChildren: true,
@@ -339,7 +359,7 @@ $(document).ready(function(){
 			)
 	))); 
 
-	if(have_posts()) : if(is_home()){ include('mobile-pop-up.php'); } endif; 
+	if(have_posts()) : if(is_home()){ include('mobile-pop-up.php'); } endif; wp_reset_query();
 
 ?>
 
