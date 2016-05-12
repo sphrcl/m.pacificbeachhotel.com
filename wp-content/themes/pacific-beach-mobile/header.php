@@ -58,6 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 	$(document).ready(function() {
 		$("body.home.blog").css({ overflow: "hidden" });
+		$("body.home.blog").css({ position: "relative" });
 
 		$('.iosSlider').iosSlider({
 			snapToChildren: true,
@@ -72,12 +73,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
+			$("body.home.blog").css({ position: "initial" });
 		});
 
 		$('a.nothanks.first').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
+			$("body.home.blog").css({ position: "initial" });
 		});	
 				
 	}); 
