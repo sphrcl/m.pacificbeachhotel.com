@@ -6783,7 +6783,7 @@ a.donate-btn {
 @media screen and (max-width: 568px) {
 	
 	.iosSlider {
-		height: 250px!important;
+		height: 220px!important;
 	}
 	
 }
@@ -6942,3 +6942,17 @@ a.nothanks.first {
   0% {opacity: 0;}
   100% {opacity: 1;}
   } 
+
+
+.mobile p {
+	line-height: 15px;
+	margin: 0 0 10px 0;
+}
+
+
+
+
+
+
+
+  ,mob
