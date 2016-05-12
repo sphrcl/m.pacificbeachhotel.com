@@ -57,7 +57,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script type="text/javascript">
 
 	$(document).ready(function() {
-
+		
 		<?php 
 
 			query_posts(array(
@@ -76,6 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		?>
 
 			$("body.home.blog").css({ overflow: "hidden" });
+			$("body.home.blog").css({ position: "relative" });
 
 		<?php } wp_reset_query(); ?>
 
@@ -92,12 +93,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
+			$("body.home.blog").css({ position: "initial" });
 		});
 
 		$('a.nothanks.first').click(function(e){
 			e.preventDefault();
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
+			$("body.home.blog").css({ position: "initial" });
 		});	
 				
 	}); 
