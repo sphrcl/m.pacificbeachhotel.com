@@ -52,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- iosSlider plugin -->
 <script src = "<?php bloginfo ('template_url'); ?>/js/jquery.iosslider.js"></script>
 <script src = "<?php bloginfo ('template_url'); ?>/js/jquery.easing-1.3.js"></script>
-
+<script src = "<?php bloginfo ('template_url'); ?>/js/jquery.scrollLock.js"></script>
 
 <script type="text/javascript">
 
@@ -75,8 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 		?>
 
-			$("body.home.blog").css({ overflow: "hidden" });
-			$("body.home.blog").css({ position: "relative" });
+			$.scrollLock(true);
 
 		<?php } wp_reset_query(); ?>
 
@@ -94,6 +93,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
 			$("body.home.blog").css({ position: "initial" });
+			$.scrollLock(false);
 		});
 
 		$('a.nothanks.first').click(function(e){
@@ -101,6 +101,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			$('.mobile-popup').fadeOut(200);
 			$("body.home.blog").css({ overflow: "auto" });
 			$("body.home.blog").css({ position: "initial" });
+			$.scrollLock(false);
 		});	
 				
 	}); 
