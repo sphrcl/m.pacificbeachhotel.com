@@ -6751,6 +6751,11 @@ a.donate-btn {
     background: #fff; 
 }
 
+.mobile-popup p {
+    line-height: 15px;
+    margin: 0 0 10px 0;
+}
+
 .mobile-popup span.mainbold {
     color: #2583bc;
     font-size: 2em;
@@ -6782,7 +6787,7 @@ a.donate-btn {
 @media screen and (max-width: 568px) {
 	
 	.iosSlider {
-		height: 250px!important;
+		height: 220px!important;
 	}
 	
 }

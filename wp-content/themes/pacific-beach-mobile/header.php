@@ -103,6 +103,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			$("body.home.blog").css({ position: "initial" });
 			$.scrollLock(false);
 		});	
+
+		$('.button-wrapper-pop .button span a').click(function(){
+			$.scrollLock(false);
+		});	
 				
 	}); 
 
