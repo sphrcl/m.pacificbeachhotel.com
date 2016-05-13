@@ -54,6 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src = "<?php bloginfo ('template_url'); ?>/js/jquery.easing-1.3.js"></script>
 <script src = "<?php bloginfo ('template_url'); ?>/js/jquery.scrollLock.js"></script>
 
+<?php if(is_home()){ ?>
 <script type="text/javascript">
 
 	$(document).ready(function() {
@@ -124,6 +125,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	
 	}
 </script>
+<?php } ?>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
