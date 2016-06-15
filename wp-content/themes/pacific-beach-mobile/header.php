@@ -370,6 +370,18 @@ $(document).ready(function(){
 
 <?php query_posts('post_type=notification&posts_per_page=1'); if(have_posts()) : while(have_posts()) : the_post(); ?>
 
+
+<style type="text/css">
+.ns-box.ns-bar{
+    background: <?php the_field('color'); ?>;
+}
+
+
+.ns-box-inner::before{
+    background: <?php the_field('icon_color'); ?>;
+}
+</style>
+
 	<?php if( get_post_meta($post->ID,'cebo_special', true) && get_post_meta($post->ID,'cebo_live', true) && get_post_meta($post->ID,'cebo_icon', true) ) { ?>
 
 		<div class="ns-box ns-bar ns-effect-slidetop ns-type-notice"><div class="ns-box-inner"><i class="fa fa-<?php echo get_post_meta($post->ID,'cebo_icon', true); ?>"></i><p><a href="<?php echo get_post_meta($post->ID,'cebo_special', true); ?>"><?php the_title(); ?></a></p></div><span class="ns-close" onClick="sessionStorage.setItem('nsclose_id', '1')"></span></div>
