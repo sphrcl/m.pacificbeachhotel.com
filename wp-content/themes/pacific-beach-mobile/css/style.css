@@ -5980,11 +5980,17 @@ and (max-width : 720px) {
 	.contacthere li span.fa-envelope { font-size: 25px;}
 	.contacthere li span.fa-map-marker { font-size: 43px;}
 	
-	.socialhere, .highgate {
+	.socialhere {
 		float: right;
 		width: 50%;
 		height: 65px;
 		overflow: hidden;
+	}
+
+	.highgate{
+	    width: 100%;
+	    overflow: hidden;
+	    padding: 15px 0;
 	}
 	
 	.socialhere ul {
@@ -6952,6 +6958,9 @@ a.nothanks.first {
 	height: 50px;
 }
 
-.highgate{
-	text-align: center;
+.highgate {
+    text-align: center;
+    border-top: 1px solid #b2b4b5;
+    padding-top: 15px;
+    background: #fff;
 }
