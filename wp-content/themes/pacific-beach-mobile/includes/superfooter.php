@@ -32,6 +32,10 @@
 				<li class="last"><a href="https://instagram.com/pacificbeachhotel/" target="_blank"><span class="fa fa-instagram"></span></a></li>
 			</ul>
 		</div>
+
+		<div class="highgate">
+			<a href="http://www.highgate.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/highgate-logo.png" alt="Highgate" /></a>
+		</div>
 		
 		<!--div class="save-the-children">
 				
