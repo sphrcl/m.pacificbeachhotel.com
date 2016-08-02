@@ -15,7 +15,7 @@
 		
 		
 		
-		<div class="page-image" style="background-image: url(http://lurnglier.com/refinery-mobile/wp-content/uploads/2014/06/Depositphotos_4642385_s.jpg)">
+		<div class="page-image" style="background-image: url(http://m.pacificbeachhotel.com/wp-content/uploads/2015/04/pacific-beach-hotel-the-hotel.jpg)">
 		
 		
 		</div>
