@@ -8,8 +8,7 @@ Basic Single Post Template
 
 get_header(); ?>
 
-	<div class="copybody" style="background-image: url(http://m.rownyc.com.php53-13.dfw1-2.websitetestlink.com/wp-content/uploads/2014/10/LobbyFull2-2.jpg
-);">
+	<div class="copybody">
 	
 	
 		<div class="page-interior">

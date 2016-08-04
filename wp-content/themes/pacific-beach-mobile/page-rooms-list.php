@@ -10,8 +10,7 @@ session_start();
 get_header(); ?>
 
 
-	<div class="copybody" style="background-image: url(<?php bloginfo('url'); ?>/wp-content/uploads/2014/10/LobbyFull2-2.jpg
-);">
+	<div class="copybody">
 	
 	
 	<div class="opener">

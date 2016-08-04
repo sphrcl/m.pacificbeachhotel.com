@@ -420,7 +420,7 @@ $(document).ready(function(){
 </div>
 <!-- END IF MENU OPEN, SHOW BLUE BACKGROUND -->
 
-<div id="sitewrap" style="background-image: url(<?php bloginfo('url'); ?>/wp-content/uploads/2014/10/LobbyFull2-2.jpg);">
+<div id="sitewrap">
 <div id="content">
 <div class="wrapper-outer">
 <div class="content-wrapper">
