@@ -7,7 +7,7 @@
  get_header(); ?>
 
 
-	<div class="copybody" style="background-image: url(<?php bloginfo ('template_url'); ?>/images/index2.jpg);">
+	<div class="copybody">
 	
 	
 		<div class="page-interior">
