@@ -22,7 +22,7 @@ get_header(); ?>
 						<h3></h3>
 
 						<?php if( get_post_meta($post->ID,'cebo_special',true) ) { ?>	
-							<a href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
+							<a href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton"><?php _e('Book Now', 'cebolang'); ?></a>
 						<?php } else { ?>
 							<!-- <a href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton">Book Now</a> -->
 						<?php } ?>
@@ -39,7 +39,7 @@ get_header(); ?>
 				<?php the_content(); ?>
 				
 				<?php if( get_post_meta($post->ID,'cebo_special',true) ) { ?>		
-					<a class="button" href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton">Book Now</a>
+					<a class="button" href="<?php echo get_post_meta($post->ID,'cebo_special',true); ?>" class="strokebutton"><?php _e('Book Now', 'cebolang'); ?></a>
 				<?php } else { ?>
 					<!-- <a class="button" href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton">Book Now</a> -->
 				<?php } ?>
