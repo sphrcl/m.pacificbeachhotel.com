@@ -6339,7 +6339,10 @@ ul#menu-main-menu {
   height: 100%;
 }
 
-
+#flags_language_selector img{
+      margin:1px;
+      border:1px solid #333;
+}
 
 /* ======================== FOOTER edits ======================== */
 
