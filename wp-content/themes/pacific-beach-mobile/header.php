@@ -443,7 +443,7 @@ $(document).ready(function(){
 
 		<!-- start translation flag -->
 		<div class="trans-flags">
-		<div id="flags_language_selector"><?php language_selector_flags(); ?></div >
+		<div id="flags_language_selector"><?php do_action('wpml_add_language_selector'); ?></div >
 			<!--ul>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
