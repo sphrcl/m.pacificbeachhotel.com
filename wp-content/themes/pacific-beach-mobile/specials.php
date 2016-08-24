@@ -50,7 +50,7 @@ get_header(); ?>
 							
 							<h1><?php echo $text; ?></h1>
 
-							<a class="bookit" href="<?php echo $linker; ?>"><?php _e('Book Now', 'cebolang'); ?></a>
+							<a class="bookit" href="<?php echo $linker; ?>"><?php _e('Book Now','theme-text-domain'); ?></a>
 						
 						</div>    
 

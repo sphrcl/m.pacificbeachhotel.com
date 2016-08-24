@@ -46,7 +46,7 @@
 								</div>
 
 								<div class="button book">
-									<span><a href="<?php echo get_post_meta($post->ID, 'cebo_mob_booklink', true); ?>"><?php _e('Book Now', 'cebolang'); ?></a></span>
+									<span><a href="<?php echo get_post_meta($post->ID, 'cebo_mob_booklink', true); ?>"><?php _e('Book Now','theme-text-domain'); ?></a></span>
 								</div>
 							</div>
 

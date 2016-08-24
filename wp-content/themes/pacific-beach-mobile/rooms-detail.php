@@ -94,7 +94,7 @@ get_header(); ?>
 			<!-- END SLIDER -->
 					<header>
 						<h3>$<?php echo $avgprc; ?>/ngt avg</h3>			
-						<a href="http://refineryhotelnewyork.reztrip.com/search?arrival_date=<?php echo $_SESSION['arrive']; ?>&departure_date=<?php echo $_SESSION['depart']; ?>&room_id=<?php echo $_SESSION['room'] ?>" class="strokebutton"><?php _e('Book Now', 'cebolang'); ?></a>
+						<a href="http://refineryhotelnewyork.reztrip.com/search?arrival_date=<?php echo $_SESSION['arrive']; ?>&departure_date=<?php echo $_SESSION['depart']; ?>&room_id=<?php echo $_SESSION['room'] ?>" class="strokebutton"><?php _e('Book Now','theme-text-domain'); ?></a>
 					</header>
 				
 			</article>
@@ -138,7 +138,7 @@ get_header(); ?>
 				
 				<span class="strokebutton">$<?php echo $offer->average_nightly_price; ?>/ngt avg</span>
 				
-				<a class="bookit" href="#"><?php _e('Book Now', 'cebolang'); ?></a>
+				<a class="bookit" href="#"><?php _e('Book Now','theme-text-domain'); ?></a>
 			
 			</div>    			
 			<?php  $i++;  } endforeach;  ?>

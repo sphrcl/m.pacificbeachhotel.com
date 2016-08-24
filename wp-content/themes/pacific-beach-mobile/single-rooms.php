@@ -63,7 +63,7 @@ get_header(); ?>
 			<!-- END SLIDER -->
 					<header class="booyah">
 						<h3></h3>		
-						<a href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton"><?php _e('Book Now', 'cebolang'); ?></a>
+						<a href="https://pacificbeachhotel.reztrip.com/search?" class="strokebutton"><?php _e('Book Now','theme-text-domain'); ?></a>
 					</header>
 				
 			</article>
@@ -87,7 +87,7 @@ get_header(); ?>
 
 					
 					
-					<a class="button" href="https://pacificbeachhotel.reztrip.com/search?>" class="strokebutton"><?php _e('Book Now', 'cebolang'); ?></a>
+					<a class="button" href="https://pacificbeachhotel.reztrip.com/search?>" class="strokebutton"><?php _e('Book Now','theme-text-domain'); ?></a>
 				
 				</div>
 				
