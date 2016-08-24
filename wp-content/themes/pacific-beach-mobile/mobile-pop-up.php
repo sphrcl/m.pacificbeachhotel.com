@@ -67,10 +67,10 @@
 					</div>
 
 	<div class = 'button unlock'>
-		<span><a href="http://m.pacificbeachhotel.com/specials-offers/">Unlock All Offers</a></span>
+		<span><a href="http://m.pacificbeachhotel.com/specials-offers/"><?php _e('Unlock All Offers','cebolang'); ?></a></span>
 	</div>
 
-	<p><a href="javascipt:void(0);" class="nothanks">no thanks</a></p>
+	<p><a href="javascipt:void(0);" class="nothanks"><?php _e('no thanks','cebolang'); ?></a></p>
 
 		</div>
 

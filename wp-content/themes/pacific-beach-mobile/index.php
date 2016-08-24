@@ -30,7 +30,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Family-Friendly</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"<?php _e('Book Now','theme-text-domain'); ?></a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','theme-text-domain'); ?></a>
 					</div>
 
 					<div class="swiper-slide">

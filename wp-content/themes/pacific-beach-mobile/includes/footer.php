@@ -1,11 +1,11 @@
 <div class="reservationlink">
 	<i class="fa fa-calendar"></i>
-	<h4><a href="#">Click to Reserve</a></h4>
+	<h4><a href="#"><?php _e('Click to Reserve','cebolang'); ?></a></h4>
 
 </div>
 <div class="reservationfooter">
 
-	<p class="swipe-down" align="center">Click to close</p>
+	<p class="swipe-down" align="center"><?php _e('Click to Close','cebolang'); ?></p>
 	
 	<div class="rescontiner">
 		<div class="calendars">
@@ -31,19 +31,19 @@
 				
 				
 					<select name="numAdults" class="halfsies lefter">
-						<option value="1">1 Adult</option>
-						<option value="2">2 Adults</option>
-						<option value="3">3 Adults</option>
-						<option value="4">4 Adults</option>
+						<option value="1"><?php _e('1 Adult', 'cebolang'); ?></option>
+						<option value="2"><?php _e('2 Adult', 'cebolang'); ?></option>
+						<option value="3"><?php _e('3 Adult', 'cebolang'); ?></option>
+						<option value="4"><?php _e('4 Adult', 'cebolang'); ?></option>
 					</select>
 				
 				
 			
 					<select name="numChildren" class="halfsies righter">
-						<option value="0">0 Kids</option>
-						<option value="1">1 Kid</option>
-						<option value="2">2 Kids</option>
-						<option value="3">3 Kids</option>
+						<option value="0"><?php _e('0 Kids', 'cebolang'); ?></option>
+						<option value="1"><?php _e('1 Kid', 'cebolang'); ?></option>
+						<option value="2"><?php _e('2 Kids', 'cebolang'); ?></option>
+						<option value="3"><?php _e('3 Kids', 'cebolang'); ?></option>
 					</select>
 				
 				

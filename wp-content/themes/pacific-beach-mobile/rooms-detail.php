@@ -112,7 +112,7 @@ get_header(); ?>
 				
 				<div class="detail-content" style="width: 100%;">
 			
-				 <h3>Amenities</h3>
+				 <h3><?php _e('Amenities','cebolang'); ?></h3>
 				 <ul class="amenities">
 				<?php $i = 0;
 		              foreach ($text as $amenities):{ ?>
@@ -124,7 +124,7 @@ get_header(); ?>
 				<a href="#" class="more"><i class="fa fa-angle-down"></i></a>
 			</div>
 			
-			<h2>Other Available At These Rates</h2>
+			<h2><?php _e('Other Available At These Rates','cebolang'); ?></h2>
 				
 			<?php if($specials) { ?>
 			

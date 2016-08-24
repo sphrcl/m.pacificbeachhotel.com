@@ -42,19 +42,19 @@
 					
 				
 					<div class="fifty">
-						<a href="https://www.facebook.com/PacificBeachHotel" target="_blank">Like us on facebook</a>
+						<a href="https://www.facebook.com/PacificBeachHotel" target="_blank"><?php _e('Like us on facebook','cebolang'); ?></a>
 					</div>
 					
 					<div class="fifty">
-						<a href="https://instagram.com/pacificbeachhotel/" target="_blank">Join us on instagram</a>
+						<a href="https://instagram.com/pacificbeachhotel/" target="_blank"><?php _e('Join us on instagram','cebolang'); ?></a>
 					</div>
 					
 						<div class="fifty">
-						<a href="https://twitter.com/PacificBeachHtl" target="_blank">Follow us on twitter</a>
+						<a href="https://twitter.com/PacificBeachHtl" target="_blank"><?php _e('Follow us on twitter','cebolang'); ?></a>
 					</div>
 					
 					<div class="fifty lastfifty">
-						<a href="https://plus.google.com/106176366593354536658/posts?hl=en" target="_blank">Find us on google+</a>
+						<a href="https://plus.google.com/106176366593354536658/posts?hl=en" target="_blank"><?php _e('Find us on google+','cebolang'); ?></a>
 					</div>
 						
 					<div class="clear"></div>

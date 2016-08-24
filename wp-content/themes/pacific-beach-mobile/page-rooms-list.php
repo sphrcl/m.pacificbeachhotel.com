@@ -30,7 +30,7 @@ get_header(); ?>
 		<a href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php echo $imgsrc[0]; ?>)"></a>
 			<header>
 				<h3><?php echo the_title(); ?></h3>			
-				<a class="strokebutton" href="<?php the_permalink(); ?>">Room Details</a>
+				<a class="strokebutton" href="<?php the_permalink(); ?>"><?php _e('Room Details','cebolang'); ?></a>
 			</header>
 		
 	</article>
@@ -43,7 +43,7 @@ get_header(); ?>
 		<a href="<?php the_permalink(); ?>" class="roomimage" style="background-image: url(<?php echo $imgsrc[0]; ?>)"></a>
 			<header>
 				<h3><?php echo the_title(); ?></h3>			
-				<a class="strokebutton" href="<?php the_permalink(); ?>">Read More</a>
+				<a class="strokebutton" href="<?php the_permalink(); ?>"><?php _e('Read More','cebolang'); ?></a>
 			</header>
 		
 	</article>
