@@ -28,7 +28,7 @@ get_header();
 	
 		<div class="opener">
 			
-			<h3>Guest Rooms</h3>
+			<h3><?php _e('Guest Rooms','cebolang'); ?></h3>
 		
 		</div>
 
@@ -64,7 +64,7 @@ get_header();
 			<a href="https://refineryhotelnewyork.reztrip.com/search?<?php echo $roomcode; ?>" class="roomimage" style="background-image: url(<?php echo $featimg; ?>)"></a>
 				<header>
 					<h3><?php echo $roomtype; ?></h3>
-					<span class="strokebutton">More Details</span>
+					<span class="strokebutton"><?php _e('More Details','cebolang'); ?></span>
 				</header>
 			
 		</article>

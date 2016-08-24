@@ -30,7 +30,7 @@ get_header(); ?>
 							
 							<h1><?php the_title(); ?></h1>
 
-							<a class="bookit" href="<?php the_permalink(); ?>">More Info</a>
+							<a class="bookit" href="<?php the_permalink(); ?>"><?php _e('More Info','cebolang'); ?></a>
 						
 						</div>    
 

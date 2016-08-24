@@ -17,7 +17,7 @@ get_header(); ?>
 	
 	<div class="opener">
 			
-			<h3>Special Offers</h3>
+			<h3><?php _e('Special Offers','cebolang'); ?></h3>
 		
 		</div>
 	<!-- rooms output -->

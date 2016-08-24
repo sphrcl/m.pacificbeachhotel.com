@@ -31,7 +31,7 @@
 
 				<div class="webcam-container">				
 					<iframe style="" scrolling="no" src="http://66.175.76.125/view/viewer_index.shtml?id=792426">
-					  <p>Your browser does not support iframes.</p>
+					  <p><?php _e('Your browser does not support iframes.','cebolang'); ?></p>
 					</iframe>			
 				</div>
 
