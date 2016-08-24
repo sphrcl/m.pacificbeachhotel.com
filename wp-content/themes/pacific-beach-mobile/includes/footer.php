@@ -55,7 +55,7 @@
 				
 				<div class="clear"></div>
 				
-				<button class="button" type="submit"><?php _e('Book Now', 'cebolang'); ?></button>
+				<button class="button" type="submit"><?php _e('Book Now','theme-text-domain'); ?></button>
 
 			</form>
 		</div>
