@@ -5,7 +5,7 @@
 
 	<a href="<?php bloginfo('url'); ?>"><img style="height:70px;padding:10px 0;" src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></a>
 
-	<p><span class="mainbold">New Special Offers</span></p>
+	<p><span class="mainbold"><?php _e('New Special Offers','cebolang'); ?></span></p>
 
 	<div class = 'fluidHeight'>
 			
@@ -42,7 +42,7 @@
 
 							<div class="button-wrapper-pop">
 								<div class="button">
-									<span><a href="<?php the_permalink(); ?>">Details</a></span>
+									<span><a href="<?php the_permalink(); ?>"><?php _e('Details','cebolang'); ?></a></span>
 								</div>
 
 								<div class="button book">
