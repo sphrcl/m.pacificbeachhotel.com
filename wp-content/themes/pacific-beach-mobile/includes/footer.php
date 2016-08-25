@@ -50,7 +50,7 @@
 				<div class="clear"></div>
 				
 				<div class="inputpromo">
-					<input type="text" id="promo" name="promo" placeholder="Promo Code" />
+					<input type="text" id="promo" name="promo" placeholder="<?php _e('Promo Code', 'cebolang'); ?>" />
 				</div>
 				
 				<div class="clear"></div>
