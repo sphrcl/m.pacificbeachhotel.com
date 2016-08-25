@@ -24,7 +24,7 @@
 		
 			<div class="contacto">
 				
-				<h1>Pacific Beach Hotel</h1>
+				<h1><?php _e('Pacific Beach Hotel','cebolang'); ?></h1>
 				
 				<div class="proper">
 					<a style="text-decoration: none;" href="https://www.google.com/maps/place/Row+NYC/@40.7591338,-73.9883055,16z/data=!4m2!3m1!1s0x0:0x8890505e02666256" target="_blank">

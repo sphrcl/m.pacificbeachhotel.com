@@ -23,9 +23,9 @@
 		
 		<div class="page-box">
 		
-			<h3>Apologies, you have 404'd</h3>
+			<h3><?php _e("Apologies, you have 404'd",'cebolang'); ?></h3>
 		
-			<p>This page does not exist. Please head over to our homepage to start your search again.</p>
+			<p><?php _e('This page does not exist. Please head over to our homepage to start your search again.','cebolang'); ?></p>
 		
 		</div>
 		

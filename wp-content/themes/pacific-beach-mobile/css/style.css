@@ -6319,7 +6319,7 @@ span.hamburger-helper {
 
 .trans-flags {
 	position: absolute;
-  	top: 20px;
+  	top: 30px;
   	left: 15px;
   	z-index: 99999999;
 }
@@ -6340,8 +6340,16 @@ ul#menu-main-menu {
 }
 
 #flags_language_selector img{
-      margin:1px;
-      border:1px solid #333;
+      margin:2px;
+}
+.icl-ja img
+{
+	    border: 2px solid #dadada !important;
+}
+
+.icl-en img
+{
+	    border: 2px solid transparent !important;
 }
 
 /* ======================== FOOTER edits ======================== */
