@@ -433,7 +433,7 @@ $(document).ready(function(){
 
 		<div class="menu-button">
 			<i class="menubar"></i>
-			<span class="hamburger-helper">menu</span>
+			<span class="hamburger-helper"><?php _e('menu','cebolang'); ?></span>
 		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
