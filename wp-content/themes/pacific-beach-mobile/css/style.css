@@ -5924,6 +5924,7 @@ and (max-width : 720px) {
 		background-color: #fff;
 		position: relative;
 		height: 175px;
+		padding-top: 24px;
 	}
 
 	.phoneno {
