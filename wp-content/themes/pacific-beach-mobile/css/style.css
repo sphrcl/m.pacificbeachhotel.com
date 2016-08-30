@@ -6981,6 +6981,7 @@ a.nothanks.first {
 
 /** JAPANESE LANGUAGE CSS **/
 
-.mobile-popup .button.unlock span a:lang(ja) :
-	{font-size: 12px;}
+.lang-ja .mobile-popup .button.unlock span a{
+	font-size: 12px;
+}
 
