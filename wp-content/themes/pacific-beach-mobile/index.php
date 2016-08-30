@@ -18,28 +18,28 @@ get_header(); ?>
 					<div class="swiper-slide">
 						<div class="slidimge" style="background: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-hotel-slider-image.jpg')"></div>
 						<p>
-							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
-							<span class="textthin"><?php _e('Beautiful Oceanfront','cebolang'); ?></span>
+							<span class="mainbold">Pacific Beach Hotel</span>
+							<span class="textthin">Beautiful Oceanfront</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','theme-text-domain'); ?></a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
 						<div class="slidimge" style="background-image: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-hotel-waterfront-with-kiddos.jpg');"></div>
 						<p>
-							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
-							<span class="textthin"><?php _e('Family-Friendly','cebolang'); ?></span>
+							<span class="mainbold">Pacific Beach Hotel</span>
+							<span class="textthin">Family-Friendly</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','theme-text-domain'); ?></a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
 						<div class="slidimge" style="background-image: url('<?php bloginfo ('template_url'); ?>/images/pacific-beach-banner4.jpg');"></div>
 						<p>
-							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
-							<span class="textthin"><?php _e('Just Steps from Waikiki Beach','cebolang'); ?></span>
+							<span class="mainbold">Pacific Beach Hotel</span>
+							<span class="textthin">Just Steps from Waikiki Beach</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','theme-text-domain'); ?></a>
+						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
 					</div>
 				</div>
 				<div class="pagination1"></div>
@@ -55,18 +55,16 @@ get_header(); ?>
 			<?php query_posts('post_type=page&p=9'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
 			<div class="halfy left shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-				<a class="coverlink" href="<?php the_permalink(); ?>">
-					<p><?php the_title(); ?></p>
-				</a>
+				<p><?php the_title(); ?></p>
+				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 			</div>
 
 			<?php endwhile; endif; wp_reset_query(); ?>
 			<?php query_posts('post_type=page&p=7'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
 			<div class="halfy right shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-				<a class="coverlink" href="<?php the_permalink(); ?>">
-					<p><?php the_title(); ?></p>
-				</a>
+				<p><?php the_title(); ?></p>
+				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 			</div>
 
 			<?php endwhile; endif; wp_reset_query(); ?>
@@ -101,15 +99,14 @@ get_header(); ?>
 
 		<?php query_posts('post_type=page&p=13'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<a class="coverlink" href="<?php the_permalink(); ?>">
-				<p class="fullytext"><?php the_title(); ?></p>
-			</a>
+			<p class="fullytext"><?php the_title(); ?></p>
+				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
 
 		<?php query_posts('post_type=page&p=73'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<p class="fullytext"><?php _e('Dining','cebolang'); ?></p>
+			<p class="fullytext">Dining</p>
 				<a class="coverlink" href="/dining/"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
