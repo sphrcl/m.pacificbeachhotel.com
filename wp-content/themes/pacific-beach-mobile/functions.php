@@ -91,3 +91,12 @@ function language_selector_flags(){
         }
     }
 }
+
+function wpml_lang_body_class($classes) {
+    if(defined('ICL_LANGUAGE_CODE')) {
+        $classes[] = "lang-" . ICL_LANGUAGE_CODE;
+    }
+     
+    return $classes;
+}
+add_filter('body_class','wpml_lang_body_class');
