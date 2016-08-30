@@ -946,7 +946,10 @@ body .ui-tooltip {
 .ui-widget { font-size: 100% }
 
 
+/** JAPANESE LANGUAGE CSS **/
 
+.mobile-popup .button.unlock span a:lang(ja) :
+	{font-size: 12px;}
 
 
 
