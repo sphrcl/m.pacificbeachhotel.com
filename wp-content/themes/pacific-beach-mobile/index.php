@@ -55,16 +55,18 @@ get_header(); ?>
 			<?php query_posts('post_type=page&p=9'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
 			<div class="halfy left shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-				<p><?php the_title(); ?></p>
-				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
+				<a class="coverlink" href="<?php the_permalink(); ?>">
+					<p><?php the_title(); ?></p>
+				</a>
 			</div>
 
 			<?php endwhile; endif; wp_reset_query(); ?>
 			<?php query_posts('post_type=page&p=7'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 
 			<div class="halfy right shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-				<p><?php the_title(); ?></p>
-				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
+				<a class="coverlink" href="<?php the_permalink(); ?>">
+					<p><?php the_title(); ?></p>
+				</a>
 			</div>
 
 			<?php endwhile; endif; wp_reset_query(); ?>
@@ -99,8 +101,9 @@ get_header(); ?>
 
 		<?php query_posts('post_type=page&p=13'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<p class="fullytext"><?php the_title(); ?></p>
-				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
+			<a class="coverlink" href="<?php the_permalink(); ?>">
+				<p class="fullytext"><?php the_title(); ?></p>
+			</a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
 
