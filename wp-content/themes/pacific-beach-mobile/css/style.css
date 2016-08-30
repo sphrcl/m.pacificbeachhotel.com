@@ -6985,3 +6985,11 @@ a.nothanks.first {
 	font-size: 12px;
 }
 
+.page-template-page-dining-list-php .page-interior li:before {
+    margin-left: 24px;
+}
+
+.page-template-page-contact-php .copybody:before,
+.page-template-page-contact-php .content-wrapper {
+    background: #606164;
+}
