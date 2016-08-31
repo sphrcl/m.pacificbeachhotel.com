@@ -914,6 +914,7 @@ HEADER
 	background: #eff6fd;
 	height: 0px;
 	overflow: hidden;
+	overflow-y: auto; 
 	position: fixed;
 	bottom: 0;
 	width: 100%;
