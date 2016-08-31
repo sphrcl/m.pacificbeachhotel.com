@@ -5504,9 +5504,9 @@ ul#selectUl li.unselected:hover {
 	-o-transition:all .2s ease-in-out;
 	-ms-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
-	transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
     background: #188bd2 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 20px;
@@ -5518,7 +5518,7 @@ ul#selectUl li.unselected:hover {
     position: absolute;
     top: 50%;
 }
-	.st-accordion ul li > .content-opener i:hover {
+/*	.st-accordion ul li > .content-opener i:hover {
 		transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
@@ -5528,12 +5528,12 @@ ul#selectUl li.unselected:hover {
 		transform: rotate(135deg);
 		-moz-transform: rotate(135deg);
 		-webkit-transform: rotate(135deg);
-	}
+	}*/
 
 .st-accordion ul li.st-open > .content-opener i {
-	-webkit-transform:rotate(180deg);
-	-moz-transform:rotate(180deg);
-	transform:rotate(180deg)
+	-webkit-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	transform:rotate(135deg)
 }
 
 .st-content {
