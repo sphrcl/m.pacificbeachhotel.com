@@ -6994,3 +6994,7 @@ a.nothanks.first {
 .page-template-page-contact-php .content-wrapper {
     background: #606164;
 }
+
+.page-template-page-dining-detail-php .page-interior li:before {
+    margin-left: 24px;
+}
