@@ -82,3 +82,24 @@
 	}
 
 }
+
+
+
+/* ############################################### HEIGHT 600px AND BELOW #################################################### */
+
+@media only screen and (max-height : 640px) {
+
+	.mobile-popup {
+		position: relative;
+		overflow-y: auto;
+	}
+
+	.fluidHeight {
+		height: 500px;
+	}
+
+	.sliderContainer {
+		height: 300px;
+	}
+
+}
