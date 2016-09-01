@@ -1968,7 +1968,7 @@ div.ps-toolbar-play {
 }
 
 .copybody:before {
-	background: rgba(0,0,0,0.6);
+	background: #fff;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -1995,6 +1995,7 @@ div.ps-toolbar-play {
 	position: relative;
 	z-index: 2;
 	padding: 10px;
+	background-color: #fff;
 }
 
 
