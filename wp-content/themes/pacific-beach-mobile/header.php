@@ -132,8 +132,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		$.datepicker._defaults.dateFormat = 'yy-mm-dd';
 
 		$(".datepicker").datepicker({
-			minDate: new Date(),
-			gotoCurrent: true,
+			minDate: 0,
+			// gotoCurrent: true,
 			numberOfMonths: [1,1],
 			beforeShowDay: function(date) {
 				var date1 = $.datepicker.parseDate($.datepicker._defaults.dateFormat, $("#arrival_date").val());
@@ -243,12 +243,12 @@ $(document).ready(function(){
 	
 });
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
-	var getdate = $.datepicker.formatDate('yy-mm-dd', new Date());
-	$('#arrival_date').val(getdate);
+// 	var getdate = $.datepicker.formatDate('yy-mm-dd', new Date());
+// 	$('#arrival_date').val(getdate);
 
-});
+// });
 
 </script>
 
