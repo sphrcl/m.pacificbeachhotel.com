@@ -2915,7 +2915,8 @@ h1.main {
 	position: relative;
 	height: 220px;
 	background-position: center center;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .page-image header {
