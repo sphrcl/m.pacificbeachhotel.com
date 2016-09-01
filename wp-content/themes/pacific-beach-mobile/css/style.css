@@ -2682,7 +2682,7 @@ h1.main {
 	width: 100%;
 	position: relative;
 	height: 100%;
-	background-position: center center;
+	background-position: center top;
 	background-size: cover;
 	display: block;
 }
