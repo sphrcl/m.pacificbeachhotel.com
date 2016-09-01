@@ -1968,7 +1968,7 @@ div.ps-toolbar-play {
 }
 
 .copybody:before {
-	background: #fff;
+	background: rgba(0,0,0,0.6);;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -1995,7 +1995,6 @@ div.ps-toolbar-play {
 	position: relative;
 	z-index: 2;
 	padding: 10px;
-	background-color: #fff;
 }
 
 
@@ -2426,6 +2425,7 @@ input#arrival_date.calendarsection {
 	margin-bottom: 55px;
 	position: relative;
 	z-index: 9;
+	background-color: #fff;
 }
 
 .phoneno {
