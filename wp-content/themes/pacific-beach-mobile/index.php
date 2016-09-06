@@ -106,8 +106,8 @@ get_header(); ?>
 
 		<?php query_posts('post_type=page&p=73'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<a href="/dining/"><p class="fullytext"><?php _e('Dining','cebolang'); ?></p></a>
-				<a class="coverlink" href="/dining/"></a>
+			<p class="fullytext">Dining</p>
+				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
 		<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>
