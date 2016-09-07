@@ -106,7 +106,7 @@ get_header(); ?>
 
 		<?php query_posts('post_type=page&p=73'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<p class="fullytext">Dining</p>
+			<p class="fullytext"><?php the_title(); ?></p>
 				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
