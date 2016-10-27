@@ -21,7 +21,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Beautiful Oceanfront</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -30,7 +30,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Family-Friendly</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -39,7 +39,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Just Steps from Waikiki Beach</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 				</div>
 				<div class="pagination1"></div>
