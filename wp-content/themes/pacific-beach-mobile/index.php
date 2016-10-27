@@ -21,7 +21,8 @@ get_header(); ?>
 							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
 							<span class="textthin"><?php _e('Beautiful Oceanfront','cebolang'); ?></span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','cebolang'); ?></a>
+
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -30,7 +31,8 @@ get_header(); ?>
 							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
 							<span class="textthin"><?php _e('Family-Friendly','cebolang'); ?></span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','cebolang'); ?></a>
+
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -39,7 +41,8 @@ get_header(); ?>
 							<span class="mainbold"><?php _e('Pacific Beach Hotel','cebolang'); ?></span>
 							<span class="textthin"><?php _e('Just Steps from Waikiki Beach','cebolang'); ?></span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com"><?php _e('Book Now','cebolang'); ?></a>
+
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 				</div>
 				<div class="pagination1"></div>
