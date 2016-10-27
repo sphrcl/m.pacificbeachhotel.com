@@ -21,7 +21,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Beautiful Oceanfront</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -30,7 +30,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Family-Friendly</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 
 					<div class="swiper-slide">
@@ -39,7 +39,7 @@ get_header(); ?>
 							<span class="mainbold">Pacific Beach Hotel</span>
 							<span class="textthin">Just Steps from Waikiki Beach</span>
 						</p>
-						<a class="book-now" href="http://pacificbeachhotel.reztripmobile.com">Book Now</a>
+						<a class="book-now" href="http://pacificbeachhotel.reztrip.com/">Book Now</a>
 					</div>
 				</div>
 				<div class="pagination1"></div>
@@ -106,8 +106,8 @@ get_header(); ?>
 
 		<?php query_posts('post_type=page&p=73'); if(have_posts()) : while(have_posts()) : the_post(); $imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full"); ?>
 		<div class="fullybox shadow" style="background: url('<?php echo $imgsrc[0]; ?>')">
-			<p class="fullytext">Dining</p>
-				<a class="coverlink" href="/dining/"></a>
+			<p class="fullytext"><?php the_title(); ?></p>
+				<a class="coverlink" href="<?php the_permalink(); ?>"></a>
 		</div>
 		<?php endwhile; endif; wp_reset_query(); ?>
 		<?php include(TEMPLATEPATH . '/includes/superfooter.php'); ?>

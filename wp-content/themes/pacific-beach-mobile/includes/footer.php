@@ -15,7 +15,7 @@
 		</div>
 		<div class="reservationform">
 					
-			<form method="get" action="http://pacificbeachhotel.reztripmobile.com/rt/m/results?">
+			<form method="get" action="http://pacificbeachhotel.reztrip.com">
 				
 				<input type="hidden" name="propertyId" value="228">
 				<input type="hidden" name="locale" value="en-us">
@@ -23,14 +23,14 @@
 
 				<!-- hidden arrival and departure dates -->
 				<span class="calsec" style="display: none;">
-					<input type="text"  id="arrival_date" name="arrival" placeholder="Arrival" class="calendarsection" />
+					<input type="text"  id="arrival_date" name="arrival_date" placeholder="Arrival" class="calendarsection" />
 					<input type="hidden"  id="arv">
-					<input type="text" id="departure_date" name="departure" placeholder="Departure" class="calendarsection" />
+					<input type="text" id="departure_date" name="departure_date" placeholder="Departure" class="calendarsection" />
 					<input type="hidden" id="dep">
 				</span>
 				
 				
-					<select name="numAdults" class="halfsies lefter">
+					<select name="adults" class="halfsies lefter">
 						<option value="1">1 Adult</option>
 						<option value="2">2 Adults</option>
 						<option value="3">3 Adults</option>
