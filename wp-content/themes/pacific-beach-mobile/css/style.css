@@ -6648,10 +6648,6 @@ li.contact .fa-user {
 	margin-bottom: 50px;
 }
 
-div.contact-social {
-	margin-bottom:60px;
-}
-
 .home div.contact-social {
 	margin-bottom: 0px;
 }
@@ -6985,21 +6981,14 @@ a.nothanks.first {
     background: #fff;
 }
 
-/** JAPANESE LANGUAGE CSS **/
-
-.lang-ja .mobile-popup .button.unlock span a{
-	font-size: 12px;
+.ta-number {
+	border-top: 2px solid #666666;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
 }
 
-.page-template-page-dining-list-php .page-interior li:before {
-    margin-left: 24px;
-}
-
-.page-template-page-contact-php .copybody:before,
-.page-template-page-contact-php .content-wrapper {
-    background: #606164;
-}
-
-.page-template-page-dining-detail-php .page-interior li:before {
-    margin-left: 24px;
+.ta-number p {
+	color: #7b858a;
+	margin: 0;
 }
