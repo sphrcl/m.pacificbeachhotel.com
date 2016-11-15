@@ -37,6 +37,10 @@
 			<a href="http://www.highgate.com" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/highgate-logo.png" alt="Highgate" /></a>
 		</div>
 		
+		<div class="ta-number">
+			<p>TA-114-954-4448-01</p>
+		</div>
+
 		<!--div class="save-the-children">
 				
 				

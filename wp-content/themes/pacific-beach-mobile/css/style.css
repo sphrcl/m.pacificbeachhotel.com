@@ -6635,10 +6635,6 @@ li.contact .fa-user {
 	margin-bottom: 50px;
 }
 
-div.contact-social {
-	margin-bottom:60px;
-}
-
 .home div.contact-social {
 	margin-bottom: 0px;
 }
@@ -6970,4 +6966,16 @@ a.nothanks.first {
     border-top: 1px solid #b2b4b5;
     padding-top: 15px;
     background: #fff;
+}
+
+.ta-number {
+	border-top: 2px solid #666666;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.ta-number p {
+	color: #7b858a;
+	margin: 0;
 }
