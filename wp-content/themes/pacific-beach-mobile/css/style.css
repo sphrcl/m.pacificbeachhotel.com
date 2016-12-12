@@ -2426,12 +2426,8 @@ input#arrival_date.calendarsection {
 }
 
 .superfooter-info {
-	padding: 0 0 0 15px;
-}
-
-.superfooter-info ul {
 	list-style: none;
-	padding: 0;
+	padding: 0 0 5px 15px;
 	margin: 0;
 }
 
@@ -2567,20 +2563,20 @@ input#arrival_date.calendarsection {
 .page .superfooter,
 .single .superfooter {
 	background-color: #666;
-	padding: 0 10px;
+	padding: 0 2.5%;
 }
 
 .page .superfooter-info,
 .page .superfooter-visit-socials,
 .page .superfooter-highgate,
 .page .superfooter-ta,
-.page .superfooter-save-donate,
+.page .superfooter-save,
 
 .single .superfooter-info,
 .single .superfooter-visit-socials,
 .single .superfooter-highgate,
 .single .superfooter-ta,
-.single .superfooter-save-donate {
+.single .superfooter-save {
 	background-color: #fff;
 }
 
