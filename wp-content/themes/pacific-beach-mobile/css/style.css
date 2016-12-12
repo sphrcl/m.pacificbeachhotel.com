@@ -2563,6 +2563,27 @@ input#arrival_date.calendarsection {
 }
 
 
+.page .superfooter,
+.single .superfooter {
+	background-color: #666;
+	padding: 0 10px;
+}
+
+.page .superfooter-info,
+.page .superfooter-visit-socials,
+.page .superfooter-highgate,
+.page .superfooter-ta,
+.page .superfooter-save-donate,
+
+.single .superfooter-info,
+.single .superfooter-visit-socials,
+.single .superfooter-highgate,
+.single .superfooter-ta,
+.single .superfooter-save-donate {
+	background-color: #fff;
+}
+
+
 /* ====================================================== ROOM LIST ================================================= */
 
 
