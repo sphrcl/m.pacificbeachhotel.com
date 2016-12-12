@@ -2418,6 +2418,9 @@ input#arrival_date.calendarsection {
 	z-index: 999;
 }
 
+
+/* SUPERFOOTER */
+
 .superfooter {
 	background-color: #fff;
 	position: relative;
@@ -2558,12 +2561,13 @@ input#arrival_date.calendarsection {
 	padding: 15px 10px;
 }
 
-/* superfooter single and page */
+/* SUPERFOOTER: single and page */
 
 .page .superfooter,
 .single .superfooter {
 	background-color: #666;
-	padding: 0 2.5%;
+	padding: 0 2.5% 65px;
+	margin-bottom: 0;
 }
 
 .page .superfooter-info,
