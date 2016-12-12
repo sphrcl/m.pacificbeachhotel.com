@@ -914,6 +914,7 @@ HEADER
 	background: #eff6fd;
 	height: 0px;
 	overflow: hidden;
+	overflow-y: auto; 
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -926,8 +927,10 @@ HEADER
 }
 
 .uppers {
-	height:100%
+	max-height: 700px;
+	height: 100%;
 }
+
 .reservationlink h4 {
 	background-color: transparent;
 	position: relative;
@@ -1965,7 +1968,7 @@ div.ps-toolbar-play {
 }
 
 .copybody:before {
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.6);;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -2422,6 +2425,7 @@ input#arrival_date.calendarsection {
 	margin-bottom: 55px;
 	position: relative;
 	z-index: 9;
+	background-color: #fff;
 }
 
 .phoneno {
@@ -2681,7 +2685,7 @@ h1.main {
 	width: 100%;
 	position: relative;
 	height: 100%;
-	background-position: center center;
+	background-position: center top;
 	background-size: cover;
 	display: block;
 }
@@ -2914,7 +2918,8 @@ h1.main {
 	position: relative;
 	height: 220px;
 	background-position: center center;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .page-image header {
@@ -5504,9 +5509,9 @@ ul#selectUl li.unselected:hover {
 	-o-transition:all .2s ease-in-out;
 	-ms-transition:all .2s ease-in-out;
 	transition:all .2s ease-in-out;
-	transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
+	transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
     background: #188bd2 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 20px;
@@ -5518,7 +5523,7 @@ ul#selectUl li.unselected:hover {
     position: absolute;
     top: 50%;
 }
-	.st-accordion ul li > .content-opener i:hover {
+/*	.st-accordion ul li > .content-opener i:hover {
 		transform: rotate(90deg);
 		-moz-transform: rotate(90deg);
 		-webkit-transform: rotate(90deg);
@@ -5528,12 +5533,12 @@ ul#selectUl li.unselected:hover {
 		transform: rotate(135deg);
 		-moz-transform: rotate(135deg);
 		-webkit-transform: rotate(135deg);
-	}
+	}*/
 
 .st-accordion ul li.st-open > .content-opener i {
-	-webkit-transform:rotate(180deg);
-	-moz-transform:rotate(180deg);
-	transform:rotate(180deg)
+	-webkit-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	transform:rotate(135deg)
 }
 
 .st-content {
@@ -6630,10 +6635,6 @@ li.contact .fa-user {
 	margin-bottom: 50px;
 }
 
-div.contact-social {
-	margin-bottom:60px;
-}
-
 .home div.contact-social {
 	margin-bottom: 0px;
 }
@@ -6761,14 +6762,14 @@ a.donate-btn {
 .mobile-popup span.mainbold {
     color: #2583bc;
     font-size: 2em;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
 }
 
 .mobile-popup .button.unlock {
     width: 50%;
     background: #27a0ea;
     letter-spacing: 0;
-    margin: 5% 0;
+    margin: 10px 0;
 
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
@@ -6839,7 +6840,7 @@ a.donate-btn {
 	max-width: 90%;
 	width: 100%;
 	margin: 0 auto;
-    height: 80%;
+    /*height: 80%;*/
 
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
@@ -6868,8 +6869,9 @@ box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 .iosSlider .slider .item .text .button {
     width: 50%;
     letter-spacing: 0px;
-    padding: 14px 0;
+    padding: 0;
     margin: 0;
+    line-height: 44px;
     border: none;
     float:left;
 
@@ -6906,13 +6908,13 @@ a.nothanks {
 
 .indicators {
 	position: relative;
-	top: 10px;
+	top: 6px;
 	left: 0;
 	width: 50px;
 	height: 10px;
 	margin: 0 auto;
 	z-index: 5;
-	padding: 1.5% 0;
+	padding: 15px 0;
 }
 
 .indicators .item {
@@ -6964,4 +6966,16 @@ a.nothanks.first {
     border-top: 1px solid #b2b4b5;
     padding-top: 15px;
     background: #fff;
+}
+
+.ta-number {
+	border-top: 2px solid #666666;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+}
+
+.ta-number p {
+	color: #7b858a;
+	margin: 0;
 }
