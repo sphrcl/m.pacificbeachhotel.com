@@ -86,8 +86,8 @@ body, body .search {
 	-o-transform: scale(0.85);
 	transform: scale(0.85);
 	-moz-box-shadow:	3px 3px 5px 6px #000;
-  	-webkit-box-shadow: 3px 3px 5px 6px #000;
-  	box-shadow:		0px 0px 22px #000;
+	-webkit-box-shadow: 3px 3px 5px 6px #000;
+	box-shadow:		0px 0px 22px #000;
 	opacity: 1
 }
 .wrapper-outer-active-position {
@@ -106,8 +106,8 @@ body, body .search {
 	-o-transform: scale(0.85);
 	transform: scale(0.85);
 	-moz-box-shadow:	3px 3px 5px 6px #000;
-  	-webkit-box-shadow: 3px 3px 5px 6px #000;
-  	box-shadow:		0px 0px 22px #000;
+	-webkit-box-shadow: 3px 3px 5px 6px #000;
+	box-shadow:		0px 0px 22px #000;
 	opacity: 1
 }
 .wrapper-outer-active-position-right {
@@ -156,9 +156,9 @@ p {
 	padding: 0;
 	color: #77746f;
 	font-family: 'Open Sans', sans-serif;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: lighter;
+	border: 0;
+	border-radius: 0;
+	font-weight: lighter;
 }
 small {
 	font-size: 13px;
@@ -234,8 +234,8 @@ HEADER
 }
 
 .languages {
-    float: left;
-    margin-top: -10px;
+	float: left;
+	margin-top: -10px;
 	position: relative;
 	z-index: 2;
 }
@@ -411,7 +411,7 @@ HEADER
 .site-logo {
 	position:relative;
 	text-align: center;
- 	 z-index: 1;
+	 z-index: 1;
 }
 .site-logo a:hover {
 	text-decoration:none;
@@ -518,11 +518,11 @@ HEADER
 
 .menu-wrapper i {
 	width: 50%;
-  	margin: auto;
-  	color: #fff;
-  	position: absolute;
-  	top: 47%; left: 50%;
-  	-webkit-transform: translate(-50%,-50%);
+	margin: auto;
+	color: #fff;
+	position: absolute;
+	top: 47%; left: 50%;
+	-webkit-transform: translate(-50%,-50%);
 	  -ms-transform: translate(-50%,-50%);
 		  transform: translate(-50%,-50%);
 }
@@ -874,13 +874,13 @@ HEADER
 .additional li a {
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 11px;
-   	padding: 0 0 0 30px;
-   	border: 0;
-   	border-radius: 0;
-   	font-size: 11px;
-   	font-weight: 700;
-   	color: #444;
+	line-height: 11px;
+	padding: 0 0 0 30px;
+	border: 0;
+	border-radius: 0;
+	font-size: 11px;
+	font-weight: 700;
+	color: #444;
 }
 
 .reservationlink {
@@ -1909,10 +1909,10 @@ div.ps-toolbar-play {
 	left: 0;
 	z-index: 0;	
 	 -webkit-filter: blur(3px);
-  	-moz-filter: blur(3px);
-  	-o-filter: blur(3px);
-  	-ms-filter: blur(3px);
-  	filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
 }
 
 
@@ -2097,41 +2097,41 @@ input#arrival_date.calendarsection {
 }
 
 .reservationform select {
-   	background: transparent;
-   	padding: 5px;
-   	display: block;
-   	font-size:15px;
-   	color: #333;
-   	background: #fff;
+	background: transparent;
+	padding: 5px;
+	display: block;
+	font-size:15px;
+	color: #333;
+	background: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 1;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: 700;
-   	height: 100%;
-   	width: 100%;
-   	-webkit-appearance: none;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	height: 100%;
+	width: 100%;
+	-webkit-appearance: none;
 }
 
 .reservationforms select {
-   	background: transparent;
-   	padding: 5px 10px;
-   	display: block;
-   	font-size:10px;
-   	color: #333;
-   	background: #fff;
+	background: transparent;
+	padding: 5px 10px;
+	display: block;
+	font-size:10px;
+	color: #333;
+	background: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 1;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: 700;
-   	height: 100%;
-   	width: 100%;
-   	position: relative;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	height: 100%;
+	width: 100%;
+	position: relative;
 	z-index: 999;
-   	-webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 #promo {
@@ -2145,14 +2145,14 @@ input#arrival_date.calendarsection {
 	border: none;
 	border-radius: 0;
 	font-size:15px;
-   	color: #333;
-   	background: #fff;
+	color: #333;
+	background: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 1;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: 700;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
 	margin-top: 1px;
 	padding: 12px 10px;
 	z-index: 99999;
@@ -2290,13 +2290,13 @@ input#arrival_date.calendarsection {
 	color:#686868;
 	font-weight:400;
 	font-size:10px;
-   	color: #fff;
+	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 1;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: 700;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
 	text-align: center;
 }
 
@@ -2324,12 +2324,12 @@ input#arrival_date.calendarsection {
 	padding: 10px;
 	color: #77746f;
 	font-family: 'Lato', sans-serif;
-  	line-height: 16px;
-  	font-size: 12px;
-  	border: 0;
+	line-height: 16px;
+	font-size: 12px;
+	border: 0;
 	letter-spacing: 0px;
-  	border-radius: 0;
-  	font-weight: 400;	
+	border-radius: 0;
+	font-weight: 400;	
 }
 
 #toggle-view .panel:before {
@@ -2418,81 +2418,171 @@ input#arrival_date.calendarsection {
 	z-index: 999;
 }
 
+
+/* SUPERFOOTER */
+
 .superfooter {
-	overflow: auto;
-	overflow: hidden;
-	width: 100%;
-	margin-bottom: 55px;
+	background-color: #fff;
 	position: relative;
 	z-index: 9;
-	background-color: #fff;
+	margin-bottom: 54px;
 }
 
-.phoneno {
-	float: left;
-	width: calc(100% - 251px);
-	background-color: #fff;
-	overflow: auto;
-}
-
-.phoneno img {
-	float: left;
-	width: 116px;
-	margin: 38px 10px 37px;
-}
-
-.nummob {
-	color: #333;
-	font-family: 'GothamLight';
-	font-size: 45px;
-	font-weight: 400;
-	margin: 55px 0 0;
-}
-
-.addmob {
-	color: #333;
-	font-family: 'GothamBook';
-	font-size: 14px;
-	font-weight: 700;
+.superfooter-info {
+	list-style: none;
+	padding: 0 0 5px 15px;
 	margin: 0;
-	text-transform: uppercase;
 }
 
-.contact-social {
-	float: right;
-	width: 250px;
+.superfooter-info li {
+	list-style: none;
 }
 
-.contact-social ul {
-	margin: 0;
+.superfooter-info i {
+	float: left;
+	color: #188bd2;
+	line-height: 50px;
 	text-align: center;
-	background-color: #fff;
-	border-left: 1px solid transparent;
-	overflow: auto;
+	width: 28px;
 }
+	.superfooter-info .fa-map-marker { font-size: 26px; }
+	.superfooter-info .fa-mobile { font-size: 38px; }
+	.superfooter-info .fa-user { font-size: 30px; }
 
-.contact-social li {
+.superfooter-info a {
 	float: left;
-	line-height: 1;
-	list-style-type: none;
-	padding: 21px 0;
+	margin: 15px 0 0 15px;
 }
 
-.contacthere { border-bottom: 1px solid transparent;}
+.superfooter-visit {
+	text-align: center;
+}
 
-.contacthere li { margin-left: 37px;}
+.superfooter-socials {
+	list-style: none;
+	text-align: center;
+	padding: 25px 0;
+	margin: 0;
+}
 
-.contacthere li.li-env { padding: 33px 0 0;}
-.contacthere li.li-map { padding: 25px 0 20px;}
+.superfooter-socials li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+	.superfooter-socials li:last-child { margin-right: 0; }
 
-.contacthere li span { color: #188bd2;}
-.contacthere li span.fa-mobile { font-size: 76px;}
-.contacthere li span.fa-envelope { font-size: 46px;}
-.contacthere li span.fa-map-marker { font-size: 64px;}
+.superfooter-socials a {
+	color: #188bd2;
+	font-size: 24px;
+	text-align: center;
+}
 
-.socialhere { height: 72px;}
-.socialhere li { margin-left: 22px;}
-.socialhere li span { color: #188bd2; font-size: 24px;}
+.superfooter-socials i {
+	font-size: inherit;
+	color: inherit;
+}
+	.superfooter-socials i.fa-tripadvisor {
+		background: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png") repeat scroll center center transparent;
+		background-size: cover;
+		display: inline-block;
+		width: 33px;
+		height: 22px;
+	}
+
+.superfooter-highgate {
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.superfooter-highgate a {
+	display: inline-block;
+}
+
+.superfooter-highgate img {
+	display: block;
+	max-width: 95%;
+	width: 43px;
+}
+
+.superfooter-ta {
+	border-bottom: 10px solid #666;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.superfooter-ta p {
+	margin: 0;
+}
+
+.superfooter-save {
+	padding: 5px 0 0;
+}
+
+.superfooter-save-img {
+	text-align: center;
+}
+
+.superfooter-save-img a {
+	display: inline-block;
+}
+
+.superfooter-save-img img {
+	display: block;
+	margin: 0 auto;
+	max-width: 95%;
+	width: 320px;
+}
+
+.superfooter-save p {
+	font-size: 13px;
+	line-height: 28px;
+	padding: 0 5% 20px;
+	margin: 0;
+}
+
+.superfooter-save p a {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.superfooter-save-donate {
+	text-align: center;
+}
+
+.superfooter-save-donate a {
+	background-color: #188bd2;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 3px;
+	padding: 15px 10px;
+}
+
+/* SUPERFOOTER: single and page */
+
+.page .superfooter,
+.single .superfooter {
+	background-color: #666;
+	padding: 0 2.5% 65px;
+	margin-bottom: 0;
+}
+
+.page .superfooter-info,
+.page .superfooter-visit-socials,
+.page .superfooter-highgate,
+.page .superfooter-ta,
+.page .superfooter-save,
+
+.single .superfooter-info,
+.single .superfooter-visit-socials,
+.single .superfooter-highgate,
+.single .superfooter-ta,
+.single .superfooter-save {
+	background-color: #fff;
+}
 
 
 /* ====================================================== ROOM LIST ================================================= */
@@ -2572,15 +2662,15 @@ input#arrival_date.calendarsection {
 
 .roomtype header h3 {
 	font-size:12px;
-   	color: #fff;
+	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	line-height: 14px;
-   	border: 0;
-   	border-radius: 0;
-   	font-weight: 700;
-   	padding: 0 0 6px 0;
-   	width: 55%;
+	line-height: 14px;
+	border: 0;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 0 0 6px 0;
+	width: 55%;
 	text-align: left;
 	left: 14px;
 	bottom: 1px;
@@ -2616,14 +2706,14 @@ input#arrival_date.calendarsection {
 
 h1.main {
 	font-size:14px;
-   	color: #fff;
-   	text-align: center;
+	color: #fff;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	border-radius: 0;
-   	font-weight: 700;
-   	padding: 8px 0;
-   	letter-spacing: 1;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 8px 0;
+	letter-spacing: 1;
 }
 
 .specialbox {
@@ -2636,14 +2726,14 @@ h1.main {
 
 .specialbox h1 {
 	font-size:14px;
-   	color: #282828;
-   	text-align: center;
+	color: #282828;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	border-bottom: 1px solid #ddd;
-   	border-radius: 0;
-   	font-weight: 700;
-   	padding: 6px 0;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 6px 0;
 }
 
 .specialbox p {
@@ -2722,15 +2812,15 @@ h1.main {
 
 .bookthis {
 	font-size:12px;
-   	color: #282828;
-   	text-align: center;
+	color: #282828;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	border-bottom: 1px solid #ddd;
-   	border-radius: 0;
-   	font-weight: 700;
-   	padding: 9px 0;
-   	display: block;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 9px 0;
+	display: block;
 }
 
 .detail-content p {
@@ -2794,23 +2884,23 @@ h1.main {
 	text-align: center;
 	padding: 5px 0;
 		color: #888;
-   	text-align: center;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	border-radius: 0;
-   	font-size: 11px;
-   	font-weight: 700;
+	border-radius: 0;
+	font-size: 11px;
+	font-weight: 700;
 }
 .roomdetail h2 {
 	font-size:12px;
-   	color: #fff;
-   	text-align: center;
+	color: #fff;
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-   	border-radius: 0;
-   	font-weight: 700;
-   	padding: 9px 0;
-   	display: block;
+	border-radius: 0;
+	font-weight: 700;
+	padding: 9px 0;
+	display: block;
 }
 
 .specialbox .strokebutton {
@@ -3151,30 +3241,30 @@ h1.main {
 
 #ui-datepicker-div.ui-datepicker-multi {
 	border-radius: 0 0 0 0;
-    padding: 10px;
-    z-index: 2147483647 !important;
+	padding: 10px;
+	z-index: 2147483647 !important;
   
 }
 
 #ui-datepicker-div {
-    background: none repeat scroll 0 0 #FEFEFE;
-    border: 1px solid #EEEEEE;
-    border-radius: 0;
-    min-width: 300px;
-    padding: 10px;
-    z-index: 2147483647 !important;
+	background: none repeat scroll 0 0 #FEFEFE;
+	border: 1px solid #EEEEEE;
+	border-radius: 0;
+	min-width: 300px;
+	padding: 10px;
+	z-index: 2147483647 !important;
 }
 
 #ui-datepicker-div.ui-datepicker .ui-datepicker-next {
-    right: 0;
+	right: 0;
 }
 
 #ui-datepicker-div.ui-datepicker .ui-widget-header .ui-state-hover,
 #ui-datepicker-div.ui-datepicker .ui-state-focus,
 #ui-datepicker-div.ui-datepicker .ui-widget-header .ui-state-focus {
-    background-color: #fff;
-    cursor: pointer;
-    opacity: .8;
+	background-color: #fff;
+	cursor: pointer;
+	opacity: .8;
 }
 
 
@@ -3652,10 +3742,10 @@ button.ui-button::-moz-focus-inner {
 	border-bottom: 0;
 }
 .ui-datepicker .ui-datepicker-buttonpane button {
-    transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
 	float: right;
 	margin: .5em .2em .4em;
 	cursor: pointer;
@@ -3885,10 +3975,10 @@ button.ui-button::-moz-focus-inner {
 	text-align: left;
 }
 .ui-slider .ui-slider-handle {
-    transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
 	position: absolute;
 	z-index: 2;
 	width: 1.2em;
@@ -4075,7 +4165,7 @@ body .ui-tooltip {
 }
 .ui-widget-content {
 	background: transparent;
-    color: #333333;
+	color: #333333;
 }
 .ui-widget-content a {
 	color: #333333;
@@ -4154,73 +4244,73 @@ body .ui-tooltip {
 ----------------------------------*/
 
 /*.ui-widget {
-    font-family: Arial,sans-serif;
-    font-size: 1.1em;
+	font-family: Arial,sans-serif;
+	font-size: 1.1em;
 }
 .ui-widget .ui-widget {
-    font-size: 1em;
+	font-size: 1em;
 }
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-    font-family: Arial,sans-serif;
-    font-size: 1em;
+	font-family: Arial,sans-serif;
+	font-size: 1em;
 }*/
 .ui-timepicker-div .ui-widget-content {
-    background: #eee;
+	background: #eee;
 }
 /*.ui-widget-content a {
-    color: #333333;
+	color: #333333;
 }
 .ui-widget-header {
-    background: transparent;;
-    color: #001e3a;
-    font-weight: bold;
+	background: transparent;;
+	color: #001e3a;
+	font-weight: bold;
 }
 .ui-widget-header a {
-    color: #ffffff;
+	color: #ffffff;
 }*/
 
 .ui_tpicker_time_label {
-    display: inline;
+	display: inline;
 }
 
 .ui_tpicker_time {
-    display: inline;
-    font-weight: bold;
-    margin-left: 9px;
+	display: inline;
+	font-weight: bold;
+	margin-left: 9px;
 }
 
 .ui-timepicker-div dl {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .ui_tpicker_hour_label {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 .ui_tpicker_hour {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .ui_tpicker_time_label, .ui_tpicker_hour_label, .ui_tpicker_minute_label {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .ui-timepicker-div .ui-state-default,
 .ui-timepicker-div .ui-widget-content .ui-state-default,
 .ui-timepicker-div .ui-widget-header .ui-state-default {
-    background: #38BABF;
-    font-weight: bold;
-    color: #333;
-    padding: 0;
+	background: #38BABF;
+	font-weight: bold;
+	color: #333;
+	padding: 0;
 }
 .ui-timepicker-div .ui-state-default a,
 .ui-timepicker-div .ui-state-default a:link,
 .ui-timepicker-div .ui-state-default a:visited {
-    color: #333;
-    text-decoration: none;
+	color: #333;
+	text-decoration: none;
 }
 #ui-datepicker-div .ui-timepicker-div .ui-state-hover,
 #ui-datepicker-div .ui-timepicker-div .ui-widget-content .ui-state-hover,
@@ -4228,31 +4318,31 @@ body .ui-tooltip {
 #ui-datepicker-div .ui-timepicker-div .ui-state-focus,
 #ui-datepicker-div .ui-timepicker-div .ui-widget-content .ui-state-focus,
 #ui-datepicker-div .ui-timepicker-div .ui-widget-header .ui-state-focus {
-    border: none;
-    background: none repeat-x #ccc;
-    font-weight: bold;
-    color: #111111;
+	border: none;
+	background: none repeat-x #ccc;
+	font-weight: bold;
+	color: #111111;
 }
 .ui-timepicker-div .ui-state-hover a,
 .ui-timepicker-div .ui-state-hover a:hover,
 .ui-timepicker-div .ui-state-hover a:link,
 .ui-timepicker-div .ui-state-hover a:visited {
-    color: #111111;
-    text-decoration: none;
+	color: #111111;
+	text-decoration: none;
 }
 #ui-datepicker-div .ui-timepicker-div .ui-state-active,
 #ui-datepicker-div .ui-timepicker-div .ui-widget-content .ui-state-active,
 #ui-datepicker-div .ui-timepicker-div .ui-widget-header .ui-state-active {
-    border: none;
-    background: none repeat-x #ccc;
-    font-weight: bold;
-    color: #cc0000;
+	border: none;
+	background: none repeat-x #ccc;
+	font-weight: bold;
+	color: #cc0000;
 }
 .ui-timepicker-div .ui-state-active a,
 .ui-timepicker-div .ui-state-active a:link,
 .ui-timepicker-div .ui-state-active a:visited {
-    color: #cc0000;
-    text-decoration: none;
+	color: #cc0000;
+	text-decoration: none;
 }
 
 /* Interaction Cues
@@ -4572,20 +4662,20 @@ body .ui-tooltip {
 }
 
 .dp-highlight .ui-state-default {
-         background: #23a1ee!important;
-          color: #FFF;
-        }
-        .ui-datepicker.ui-datepicker-multi  {
-          width: 100% !important;
-        }
-        .ui-datepicker-multi .ui-datepicker-group {
-        float:left;
-        width: 50%;
-        }
-        #datepicker {
-          height: 300px;
-          overflow-x: scroll;
-        }
+		 background: #23a1ee!important;
+		  color: #FFF;
+		}
+		.ui-datepicker.ui-datepicker-multi  {
+		  width: 100% !important;
+		}
+		.ui-datepicker-multi .ui-datepicker-group {
+		float:left;
+		width: 50%;
+		}
+		#datepicker {
+		  height: 300px;
+		  overflow-x: scroll;
+		}
 
 .ui-datepicker-today .ui-state-highlight {
 	background: none repeat scroll 0 0 #999;
@@ -4631,9 +4721,9 @@ body .ui-tooltip {
 	border-radius: 20px;
 	border: 1px solid #333;
 	transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
 }
 .calspacer span.lowselect i {
 	z-index: 99;
@@ -4674,14 +4764,14 @@ body .ui-tooltip {
 }
 
 .halffloat .button {
-    background: none repeat scroll 0 0 #606061;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 10px;
-    padding: 10px 0;
-    text-transform: uppercase;
-    width: 100%;
+	background: none repeat scroll 0 0 #606061;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 10px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 100%;
 }
 
 .selectcontainer {
@@ -4694,30 +4784,30 @@ body .ui-tooltip {
 }
 
 .halffloat i.fa-building {
-    color: #606061;
-    font-size: 15px;
-    position: absolute;
-    right: 8px;
-    top: 11px;
-    z-index: 0;
+	color: #606061;
+	font-size: 15px;
+	position: absolute;
+	right: 8px;
+	top: 11px;
+	z-index: 0;
 }
 
 .halffloat i.fa-map-marker {
-    color: #606061;
-    font-size: 20px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    z-index: 0;
+	color: #606061;
+	font-size: 20px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 0;
 }
 
 .halffloat i.fa-users {
-    color: #606061;
-    font-size: 15px;
-    position: absolute;
-    right: 8px;
-    top: 22px;
-    z-index: 0;
+	color: #606061;
+	font-size: 15px;
+	position: absolute;
+	right: 8px;
+	top: 22px;
+	z-index: 0;
 }
 
 
@@ -4811,9 +4901,9 @@ body .ui-tooltip {
 	border: 6px solid #ddd;
 	background: #fff;
 	transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -webkit-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
 }
 
 
@@ -4865,9 +4955,9 @@ body .ui-tooltip {
 	height: 305px;
 	width: 100%;
 		transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-    -webkit-transition: all 0.6s ease-in-out;
-    -o-transition: all 0.6s ease-in-out;
+	-moz-transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.6s ease-in-out;
+	-o-transition: all 0.6s ease-in-out;
 }
 
 .imageboxerer a {
@@ -4892,7 +4982,7 @@ body .ui-tooltip {
 }
 .magnet-filter {
 	border: 4px solid #ddd;
-    text-align: center;
+	text-align: center;
 }
 
 #local, #hotell, #hotell-1 {
@@ -4980,24 +5070,24 @@ body .ui-tooltip {
 }
 
 .calspacer span input {
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    background: none repeat scroll 0 0 transparent;
-    border: medium none;
-    color: #606061;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 70px;
-    font-weight: 400;
-    height: 85px;
-    letter-spacing: -5px;
-    line-height: 1;
-    margin-left: 0;
-    margin-top: -10px;
-    max-width: 96%;
-    padding: 0;
-    text-align: center;
-    text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	color: #606061;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 70px;
+	font-weight: 400;
+	height: 85px;
+	letter-spacing: -5px;
+	line-height: 1;
+	margin-left: 0;
+	margin-top: -10px;
+	max-width: 96%;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .calspacer span:hover input {
@@ -5021,10 +5111,10 @@ body .ui-tooltip {
 }
 
 .calspacer span input#dep, .calspacer span input#arv {
-    left: 5px;
-    margin-bottom: 30px;
-    margin-top: 0;
-    text-align: center !important;
+	left: 5px;
+	margin-bottom: 30px;
+	margin-top: 0;
+	text-align: center !important;
 }
 
 .calspacer span input#dep, .calspacer span input#dep-1 {
@@ -5061,9 +5151,9 @@ body .ui-tooltip {
 	padding-top: 0;
 	margin-left: 0;
 	-webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    font-family: 'Open Sans', sans-serif;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -5129,35 +5219,35 @@ ul#selectUl li {
 	text-align: center; 
 }
 ul#selectUl li:first-child {
-    border: none;
-    line-height: 108px;
-    width: 100px;
+	border: none;
+	line-height: 108px;
+	width: 100px;
 	height: 100px;
 	font-size: 85px;
 }
 
 ul#selectUl li.bignumber {
-    border: none;
-    line-height: 108px;
-    width: 100px;
+	border: none;
+	line-height: 108px;
+	width: 100px;
 	height: 100px;
 	font-size: 85px;
 }
 
 
 ul#selectUl li.unselected {
-    display: none;
-    background: #fff;
+	display: none;
+	background: #fff;
 }
 
 ul#selectUl:hover li,
 ul#selectUl:hover li.unselected {
-    display: list-item;
+	display: list-item;
 }
 
 ul#selectUl li.unselected:hover {
-    color: #fff;
-    background: #fa9d04;
+	color: #fff;
+	background: #fa9d04;
 }
 
 
@@ -5218,15 +5308,15 @@ ul#selectUl li.unselected:hover {
 }
 
 .brandwelcome .hellobox {
-    margin-left: 25px;
-    width: auto;
+	margin-left: 25px;
+	width: auto;
 }
 
 .hellobox-special {
-    float: left;
-    margin: 0 2.5%;
-    overflow: auto;
-    width: 45%;
+	float: left;
+	margin: 0 2.5%;
+	overflow: auto;
+	width: 45%;
 }
 
 .brandwelcome .signup {
@@ -5245,9 +5335,9 @@ ul#selectUl li.unselected:hover {
 	margin: 0 0 12px 0;
 	position: relative;
 	transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
 }
 
 .hellobox h3 a {
@@ -5313,9 +5403,9 @@ ul#selectUl li.unselected:hover {
 	font-weight: 700;
 	color: #fff;
 	transition: all 0.8s ease-in-out;
-    -moz-transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-webkit-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
 	margin-top: 0;
 }
 
@@ -5399,10 +5489,10 @@ ul#selectUl li.unselected:hover {
 }
 
 .special p {
-    float: left;
-    line-height: 23px;
-    margin-right: 12px;
-    width: 72%;
+	float: left;
+	line-height: 23px;
+	margin-right: 12px;
+	width: 72%;
 }
 
 .spec-image a {
@@ -5440,7 +5530,7 @@ ul#selectUl li.unselected:hover {
 }
 
 .brandabout .container > p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .brandabout h1 {
@@ -5477,12 +5567,12 @@ ul#selectUl li.unselected:hover {
 	-o-transition:color .2s ease-in-out;
 	-ms-transition:color .2s ease-in-out;
 	transition:color .2s ease-in-out;
-    color: #188bd2;
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    outline: medium none;
-    position: relative;
+	color: #188bd2;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	outline: medium none;
+	position: relative;
 }
 	.st-accordion ul li > a:hover {
 		text-decoration: none;
@@ -5512,16 +5602,16 @@ ul#selectUl li.unselected:hover {
 	transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-webkit-transform: rotate(0deg);
-    background: #188bd2 none repeat scroll 0 0;
-    border: 0 none;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 12px;
-    margin-left: 12px;
-    margin-top: -11px;
-    padding: 5px 6px;
-    position: absolute;
-    top: 50%;
+	background: #188bd2 none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 12px;
+	margin-top: -11px;
+	padding: 5px 6px;
+	position: absolute;
+	top: 50%;
 }
 /*	.st-accordion ul li > .content-opener i:hover {
 		transform: rotate(90deg);
@@ -5543,9 +5633,9 @@ ul#selectUl li.unselected:hover {
 
 .st-content {
 	background:none #fff none repeat scroll 0 0;
-    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
-    border-top: 3px solid rgba(255, 255, 255, 0.2);
-    padding: 0 20px 20px;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+	border-top: 3px solid rgba(255, 255, 255, 0.2);
+	padding: 0 20px 20px;
 }
 
 .st-content-container {
@@ -5569,14 +5659,14 @@ ul#selectUl li.unselected:hover {
 }
 
 .st-accordion .content-opener {
-    background: #fff none repeat scroll 0 0;
-    border-top: 1px solid #f3f9fd;
-    bottom: 0;
-    padding: 20px 0;
-    position: absolute;
-    width: 100%;
-    cursor: pointer;
-      right: 25px;
+	background: #fff none repeat scroll 0 0;
+	border-top: 1px solid #f3f9fd;
+	bottom: 0;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	cursor: pointer;
+	  right: 25px;
 }
 
 
@@ -5682,7 +5772,7 @@ span.textthin {
 	color: #fff;
 	position: absolute;
 	text-transform: uppercase;
-  	z-index: 999;	
+	z-index: 999;	
 }
 
 .fullytext br {
@@ -5719,8 +5809,8 @@ span.textthin {
 	max-height: 137px;
 	overflow: hidden;
 	transition: all 1.4s ease-in-out;
-    -moz-transition: all 1.4s ease-in-out;
-    -webkit-transition: all 1.4s ease-in-out;	
+	-moz-transition: all 1.4s ease-in-out;
+	-webkit-transition: all 1.4s ease-in-out;	
 }
 
 .opened .copycontainer {
@@ -5745,22 +5835,22 @@ span.textthin {
 	position: relative;
 	z-index: 99999;
 		transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
 }
 
 .openbox, .openbox-1 {
 	height: inherit;
 		transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
 }
 
 .openbox-up {
 	height: inherit;
 		transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
 }
 
 .innerbox {
@@ -5797,13 +5887,13 @@ span.textthin {
 }
 
 .opensays .fa {
-    background: none repeat scroll 0 0 #FFFFFF;
-    bottom: 0;
-    color: #000000;
-    padding-bottom: 10px;
-    position: absolute;
-    text-align: center;
-    width: 100%;
+	background: none repeat scroll 0 0 #FFFFFF;
+	bottom: 0;
+	color: #000000;
+	padding-bottom: 10px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
 }
 
 .closesays .fa {
@@ -5916,116 +6006,6 @@ and (max-width : 1024px) {
 
 
 }
-
-
-/* ================================================  MAX WIDTH 720px ======================================= */
-
-@media only screen 
-and (max-width : 720px) {
-
-/* superfooter */
-
-	.phone-carry {
-		background-color: #fff;
-		position: relative;
-		height: 175px;
-	}
-
-	.phoneno {
-		background-color: transparent;
-		float: none;
-		left: 50%;
-		margin-left: -220px;
-		position: relative;
-		width: 440px;
-	}
-	
-	.phoneno img { margin: 23px 10px 22px 0;}
-	.nummob { margin: 42px 0 0;}
-	
-	.contact-social {
-		float: none;
-		width: auto;
-		margin-top: 1px;
-		overflow: auto;
-	}
-	
-	.contact-social ul {
-		border-left: medium none;
-	}
-	
-	.contacthere {
-		border-bottom: medium none;
-		width: calc(50% - 1px);
-		float: left;
-		height: 65px;
- 		background-color: #fff;
-	}
-
-	.contacthere p {
-	  text-align: center;
-	  top: 35%;
-	  position: relative;
-	}
-	
-	.contacthere ul {
-		height: 72px;
-		padding: 0 75px;
-	}
-	
-	.contacthere li {
-		margin-left: 0;
-		width: 33.33%;
-	}
-	
-	.contacthere li.li-mob { padding: 8px 0 9px;}
-	.contacthere li.li-env { padding: 23px 0 0;}
-	.contacthere li.li-map { padding: 15px 0 0;}
-	
-	.contacthere li span.fa-mobile { font-size: 55px;}
-	.contacthere li span.fa-envelope { font-size: 25px;}
-	.contacthere li span.fa-map-marker { font-size: 43px;}
-	
-	.socialhere {
-		float: right;
-		width: 50%;
-		height: 65px;
-		overflow: hidden;
-	}
-
-	.highgate{
-	    width: 100%;
-	    overflow: hidden;
-	    padding: 15px 0;
-	}
-	
-	.socialhere ul {
-		padding: 0 25px;
-		height: 72px;
-		overflow: hidden;
-	}
-	
-	.socialhere li {
-		margin-left: 0;
-		width: 20%;
-	}
-}
-
-@media only screen 
-and (max-width : 620px) {
-
-	.contacthere ul { padding: 0 40px;}
-}
-
-@media only screen 
-and (max-width : 500px) {
-	
-	.contacthere ul { padding: 0 25px;}
-	.socialhere ul { padding: 0 15px;}
-
-}
-
-
 
 
 /* ================================================  MAX WIDTH 960px ======================================= */
@@ -6171,27 +6151,10 @@ and (max-width : 500px) {
 	}
 
 
-
-	/* Footer */
-
-	.superfooter a {
-		line-height: 1;
-	}
-
-
 	
 }
 
 /* ================================================  MAX WIDTH 479 ======================================= */
-
-@media only screen 
-and (min-width : 480px) {
-	
-	/* superfooter */
-	
-	.addmob br { display: none;}
-	
-}
 
 @media only screen 
 and (max-width : 479px) {
@@ -6207,17 +6170,6 @@ and (max-width : 479px) {
 	
 	.fullytext br.goneout-two {
 		display: inline;
-	}
-	
-	/* superfooter */
-	
-	.nummob {
-		font-size: 35px;
-	}
-	
-	.phoneno {
-		margin-left: -180px;
-		width: 365px;
 	}
 
 }
@@ -6255,41 +6207,6 @@ and (max-width : 399px) {
 		font-size: 17px;
 	}
 	
-	/* superfooter */
-	
-	.nummob {
-		font-size: 25px;
-	}
-	
-	.phoneno {
-		margin-left: -140px;
-		width: 280px;
-	}
-	
-	.phoneno img {
-		margin: 23px 10px 22px 0;
-		width: 100px;
-	}
-	
-	.contacthere {
-		float: none;
-		width: 100%;
-	}
-	
-	.contacthere ul {
-		padding: 0 60px;
-	}
-	
-	.socialhere, .highgate {
-		border-top: 1px solid transparent;
-		float: none;
-		width: 100%;
-	}
-	
-	.socialhere ul {
-		padding: 0 30px;
-	}
-	
 	
 
 }
@@ -6324,8 +6241,8 @@ span.hamburger-helper {
 
 .trans-flags {
 	position: absolute;
-  	top: 20px;
-  	left: 15px;
+	top: 20px;
+	left: 15px;
 }
 
 .trans-flags i {
@@ -6346,27 +6263,6 @@ ul#menu-main-menu {
 
 
 /* ======================== FOOTER edits ======================== */
-
-.phone-carry ul li i {
-	color: #188bd2;
-	font-size: 24px;
-}
-
-.phone-carry ul li i {
-  color: #188bd2;
-  font-size: 30px;
-  padding: 0px 20px 13px 25px;
-  top: 16px;
-  position: relative;
-  text-align: center;
-}
-
-.phone-carry span {
-  font-size: 12px;
-  top: 12px;
-  position: relative;
-  color:  #188bd2;;
-}
 
 .reservationlink .fa-calendar {
   color: #fff;
@@ -6467,16 +6363,7 @@ a.button {
 .page-interior ul li, .page-interior ol li {
   line-height: 25px;
   font-size: 15px;
-    margin-bottom: 16px;
-}
-
-.single .superfooter, .page .superfooter {
-  overflow: auto;
-  width: 95%;
-  margin-bottom: 55px;
-  position: relative;
-  z-index: 9;
-  margin: 0 auto;
+	margin-bottom: 16px;
 }
 
 .fullybox.shadow {
@@ -6486,33 +6373,6 @@ a.button {
 iframe {
   width: 98%;
   height: 195px;
-}
-
-
-.phone-carry span {
-  font-size: 12px;
-  top: 3px;
-  position: relative;
-  color: #188bd2;
-}
-
-.address span p {
-  position: relative;
-  left: 60px;
-  line-height: 7px;
-  top: -25px;
-  font-size: 13px;
-  color: #188bd2;
-}
-
-li.phone {
-  position: relative;
-  bottom: 3px;
-}
-
-li.contact {
-  position: relative;
-  bottom: 9px;
 }
 
 .single .copybody:after, .page .copybody:after {
@@ -6555,15 +6415,6 @@ a.button {
   margin-bottom: 20px;
 }
 
-.single .superfooter, .page .superfooter {
-  overflow: auto;
-  width: 95%;
-  margin-bottom: 55px;
-  position: relative;
-  z-index: 9;
-  margin: 0 auto;
-}
-
 .fullybox.shadow {
   margin-bottom: 10px;
 }
@@ -6573,74 +6424,14 @@ iframe {
   height: 195px;
 }
 
-
-.phone-carry span {
-  font-size: 12px;
-  color: #188bd2;
-}
-
-.address span {
-  position: relative;
-  left: -5px;
-  line-height: 5px;
-  font-size: 13px;
-  color: #188bd2;
-  top: 8px; 
-}
-
-.phone span {
-  position: relative;
-  left: -5px;
-  line-height: 7px;
-  font-size: 13px;
-  color: #188bd2;
-  top: 10px;
-  font-size: 'Open Sans', sans-serif;
-}
-
-.contact span {
-  position: relative;
-  left: -8px;
-  line-height: 7px;
-  top: 22px;
-  font-size: 13px;
-  color: #188bd2;
-  font-size: 'Open Sans', sans-serif;
-}
-
 span.position {
   position: relative;
   left: 58px;
   top: -2px;
 }
 
-li.address .fa-map-marker {
-  position: relative;
-  top: 10px;
-  font-size: 26px;
-}
-
-li.phone .fa-mobile {
-  position: relative;
-  top: 18px;
-  font-size: 38px;
-}
-
-li.contact .fa-user {
-  position: relative;
-  top: 25px;
-}
-
 .single .copybody:after, .page .copybody:after {
 	margin-bottom: 50px;
-}
-
-div.contact-social {
-	margin-bottom:60px;
-}
-
-.home div.contact-social {
-	margin-bottom: 0px;
 }
 
 /* ======================= WEBCAM ============================ */
@@ -6664,125 +6455,35 @@ div.contact-social {
   margin-left: -24px;
 }
 
-span.fa.fa-tripadvisor:after {
-  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
-  opacity: 0;
-}
-
-span.fa.fa-tripadvisor:before {
-  background-image: url("http://m.pacificbeachhotel.com/wp-content/themes/pacific-beach-mobile/images/tripadvisor.png");
-}
-
-/*
-span.fa.fa-tripadvisor:after, span.fa.fa-tripadvisor:before {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  content: "";
-  height: 33px;
-  left: -20px;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  top: -18px;
-  width: 37px;
-  z-index: 1;
-}
-*/
-
-
-span.fa.fa-tripadvisor:before {
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  content: "";
-  width: 33px;
-  height: 33px;
-  margin: 0 auto;
-  position: relative;
-  top: -4px;
-  z-index: 1;
-  display: block;
-}
-
-/* SAVE THE CHILDREN ########################################################################################## */
-
-.save-the-children {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 66px;
-background-color: #fff;
-    text-align: center;
-}
-
-p.save-the-children {
-  color: #fff; 
-  background-color: #444; 
-  padding-top: 10px; 
-  font-size: 12px;
-}
-
-p.save {
-	width: 90%;
-    font-size: 12px;
-    line-height: 22px;
-    text-align: center;
-    padding: 15px;
-}
-
-.left {
-  float: left;
-}
-
-a.donate-btn {
-    float: right;
-    position: relative;
-    top: -50px;
-    color: #000;
-  border: 1px solid #000;
-  padding: 20px 5px 20px 5px;
-}
-
-.donate-btn a:hover {
-  color: #2b2b2b;
-  border: 1px solid #2b2b2b;
-}
-
-.save-the-children .button {
-    position: relative;
-    top: -25px;
-    float: right;
-}
 
 /* Mobile Pop Up */
 
 .mobile-popup {
-    text-align: center;
-    height: 100%;
-    background: #fff; 
+	text-align: center;
+	height: 100%;
+	background: #fff; 
 }
 
 .mobile-popup span.mainbold {
-    color: #2583bc;
-    font-size: 2em;
-    padding-bottom: 30px;
+	color: #2583bc;
+	font-size: 2em;
+	padding-bottom: 30px;
 }
 
 .mobile-popup .button.unlock {
-    width: 50%;
-    background: #27a0ea;
-    letter-spacing: 0;
-    margin: 10px 0;
+	width: 50%;
+	background: #27a0ea;
+	letter-spacing: 0;
+	margin: 10px 0;
 
-    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
 	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.25);
 }
 
 .mobile-popup .button.unlock span a {
-    text-transform: uppercase;
-    color:#fff;
+	text-transform: uppercase;
+	color:#fff;
 }
 
 .fluidHeight {
@@ -6811,7 +6512,7 @@ a.donate-btn {
 }
 
 .iosSlider > i {
-    display: none;
+	display: none;
 }
 
 .iosSlider .slider {
@@ -6844,40 +6545,40 @@ a.donate-btn {
 	max-width: 90%;
 	width: 100%;
 	margin: 0 auto;
-    /*height: 80%;*/
+	/*height: 80%;*/
 
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 }
 
 .iosSlider .slider .item .text {
-    position: absolute;
-    bottom: 4px;
-    width: 100%;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
 }
 
 .iosSlider .slider .item .text .title {
-    width: 80%;
-    margin: auto;
+	width: 80%;
+	margin: auto;
 }
 
 .iosSlider .slider .item .text .title span {
-    font-size: 1em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    font-weight: normal;
+	font-size: 1em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	font-weight: normal;
 }
 
 .iosSlider .slider .item .text .button {
-    width: 50%;
-    letter-spacing: 0px;
-    padding: 0;
-    margin: 0;
-    line-height: 44px;
-    border: none;
-    float:left;
+	width: 50%;
+	letter-spacing: 0px;
+	padding: 0;
+	margin: 0;
+	line-height: 44px;
+	border: none;
+	float:left;
 
 -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
@@ -6885,14 +6586,14 @@ box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
 
 .button-wrapper-pop {
-    width: 90%;
-    position: relative;
-    margin: 0 auto;
-    padding: 8px 0px;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	padding: 8px 0px;
 }
 
 .iosSlider .slider .item .text .button.book {
-    background: #27a0ea;
+	background: #27a0ea;
 
 }
 
@@ -6922,20 +6623,20 @@ a.nothanks {
 }
 
 .indicators .item {
-    float: left;
-    width: 10px;
-    height: 10px;
-    margin: 0 5px 0 0;
-    border-radius: 10px;
-    background: #dadadb;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px 0 0;
+	border-radius: 10px;
+	background: #dadadb;
 }
 .indicators .selected {
 	background: #27a0ea;
 }
 
 a.nothanks.first {
-    color: #000;
-    font-size: 30px;
+	color: #000;
+	font-size: 30px;
 }
 
 .fadeIn {
@@ -6959,15 +6660,4 @@ a.nothanks.first {
 .mobile-popup p {
 	line-height: 15px;
 	margin: 0 0 10px 0;
-}
-
-.highgate img{
-	height: 50px;
-}
-
-.highgate {
-    text-align: center;
-    border-top: 1px solid #b2b4b5;
-    padding-top: 15px;
-    background: #fff;
 }

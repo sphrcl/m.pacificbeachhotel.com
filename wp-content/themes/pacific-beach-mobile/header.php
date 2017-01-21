@@ -2,6 +2,11 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	 <title><?php wp_title(); ?></title>
+	 <?php 
+		if ( file_exists( dirname( __FILE__ ) . '/noindex.php' ) ) {
+		    include( dirname( __FILE__ ) . '/noindex.php' );
+		}
+	?>
 	<!-- BEGIN FONTS + STYLESHEETS + JS INCLUDES -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
