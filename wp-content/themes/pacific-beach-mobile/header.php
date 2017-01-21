@@ -2,6 +2,11 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	 <title><?php wp_title(); ?></title>
+	 <?php 
+		if ( file_exists( dirname( __FILE__ ) . '/noindex.php' ) ) {
+		    include( dirname( __FILE__ ) . '/noindex.php' );
+		}
+	?>
 	<!-- BEGIN FONTS + STYLESHEETS + JS INCLUDES -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -405,7 +410,7 @@ $(document).ready(function(){
 <div id="menu"><!-- BEGIN MENU -->
 <ul id="menu-main-menu" class="menu">
 <li class="menu-item" style="display: block; width: 35%; margin: 0px auto 10px;"><img src="<?php bloginfo ('template_url'); ?>/images/logo.png" /></li>
-<li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>"><?php _e('Home','home-nav-menu'); ?></a></li>
+<li style="border-top: 1px solid #666;" class="menu-item"><a href="<?php bloginfo('url'); ?>">Home</a></li>
 <?php wp_nav_menu( array( 'theme_location' => 'primary' ,  'container' => false, 'menu_class' => '', 'items_wrap' => '%3$s' ) ); ?>		
 <!-- END MENU --></div>
 
@@ -433,7 +438,7 @@ $(document).ready(function(){
 
 		<div class="menu-button">
 			<i class="menubar"></i>
-			<span class="hamburger-helper"><?php _e('menu','cebolang'); ?></span>
+			<span class="hamburger-helper">menu</span>
 		</div>
 		<!-- BEGIN LOGO -->
 		<div class="site-logo">
@@ -442,13 +447,12 @@ $(document).ready(function(){
 		<!-- END LOGO -->
 
 		<!-- start translation flag -->
-		<div class="trans-flags">
-		<div id="flags_language_selector"><?php do_action('wpml_add_language_selector'); ?></div >
-			<!--ul>
+		<!-- <div class="trans-flags">
+			<ul>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
 				<li><a href="#"><i class="fa fa-flag"></i></a></li>
-			</ul-->
-		</div> 
+			</ul>
+		</div> -->
 		<!-- end translation flags -->
 
 		<!-- <div class="languages"><?php //language_selector_flags(); ?></div> -->

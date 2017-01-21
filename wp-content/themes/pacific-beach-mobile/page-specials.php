@@ -28,9 +28,9 @@ get_header(); ?>
 				</article>		
 					<div class="specialbox">
 							
-							<a href="<?php the_permalink(); ?>"><h1><?php the_title(); ?></h1></a>
+							<h1><?php the_title(); ?></h1>
 
-							<a class="bookit" href="<?php the_permalink(); ?>"><?php _e('More Info','cebolang'); ?></a>
+							<a class="bookit" href="<?php the_permalink(); ?>">More Info</a>
 						
 						</div>    
 
